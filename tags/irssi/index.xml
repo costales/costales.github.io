@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>irssi on Marcos Costales</title><link>https://costales.github.io/tags/irssi/</link><description>Recent content in irssi on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 31 Mar 2014 21:30:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/irssi/index.xml" rel="self" type="application/rss+xml"/><item><title>Run Irssi in the boot as daemon</title><link>https://costales.github.io/posts/run-irssi-in-boot-as-daemon/</link><pubDate>Mon, 31 Mar 2014 21:30:00 +0200</pubDate><guid>https://costales.github.io/posts/run-irssi-in-boot-as-daemon/</guid><description>After the Irssi basic configuration&amp;hellip;
+Check your runlevel: runlevel
+For my runlevel 2, I&amp;rsquo;ll create this file: sudo nano /etc/init.d/irssi
+With this content:
+`#!/bin/bash
+BEGIN INIT INFO Provides: irssid Required-Start: $network Required-Stop: $network Default-Start: 2 3 4 5 Default-Stop: 0 1 6 Short-Description: Start irssi daemon within screen session at boot time Description: This init script will start an irssi session under screen using the settings provided in /etc/irssid.</description></item></channel></rss>

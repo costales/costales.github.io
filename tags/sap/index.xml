@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sap on Marcos Costales</title><link>https://costales.github.io/tags/sap/</link><description>Recent content in sap on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 08 Feb 2012 19:30:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/sap/index.xml" rel="self" type="application/rss+xml"/><item><title>Install SAP GUI on Ubuntu 11.10</title><link>https://costales.github.io/posts/install-sap-gui-on-ubuntu-1110/</link><pubDate>Wed, 08 Feb 2012 19:30:00 +0100</pubDate><guid>https://costales.github.io/posts/install-sap-gui-on-ubuntu-1110/</guid><description>1. Download SAPGUI for java here.
+2. Install Java JRE
+Open a Terminal:
+sudo add-apt-repository ppa:ferramroberto/java sudo apt-get update sudo apt-get install sun-java6-jre sun-java6-plugin sun-java6-fonts
+This will install these packages: gsfonts-x11 java-common odbcinst odbcinst1debian2 sun-java6-bin sun-java6-jre sun-java6-plugin unixodbc
+3. Install SAP GUI:
+java -jar PlatinGUI-Linux-700.jar
+Follow installation steps (in graphic mode).
+You have now an entry in Unity :)
+SAP GUI on Ubuntu 11.10
+4. Create a server in the SAP GUI:</description></item></channel></rss>

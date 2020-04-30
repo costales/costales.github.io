@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>moodle on Marcos Costales</title><link>https://costales.github.io/tags/moodle/</link><description>Recent content in moodle on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2013 23:06:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/moodle/index.xml" rel="self" type="application/rss+xml"/><item><title>Install Moodle in a Raspberry PI or Ubuntu</title><link>https://costales.github.io/posts/install-moodle-in-raspberry-pi-or-ubuntu/</link><pubDate>Thu, 03 Oct 2013 23:06:00 +0200</pubDate><guid>https://costales.github.io/posts/install-moodle-in-raspberry-pi-or-ubuntu/</guid><description>You can easily Moodle into your Raspberry or Ubuntu. Just run this in a Terminal:
+sudo apt-get install moodle
+The install process will ask you the mysql password and Moodle URL (use your real internal IP, this is important for the 3th issue)
+Issues If you have an error 404 try this:
+cd /var/www;sudo ln -s /usr/share/moodle
+About the performance the CPU is balancing between 35% to 91% (average ~65%), with other services running (My Raspberry has 256MB).</description></item></channel></rss>

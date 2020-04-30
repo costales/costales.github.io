@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>subtitles on Marcos Costales</title><link>https://costales.github.io/tags/subtitles/</link><description>Recent content in subtitles on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2012 15:51:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/subtitles/index.xml" rel="self" type="application/rss+xml"/><item><title>Plugin subtítulos en Totem con Ubuntu 11.10</title><link>https://costales.github.io/posts/plugin-subtitulos-en-totem-con-ubuntu/</link><pubDate>Sun, 08 Jan 2012 15:51:00 +0100</pubDate><guid>https://costales.github.io/posts/plugin-subtitulos-en-totem-con-ubuntu/</guid><description>Hay una función del plugin con los parámetros incorrectos.
+sudo gedit /usr/lib/totem/plugins/opensubtitles/opensubtitles.py
+Y modificamos la línea subFile = fp.replace('', False)
+subFile.write(self.model.subtitles) 
+subFile.close()
+por
+subFile = fp.replace('', False, 0, None)
+subFile.write(self.model.subtitles,None) 
+subFile.close(None)
+Fuente: Launchpad.</description></item></channel></rss>

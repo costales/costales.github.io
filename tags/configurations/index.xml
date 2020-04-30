@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>configurations on Marcos Costales</title><link>https://costales.github.io/tags/configurations/</link><description>Recent content in configurations on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 08 Jun 2018 15:30:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/configurations/index.xml" rel="self" type="application/rss+xml"/><item><title>Establecer calendario en otro idioma</title><link>https://costales.github.io/posts/establecer-calendario-en-otro-idioma/</link><pubDate>Fri, 08 Jun 2018 15:30:00 +0200</pubDate><guid>https://costales.github.io/posts/establecer-calendario-en-otro-idioma/</guid><description>Yo prefiero usar Ubuntu en Inglés, pero quiero que el calendario lo muestre en Asturiano. Por lo que genero el idioma:
+sudo locale-gen ast_ES.utf8
+Y lo configuro para mi usuario aquí:
+costales@T410:~$ grep TIME ~/.pam_environment LC_TIME=ast_ES.UTF-8 costales@T410:~$
+Y voalá, por ejemplo, applets de Ubuntu Budgie aparecerán en el idioma deseado:</description></item><item><title>Desactivar la confirmación de apagado en Ubuntu 11.10</title><link>https://costales.github.io/posts/desactivar-la-confirmacion-de-apagado/</link><pubDate>Sun, 30 Oct 2011 12:02:00 +0100</pubDate><guid>https://costales.github.io/posts/desactivar-la-confirmacion-de-apagado/</guid><description>Cuando apagas Ubuntu 11.10 te pregunta si realmente quieres apagarlo. Si simplemente deseas que apague directamente, la cosa cambia (muy poco) respecto a versiones anteriores y casi no hay documentación.
+Desde la Terminal instalamos los siguientes paquetes:
+sudo apt-get install gconf-editor dconf-tools
+Ejecutamos el editor de configuración recien instalado (atención, no vale buscarlo desde Unity, los árboles que salen son distintos ¿?) dconf-editor:
+Y ahora vamos a:
+/apps/indicator-session
+Y activamos la opción:</description></item></channel></rss>
