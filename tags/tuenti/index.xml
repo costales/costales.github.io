@@ -1,34 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tuenti on Marcos Costales</title>
-    <link>https://costales.github.io/tags/tuenti/</link>
-    <description>Recent content in tuenti on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 18 Feb 2015 21:06:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/tuenti/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Ubuntu Phone con operadora Tuenti: Configuración de los datos 3G</title>
-      <link>https://costales.github.io/posts/ubuntu-phone-con-operadora-tuenti/</link>
-      <pubDate>Wed, 18 Feb 2015 21:06:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/ubuntu-phone-con-operadora-tuenti/</guid>
-      <description>La operadora de telefonía Tuenti dispone de tutoriales en su web para Android e iOS, pero vamos a ver cómo configurar el 3G para nuestro Ubuntu Phone :)
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tuenti on Marcos Costales</title><link>https://costales.github.io/tags/tuenti/</link><description>Recent content in tuenti on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2015 21:06:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/tuenti/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu Phone con operadora Tuenti: Configuración de los datos 3G</title><link>https://costales.github.io/posts/ubuntu-phone-con-operadora-tuenti/</link><pubDate>Wed, 18 Feb 2015 21:06:00 +0100</pubDate><guid>https://costales.github.io/posts/ubuntu-phone-con-operadora-tuenti/</guid><description>La operadora de telefonía Tuenti dispone de tutoriales en su web para Android e iOS, pero vamos a ver cómo configurar el 3G para nuestro Ubuntu Phone :)
 Nos vamos a la &amp;ldquo;Configuración del sistema&amp;rdquo; y pulsamos en &amp;ldquo;Móvil&amp;rdquo;
-
 Dejamos todo tal se ve y pulsamos en &amp;ldquo;Operador&amp;rdquo;
-
 Luego pulsamos en APN
-
 Pulsamos en &amp;ldquo;Personalizada&amp;rdquo; y luego en &amp;ldquo;APN para Internet personalizado&amp;hellip;&amp;rdquo;
-
-Introducimos estos datos y pulsamos el botón &amp;ldquo;Activar&amp;rdquo;</description>
-    </item>
-    
-  </channel>
-</rss>
+Introducimos estos datos y pulsamos el botón &amp;ldquo;Activar&amp;rdquo;</description></item></channel></rss>

@@ -1,106 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ubuntu on Marcos Costales</title>
-    <link>https://costales.github.io/tags/ubuntu/</link>
-    <description>Recent content in ubuntu on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2013 18:10:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>How can I send a bug for Ubuntu 14.04?</title>
-      <link>https://costales.github.io/posts/how-can-i-send-bug-for-ubuntu-1404/</link>
-      <pubDate>Sun, 08 Dec 2013 18:10:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/how-can-i-send-bug-for-ubuntu-1404/</guid>
-      <description>#!/usr/bin/env python
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ubuntu on Marcos Costales</title><link>https://costales.github.io/tags/ubuntu/</link><description>Recent content in ubuntu on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 08 Dec 2013 18:10:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>How can I send a bug for Ubuntu 14.04?</title><link>https://costales.github.io/posts/how-can-i-send-bug-for-ubuntu-1404/</link><pubDate>Sun, 08 Dec 2013 18:10:00 +0100</pubDate><guid>https://costales.github.io/posts/how-can-i-send-bug-for-ubuntu-1404/</guid><description>#!/usr/bin/env python
 from datetime import date
 def todo(what): print(what)
-while True: # Yes, infinite feeling todo(&#39;Don\&#39;t search in [LP](https://launchpad.net/+search?field.text=bugs+14.04&amp;amp;field.actions.search=Search). Search in Google by [_Ubuntu Trusty bugs_](https://launchpad.net/ubuntu/trusty/+bugs) and not by [_Ubuntu 14.04 bugs_](https://launchpad.net/ubuntu/+milestone/ubuntu-14.04)&#39;) todo(&#39;Just click in [_Report a bug_](https://launchpad.net/ubuntu/trusty/+bugs)&#39;) todo(&#39;Read an [awesome page](https://help.ubuntu.com/community/ReportingBugs) over 4.000 words about how to fill bugs&#39;) if date.today() == date([2014, 04, 17](https://wiki.ubuntu.com/TrustyTahr/ReleaseSchedule)): # It was not really infinite :) todo(&#39;``Do something else!&#39;) break
-I&#39;m sorry, but it is frustrating not being able to help by an infinite loop :)</description>
-    </item>
-    
-    <item>
-      <title>Remapear tecla en Ubuntu</title>
-      <link>https://costales.github.io/posts/remapear-tecla-en-ubuntu/</link>
-      <pubDate>Mon, 30 Sep 2013 11:45:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/remapear-tecla-en-ubuntu/</guid>
-      <description>En mi portátil la tecla de borrar se traba más de lo que debería y un teclado nuevo anda por unos 25€, así remapeo la tecla ` por la tecla de borrar (están muy cerca una de otra) y pista :)
+while True: # Yes, infinite feeling todo('Don\'t search in [LP](https://launchpad.net/+search?field.text=bugs+14.04&amp;amp;field.actions.search=Search). Search in Google by [_Ubuntu Trusty bugs_](https://launchpad.net/ubuntu/trusty/+bugs) and not by [_Ubuntu 14.04 bugs_](https://launchpad.net/ubuntu/+milestone/ubuntu-14.04)') todo('Just click in [_Report a bug_](https://launchpad.net/ubuntu/trusty/+bugs)') todo('Read an [awesome page](https://help.ubuntu.com/community/ReportingBugs) over 4.000 words about how to fill bugs') if date.today() == date([2014, 04, 17](https://wiki.ubuntu.com/TrustyTahr/ReleaseSchedule)): # It was not really infinite :) todo('``Do something else!') break
+I'm sorry, but it is frustrating not being able to help by an infinite loop :)</description></item><item><title>Remapear tecla en Ubuntu</title><link>https://costales.github.io/posts/remapear-tecla-en-ubuntu/</link><pubDate>Mon, 30 Sep 2013 11:45:00 +0200</pubDate><guid>https://costales.github.io/posts/remapear-tecla-en-ubuntu/</guid><description>En mi portátil la tecla de borrar se traba más de lo que debería y un teclado nuevo anda por unos 25€, así remapeo la tecla ` por la tecla de borrar (están muy cerca una de otra) y pista :)
 Averigüamos keycode con:
 xev
 Remapeamos con:
 xmodmap -e &amp;quot;keycode 34 = BackSpace Delete&amp;quot;
 Hacemos que perdure en las próximas sesiones con:
 xmodmap -pke &amp;gt; ~/.Xmodmap
-echo &amp;quot;xmodmap .Xmodmap&amp;quot; &amp;gt; ~/.</description>
-    </item>
-    
-    <item>
-      <title>Make an Ubuntu Stand Holder!</title>
-      <link>https://costales.github.io/posts/make-ubuntu-stand-holder/</link>
-      <pubDate>Mon, 27 Feb 2012 19:30:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/make-ubuntu-stand-holder/</guid>
-      <description>Make your own Ubuntu stand holder for your smartphone with just a sheet paper!
-
+echo &amp;quot;xmodmap .Xmodmap&amp;quot; &amp;gt; ~/.</description></item><item><title>Make an Ubuntu Stand Holder!</title><link>https://costales.github.io/posts/make-ubuntu-stand-holder/</link><pubDate>Mon, 27 Feb 2012 19:30:00 +0100</pubDate><guid>https://costales.github.io/posts/make-ubuntu-stand-holder/</guid><description>Make your own Ubuntu stand holder for your smartphone with just a sheet paper!
 Front
-
 Back
 Steps:
- Print this PDF on a DIN-A4 cardboard (strong paper). Cut. Add reinforcements with cardboard. Fold the paper. Spread Ubuntu! ;)  Source here (done with Inkscape).
+Print this PDF on a DIN-A4 cardboard (strong paper). Cut. Add reinforcements with cardboard. Fold the paper. Spread Ubuntu! ;) Source here (done with Inkscape).
 All steps with images:
-
 Step 1: Cut and add reinforcements (2)
-
 Step 2: Cut and add reinforcements (1)
-
-Step 3: Fold</description>
-    </item>
-    
-    <item>
-      <title>How fix 100% CPU usage in Ubuntu 11.10?</title>
-      <link>https://costales.github.io/posts/how-fix-100-cpu-usage-in-ubuntu-1110/</link>
-      <pubDate>Sat, 14 Jan 2012 11:35:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/how-fix-100-cpu-usage-in-ubuntu-1110/</guid>
-      <description>In my desktop and laptop (HP nx7300) with Intel, I have big problems with Ubuntu 11.10. The system occasionally hangs with 100% cpu usage. For fix this I ran in a Terminal:
+Step 3: Fold</description></item><item><title>How fix 100% CPU usage in Ubuntu 11.10?</title><link>https://costales.github.io/posts/how-fix-100-cpu-usage-in-ubuntu-1110/</link><pubDate>Sat, 14 Jan 2012 11:35:00 +0100</pubDate><guid>https://costales.github.io/posts/how-fix-100-cpu-usage-in-ubuntu-1110/</guid><description>In my desktop and laptop (HP nx7300) with Intel, I have big problems with Ubuntu 11.10. The system occasionally hangs with 100% cpu usage. For fix this I ran in a Terminal:
 sudo apt-get install compizconfig-settings-manager
 ccsm
 Search openGL, and disable all checkboxs.
 Reboot.
 Enjoy again this version :)
-Found in Launchpad, but I don&#39;t remember the bug number.</description>
-    </item>
-    
-    <item>
-      <title>Eliminar la pregunta en el inicio de sesión para desbloquear el anillo de claves</title>
-      <link>https://costales.github.io/posts/quitar-la-pregunta-para-desbloquear-el/</link>
-      <pubDate>Sat, 29 Oct 2011 10:03:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/quitar-la-pregunta-para-desbloquear-el/</guid>
-      <description>Lo que menos me gusta de Ubuntu es que solicite la constraseña del anillo de claves cada vez que inicia sesión (creo que es una buenísima medida de seguridad cuando conectas a redes que no son muy confiables).
+Found in Launchpad, but I don't remember the bug number.</description></item><item><title>Eliminar la pregunta en el inicio de sesión para desbloquear el anillo de claves</title><link>https://costales.github.io/posts/quitar-la-pregunta-para-desbloquear-el/</link><pubDate>Sat, 29 Oct 2011 10:03:00 +0200</pubDate><guid>https://costales.github.io/posts/quitar-la-pregunta-para-desbloquear-el/</guid><description>Lo que menos me gusta de Ubuntu es que solicite la constraseña del anillo de claves cada vez que inicia sesión (creo que es una buenísima medida de seguridad cuando conectas a redes que no son muy confiables).
 ¿Cómo eliminar esa pregunta? Fácil, vamos a verlo paso a paso con capturas de pantalla:
-
-
-
-
-La clave es el 3er paso, introduces como clave anterior tu clave de Ubuntu y no estableces ninguna, nos preguntará si queremos un almacenamiento no seguro, y con esto ya no volverá a preguntar en el inicio de sesión por nuestra contraseña del anillo de claves ;)</description>
-    </item>
-    
-    <item>
-      <title>¡Ya está aquí Ubuntu 11.10!</title>
-      <link>https://costales.github.io/posts/ya-esta-aqui-ubuntu-1110/</link>
-      <pubDate>Thu, 13 Oct 2011 17:19:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/ya-esta-aqui-ubuntu-1110/</guid>
-      <description>¡Una nueva versión de las más prometedoras! Disfruta con Ubuntu de una experiencia única en tu ordenador y totalmente gratis. Y si tienes dudas, puedes probar una demo online para que veas lo sencillo que es manejarlo o darte una vuelta por el nuevo Ubuntu y conocer lo nuevo.
-Poco más que añadir&amp;hellip; downloading&amp;hellip; ;)</description>
-    </item>
-    
-  </channel>
-</rss>
+La clave es el 3er paso, introduces como clave anterior tu clave de Ubuntu y no estableces ninguna, nos preguntará si queremos un almacenamiento no seguro, y con esto ya no volverá a preguntar en el inicio de sesión por nuestra contraseña del anillo de claves ;)</description></item><item><title>¡Ya está aquí Ubuntu 11.10!</title><link>https://costales.github.io/posts/ya-esta-aqui-ubuntu-1110/</link><pubDate>Thu, 13 Oct 2011 17:19:00 +0200</pubDate><guid>https://costales.github.io/posts/ya-esta-aqui-ubuntu-1110/</guid><description>¡Una nueva versión de las más prometedoras! Disfruta con Ubuntu de una experiencia única en tu ordenador y totalmente gratis. Y si tienes dudas, puedes probar una demo online para que veas lo sencillo que es manejarlo o darte una vuelta por el nuevo Ubuntu y conocer lo nuevo.
+Poco más que añadir&amp;hellip; downloading&amp;hellip; ;)</description></item></channel></rss>

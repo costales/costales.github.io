@@ -1,39 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>linux-y-tapas on Marcos Costales</title>
-    <link>https://costales.github.io/tags/linux-y-tapas/</link>
-    <description>Recent content in linux-y-tapas on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 13 Mar 2015 16:04:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/linux-y-tapas/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Linux &amp; Tapas 2015 - León, sábado 21 Marzo</title>
-      <link>https://costales.github.io/posts/linux-tapas-2015-leon-sabado-21-marzo/</link>
-      <pubDate>Fri, 13 Mar 2015 16:04:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/linux-tapas-2015-leon-sabado-21-marzo/</guid>
-      <description>Linux &amp;amp; Tapas 2015 - León
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux-y-tapas on Marcos Costales</title><link>https://costales.github.io/tags/linux-y-tapas/</link><description>Recent content in linux-y-tapas on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 13 Mar 2015 16:04:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/linux-y-tapas/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux &amp; Tapas 2015 - León, sábado 21 Marzo</title><link>https://costales.github.io/posts/linux-tapas-2015-leon-sabado-21-marzo/</link><pubDate>Fri, 13 Mar 2015 16:04:00 +0100</pubDate><guid>https://costales.github.io/posts/linux-tapas-2015-leon-sabado-21-marzo/</guid><description>Linux &amp;amp; Tapas 2015 - León
 Vuelve a celebrarse un Linux &amp;amp; Tapas en León al que no puedes faltar ;D
- 13:30h Quedada en la explanada de la Catedral. 14:00h Tapeo por el Barrio Húmedo. 17:00h Presentación de Silfish OS y Ubuntu Phone en la Fundación Sierra Pambley (por José Barreiro, Fernando Lanero y un servidor). 21:00h Fiesta de despedida en DelicateSSen.  ¡Nos vemos! |o/
-Toda la info en el link oficial del evento.</description>
-    </item>
-    
-    <item>
-      <title>Linux&amp;Tapas in León, Spain</title>
-      <link>https://costales.github.io/posts/linux-in-leon-spain/</link>
-      <pubDate>Thu, 20 Mar 2014 19:33:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/linux-in-leon-spain/</guid>
-      <description>This Saturday, we&#39;ll enjoy talking about Linux with some tapas :) Ubuntu Spain was invited as LUG. See you there! Cheers!
-
+13:30h Quedada en la explanada de la Catedral. 14:00h Tapeo por el Barrio Húmedo. 17:00h Presentación de Silfish OS y Ubuntu Phone en la Fundación Sierra Pambley (por José Barreiro, Fernando Lanero y un servidor). 21:00h Fiesta de despedida en DelicateSSen. ¡Nos vemos! |o/
+Toda la info en el link oficial del evento.</description></item><item><title>Linux&amp;Tapas in León, Spain</title><link>https://costales.github.io/posts/linux-in-leon-spain/</link><pubDate>Thu, 20 Mar 2014 19:33:00 +0100</pubDate><guid>https://costales.github.io/posts/linux-in-leon-spain/</guid><description>This Saturday, we'll enjoy talking about Linux with some tapas :) Ubuntu Spain was invited as LUG. See you there! Cheers!
 Linux &amp;amp; Tapas. 22 Marzo 2014 León. Spain
-+ info: PutoLinux &amp;amp; Ubuntu España.</description>
-    </item>
-    
-  </channel>
-</rss>
++ info: PutoLinux &amp;amp; Ubuntu España.</description></item></channel></rss>

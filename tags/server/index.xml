@@ -1,40 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>server on Marcos Costales</title>
-    <link>https://costales.github.io/tags/server/</link>
-    <description>Recent content in server on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 31 Mar 2014 21:30:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Run Irssi in the boot as daemon</title>
-      <link>https://costales.github.io/posts/run-irssi-in-boot-as-daemon/</link>
-      <pubDate>Mon, 31 Mar 2014 21:30:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/run-irssi-in-boot-as-daemon/</guid>
-      <description>After the Irssi basic configuration&amp;hellip;
- Check your runlevel:  runlevel
- For my runlevel 2, I&#39;ll create this file:  sudo nano /etc/init.d/irssi
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>server on Marcos Costales</title><link>https://costales.github.io/tags/server/</link><description>Recent content in server on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 31 Mar 2014 21:30:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/server/index.xml" rel="self" type="application/rss+xml"/><item><title>Run Irssi in the boot as daemon</title><link>https://costales.github.io/posts/run-irssi-in-boot-as-daemon/</link><pubDate>Mon, 31 Mar 2014 21:30:00 +0200</pubDate><guid>https://costales.github.io/posts/run-irssi-in-boot-as-daemon/</guid><description>After the Irssi basic configuration&amp;hellip;
+Check your runlevel: runlevel
+For my runlevel 2, I'll create this file: sudo nano /etc/init.d/irssi
 With this content:
 `#!/bin/bash
-BEGIN INIT INFO Provides: irssid Required-Start: $network Required-Stop: $network Default-Start: 2 3 4 5 Default-Stop: 0 1 6 Short-Description: Start irssi daemon within screen session at boot time Description: This init script will start an irssi session under screen using the settings provided in /etc/irssid.</description>
-    </item>
-    
-    <item>
-      <title>Install transmission daemon in Ubuntu Server and avoid write permission problems</title>
-      <link>https://costales.github.io/posts/install-transmission-daemon-in-ubuntu/</link>
-      <pubDate>Mon, 24 Feb 2014 18:56:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/install-transmission-daemon-in-ubuntu/</guid>
-      <description>The tip: Change the user who runs the daemon for your user ;)
+BEGIN INIT INFO Provides: irssid Required-Start: $network Required-Stop: $network Default-Start: 2 3 4 5 Default-Stop: 0 1 6 Short-Description: Start irssi daemon within screen session at boot time Description: This init script will start an irssi session under screen using the settings provided in /etc/irssid.</description></item><item><title>Install transmission daemon in Ubuntu Server and avoid write permission problems</title><link>https://costales.github.io/posts/install-transmission-daemon-in-ubuntu/</link><pubDate>Mon, 24 Feb 2014 18:56:00 +0100</pubDate><guid>https://costales.github.io/posts/install-transmission-daemon-in-ubuntu/</guid><description>The tip: Change the user who runs the daemon for your user ;)
 sudo apt-get install transmission-daemon ``` /etc/init.d/transmission-daemon stopsudo nano /etc/init.d/transmission-daemon # Change USER=your_login_user sudo nano /etc/default/transmission-daemon # Set CONFIG_DIR=&amp;quot;/home/username/.config/transmission-daemon&amp;quot; transmission-daemon -f # Ctrl+C ````` `` /etc/init.d/transmission-daemon stop`` sudo cp /etc/transmission-daemon/settings.json ~/.config/transmission-daemon/settings.json sudo chown your_user:`````your_user` ~/.config/transmission-daemon/settings.json
 nano ~/.config/transmission-daemon/settings.json``
-Here, I&#39;ll set my parameters:
+Here, I'll set my parameters:
 `&amp;quot;download-dir&amp;rdquo;
 &amp;ldquo;download-queue-size&amp;rdquo;: 2,
 &amp;ldquo;incomplete-dir&amp;rdquo;
@@ -44,66 +16,17 @@ Here, I&#39;ll set my parameters:
 &amp;ldquo;rpc-whitelist-enabled&amp;rdquo;: true,
 &amp;ldquo;umask&amp;rdquo;: 2,
 /etc/init.d/transmission-daemon start
-sudo update-rc.</description>
-    </item>
-    
-    <item>
-      <title>A Teeworlds dedicated server with Ubuntu and autostart on boot</title>
-      <link>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</link>
-      <pubDate>Tue, 12 Nov 2013 18:27:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</guid>
-      <description>I installed it in Xubuntu 12.04 and in a Raspberry PI with Raspbian/Debian.
-You&#39;ll not need to use &amp;lsquo;screen&amp;rsquo; and Teeworlds will be a service in the system.
-Let&#39;s go!
+sudo update-rc.</description></item><item><title>A Teeworlds dedicated server with Ubuntu and autostart on boot</title><link>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</link><pubDate>Tue, 12 Nov 2013 18:27:00 +0100</pubDate><guid>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</guid><description>I installed it in Xubuntu 12.04 and in a Raspberry PI with Raspbian/Debian.
+You'll not need to use &amp;lsquo;screen&amp;rsquo; and Teeworlds will be a service in the system.
+Let's go!
 Install teeworlds:
 sudo apt-get install teeworlds teeworlds-server Create directory and set the firewall:
 sudo mkdir -p /var/games/teeworlds sudo ufw allow 8303 Create the Teeworlds config file:
 sudo vi /var/games/teeworlds/teeworlds\_srv.cfg Paste these lines, by example:
-sv\_name Ubuntu Teeworlds Server sv\_motd Welcome! sv\_gametype ctf sv\_warmup 0 sv\_map ctf1 sv\_max\_clients 12 sv\_scorelimit 1000 sv\_rcon\_password your\_password\_here sv\_timelimit 20 sv\_port 8303 sv\_external\_port 8303 sv\_max\_clients 12 sv\_tournament\_mode 0 sv\_teamdamage 0 sv\_powerups 1 logfile /var/log/teeworlds-server.</description>
-    </item>
-    
-    <item>
-      <title>Teeworlds oficial servers</title>
-      <link>https://costales.github.io/posts/teeworlds-oficial-servers/</link>
-      <pubDate>Sat, 09 Nov 2013 20:44:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/teeworlds-oficial-servers/</guid>
-      <description>master1.teeworlds.com 67.215.65.132:8300
+sv\_name Ubuntu Teeworlds Server sv\_motd Welcome! sv\_gametype ctf sv\_warmup 0 sv\_map ctf1 sv\_max\_clients 12 sv\_scorelimit 1000 sv\_rcon\_password your\_password\_here sv\_timelimit 20 sv\_port 8303 sv\_external\_port 8303 sv\_max\_clients 12 sv\_tournament\_mode 0 sv\_teamdamage 0 sv\_powerups 1 logfile /var/log/teeworlds-server.</description></item><item><title>Teeworlds oficial servers</title><link>https://costales.github.io/posts/teeworlds-oficial-servers/</link><pubDate>Sat, 09 Nov 2013 20:44:00 +0100</pubDate><guid>https://costales.github.io/posts/teeworlds-oficial-servers/</guid><description>master1.teeworlds.com 67.215.65.132:8300
 master2.teeworlds.com 171.25.159.24:8300
 master3.teeworlds.com 178.63.226.59:8300
-master4.teeworlds.com 195.22.75.123:8300</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu Server sin red en Virtualbox</title>
-      <link>https://costales.github.io/posts/ubuntu-server-sin-red-en-virtualbox/</link>
-      <pubDate>Sat, 02 Nov 2013 20:41:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/ubuntu-server-sin-red-en-virtualbox/</guid>
-      <description>Borramos este fichero y reiniciamos:
-sudo rm -f /etc/udev/rules.d/70-persistent-net.rules Fuente.</description>
-    </item>
-    
-    <item>
-      <title>Servidor web. Configurando Raspberry PI 4</title>
-      <link>https://costales.github.io/posts/servidor-web-configurando-raspberry-pi-5/</link>
-      <pubDate>Fri, 18 Oct 2013 16:44:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/servidor-web-configurando-raspberry-pi-5/</guid>
-      <description>Instalamos todo a la vez (servidor apache, base de datos mysql y servidor de email):
-`sudo apt-get install apache2 php5 libapache2-mod-auth-mysql php5-mysql mysql-server phpmyadmin` `postfix` ```Nos pedirá las contraseñas para root de mysql y phpmyadmin. Y el dominio del servidor de correo. Ya deberiamos poder acceder a: https://IP\_Raspberry https://IP\_Raspberry/phpmyadmin Activar redirecciones mediante .htaccess: sudo a2enmod rewrite ; sudo service apache2 restart</description>
-    </item>
-    
-    <item>
-      <title>Cómo instalar un servidor en Ubuntu, Lubuntu, Xubuntu...</title>
-      <link>https://costales.github.io/posts/como-instalar-un-servidor-en-ubuntu/</link>
-      <pubDate>Sun, 11 Dec 2011 00:30:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/como-instalar-un-servidor-en-ubuntu/</guid>
-      <description>Ubuntu Server ya trae todo preparado para preguntarlo en la instalación y automatizar el proceso de instalar un servidor, pero con Ubuntu, Lubuntu, Xubuntu, u-lite&amp;hellip; no es tan sencillo encontrar la información de todos los paquetes y configuraciones necesarias. Pongo aquí los pasos que sigo:
- Actualizar el sistema: sudo apt-get update ; sudo apt-get upgrade Activar el cortafuegos y los servicios que queramos: sudo ufw enable ; sudo ufw allow http Añadir paquetes para el servidor web: sudo apt-get install apache2 php5 libapache2-mod-auth-mysql php5-mysql mysql-server phpmyadmin Nos pedirá la clave de root para mysql y con esto podremos acceder a https://localhost y https://localhost/phpmyadmin Si necesitasemos reiniciar el servidor de apache: sudo /etc/init.</description>
-    </item>
-    
-  </channel>
-</rss>
+master4.teeworlds.com 195.22.75.123:8300</description></item><item><title>Ubuntu Server sin red en Virtualbox</title><link>https://costales.github.io/posts/ubuntu-server-sin-red-en-virtualbox/</link><pubDate>Sat, 02 Nov 2013 20:41:00 +0100</pubDate><guid>https://costales.github.io/posts/ubuntu-server-sin-red-en-virtualbox/</guid><description>Borramos este fichero y reiniciamos:
+sudo rm -f /etc/udev/rules.d/70-persistent-net.rules Fuente.</description></item><item><title>Servidor web. Configurando Raspberry PI 4</title><link>https://costales.github.io/posts/servidor-web-configurando-raspberry-pi-5/</link><pubDate>Fri, 18 Oct 2013 16:44:00 +0200</pubDate><guid>https://costales.github.io/posts/servidor-web-configurando-raspberry-pi-5/</guid><description>Instalamos todo a la vez (servidor apache, base de datos mysql y servidor de email):
+`sudo apt-get install apache2 php5 libapache2-mod-auth-mysql php5-mysql mysql-server phpmyadmin` `postfix` ```Nos pedirá las contraseñas para root de mysql y phpmyadmin. Y el dominio del servidor de correo. Ya deberiamos poder acceder a: https://IP\_Raspberry https://IP\_Raspberry/phpmyadmin Activar redirecciones mediante .htaccess: sudo a2enmod rewrite ; sudo service apache2 restart</description></item><item><title>Cómo instalar un servidor en Ubuntu, Lubuntu, Xubuntu...</title><link>https://costales.github.io/posts/como-instalar-un-servidor-en-ubuntu/</link><pubDate>Sun, 11 Dec 2011 00:30:00 +0100</pubDate><guid>https://costales.github.io/posts/como-instalar-un-servidor-en-ubuntu/</guid><description>Ubuntu Server ya trae todo preparado para preguntarlo en la instalación y automatizar el proceso de instalar un servidor, pero con Ubuntu, Lubuntu, Xubuntu, u-lite&amp;hellip; no es tan sencillo encontrar la información de todos los paquetes y configuraciones necesarias. Pongo aquí los pasos que sigo:
+Actualizar el sistema: sudo apt-get update ; sudo apt-get upgrade Activar el cortafuegos y los servicios que queramos: sudo ufw enable ; sudo ufw allow http Añadir paquetes para el servidor web: sudo apt-get install apache2 php5 libapache2-mod-auth-mysql php5-mysql mysql-server phpmyadmin Nos pedirá la clave de root para mysql y con esto podremos acceder a https://localhost y https://localhost/phpmyadmin Si necesitasemos reiniciar el servidor de apache: sudo /etc/init.</description></item></channel></rss>

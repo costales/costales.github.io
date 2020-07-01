@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>firmware on Marcos Costales</title>
-    <link>https://costales.github.io/tags/firmware/</link>
-    <description>Recent content in firmware on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 19 Nov 2018 21:10:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/firmware/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Cómo actualicé el firmware del router ASUS de PepeADSL</title>
-      <link>https://costales.github.io/posts/como-actualice-el-firmware-del-router/</link>
-      <pubDate>Mon, 19 Nov 2018 21:10:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/como-actualice-el-firmware-del-router/</guid>
-      <description>Desde que MásMóvil se hizo con PepeADSL ya no tengo la sensación de que todo vaya igual de bien.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>firmware on Marcos Costales</title><link>https://costales.github.io/tags/firmware/</link><description>Recent content in firmware on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Nov 2018 21:10:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/firmware/index.xml" rel="self" type="application/rss+xml"/><item><title>Cómo actualicé el firmware del router ASUS de PepeADSL</title><link>https://costales.github.io/posts/como-actualice-el-firmware-del-router/</link><pubDate>Mon, 19 Nov 2018 21:10:00 +0100</pubDate><guid>https://costales.github.io/posts/como-actualice-el-firmware-del-router/</guid><description>Desde que MásMóvil se hizo con PepeADSL ya no tengo la sensación de que todo vaya igual de bien.
 Con el router oficial, el ASUS N14U, cuando le da la gana desaparece la WIFI, es decir, desconecta y no veo mi WIFI en la lista de WIFIs disponibles. Da igual lo que cambie de la configuración que la WIFI no vuelve y mágicamente aparece al día siguiente ¬¬
-Tras llamar al servicio técnico y de indicarme correctamente que cambie el canal, sigue sin solucionarse&amp;hellip;</description>
-    </item>
-    
-  </channel>
-</rss>
+Tras llamar al servicio técnico y de indicarme correctamente que cambie el canal, sigue sin solucionarse&amp;hellip;</description></item></channel></rss>

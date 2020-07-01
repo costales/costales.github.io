@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>xubuntu on Marcos Costales</title>
-    <link>https://costales.github.io/tags/xubuntu/</link>
-    <description>Recent content in xubuntu on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 05 Apr 2014 12:33:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/xubuntu/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Xubuntu: Open Whisker Menu with the Windows key</title>
-      <link>https://costales.github.io/posts/xubuntu-open-whisker-menu-with-windows/</link>
-      <pubDate>Sat, 05 Apr 2014 12:33:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/xubuntu-open-whisker-menu-with-windows/</guid>
-      <description>Menu: Settings Manager -&amp;gt; Keyboard -&amp;gt; Application Shortcuts:
-_xfce4-popup-whiskermenu_ and click the Windows Key (_Super_L_)</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xubuntu on Marcos Costales</title><link>https://costales.github.io/tags/xubuntu/</link><description>Recent content in xubuntu on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Apr 2014 12:33:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/xubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>Xubuntu: Open Whisker Menu with the Windows key</title><link>https://costales.github.io/posts/xubuntu-open-whisker-menu-with-windows/</link><pubDate>Sat, 05 Apr 2014 12:33:00 +0200</pubDate><guid>https://costales.github.io/posts/xubuntu-open-whisker-menu-with-windows/</guid><description>Menu: Settings Manager -&amp;gt; Keyboard -&amp;gt; Application Shortcuts:
+_xfce4-popup-whiskermenu_ and click the Windows Key (_Super_L_)</description></item></channel></rss>

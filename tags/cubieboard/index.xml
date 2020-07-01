@@ -1,71 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>cubieboard on Marcos Costales</title>
-    <link>https://costales.github.io/tags/cubieboard/</link>
-    <description>Recent content in cubieboard on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 04 Oct 2014 13:13:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/cubieboard/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>How is the Lubuntu performance into a Cubieboard 2?</title>
-      <link>https://costales.github.io/posts/which-is-lubuntu-performance-into/</link>
-      <pubDate>Sat, 04 Oct 2014 13:13:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/which-is-lubuntu-performance-into/</guid>
-      <description>Hi! I did a video for appreciating the performance of Lubuntu into a Cubieboard 2.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cubieboard on Marcos Costales</title><link>https://costales.github.io/tags/cubieboard/</link><description>Recent content in cubieboard on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 04 Oct 2014 13:13:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/cubieboard/index.xml" rel="self" type="application/rss+xml"/><item><title>How is the Lubuntu performance into a Cubieboard 2?</title><link>https://costales.github.io/posts/which-is-lubuntu-performance-into/</link><pubDate>Sat, 04 Oct 2014 13:13:00 +0200</pubDate><guid>https://costales.github.io/posts/which-is-lubuntu-performance-into/</guid><description>Hi! I did a video for appreciating the performance of Lubuntu into a Cubieboard 2.
 Cubieboard Pros:
- Use as server or desktop. A7 Dual-Core CPU, then you can use the native ARM Ubuntu version. 1GB RAM. As desktop it&#39;ll works really good for watching show TVs &amp;amp; movies, listening music, view/edit documents, web browsing and chat. As server I have one without a reboot in months. Power: Just 5V &amp;amp; 2A!</description>
-    </item>
-    
-    <item>
-      <title>Installing Lubuntu Desktop into a Cubieboard2 A20 with LiveSuit for Ubuntu</title>
-      <link>https://costales.github.io/posts/installing-lubuntu-desktop-into/</link>
-      <pubDate>Thu, 25 Sep 2014 19:35:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/installing-lubuntu-desktop-into/</guid>
-      <description>If you want to install in a fast way my same image, please, read this post.
+Use as server or desktop. A7 Dual-Core CPU, then you can use the native ARM Ubuntu version. 1GB RAM. As desktop it'll works really good for watching show TVs &amp;amp; movies, listening music, view/edit documents, web browsing and chat. As server I have one without a reboot in months. Power: Just 5V &amp;amp; 2A!</description></item><item><title>Installing Lubuntu Desktop into a Cubieboard2 A20 with LiveSuit for Ubuntu</title><link>https://costales.github.io/posts/installing-lubuntu-desktop-into/</link><pubDate>Thu, 25 Sep 2014 19:35:00 +0200</pubDate><guid>https://costales.github.io/posts/installing-lubuntu-desktop-into/</guid><description>If you want to install in a fast way my same image, please, read this post.
 Hi! I bought a new Cubieboard, the 2 version in this case and the process for install Lubuntu is a bit different from the tutorial for Cubieboard1 A10 that I wrote a few months ago.
-FIRST: Install LiveSuit for Ubuntu (You can use a Live USB for this). Open a Terminal and run these commands:</description>
-    </item>
-    
-    <item>
-      <title>Cubieboard2 and Lubuntu: How to expand the NAND partition to 4GB</title>
-      <link>https://costales.github.io/posts/cubieboard2-and-lubuntu-how-to-expand/</link>
-      <pubDate>Thu, 25 Sep 2014 19:33:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/cubieboard2-and-lubuntu-how-to-expand/</guid>
-      <description>If you want a quick install for Lubuntu 14.04, please, read this post ;)
+FIRST: Install LiveSuit for Ubuntu (You can use a Live USB for this). Open a Terminal and run these commands:</description></item><item><title>Cubieboard2 and Lubuntu: How to expand the NAND partition to 4GB</title><link>https://costales.github.io/posts/cubieboard2-and-lubuntu-how-to-expand/</link><pubDate>Thu, 25 Sep 2014 19:33:00 +0200</pubDate><guid>https://costales.github.io/posts/cubieboard2-and-lubuntu-how-to-expand/</guid><description>If you want a quick install for Lubuntu 14.04, please, read this post ;)
 We installed Lubuntu into a Cubieboard2. But the NAND is using just 2GB of 4GB available:
-linaro@cubieboard2:~$ df -h Filesystem **Size** Used Avail Use% Mounted on /dev/root **2.0G** 1.2G 698M 64% / devtmpfs 406M 4.0K 406M 1% /dev tmpfs 20M 4.0K 20M 1% /tmp none 82M 208K 81M 1% /run none 5.0M 0 5.0M 0% /run/lock none 406M 4.</description>
-    </item>
-    
-    <item>
-      <title>Lubuntu 14.04 for Cubieboard 2</title>
-      <link>https://costales.github.io/posts/lubuntu-1404-for-cubieboard-2-nand-dd-installation-fast-easy/</link>
-      <pubDate>Thu, 25 Sep 2014 19:31:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/lubuntu-1404-for-cubieboard-2-nand-dd-installation-fast-easy/</guid>
-      <description>Cubieboard2 (CPU A20)
-I bought a Cubieboard2 and I made a Lubuntu 14.04 image! Now, it&#39;s really fast and easy to deploy that image in a cubieboard2 with a NAND = 4GB.
+linaro@cubieboard2:~$ df -h Filesystem **Size** Used Avail Use% Mounted on /dev/root **2.0G** 1.2G 698M 64% / devtmpfs 406M 4.0K 406M 1% /dev tmpfs 20M 4.0K 20M 1% /tmp none 82M 208K 81M 1% /run none 5.0M 0 5.0M 0% /run/lock none 406M 4.</description></item><item><title>Lubuntu 14.04 for Cubieboard 2</title><link>https://costales.github.io/posts/lubuntu-1404-for-cubieboard-2-nand-dd-installation-fast-easy/</link><pubDate>Thu, 25 Sep 2014 19:31:00 +0200</pubDate><guid>https://costales.github.io/posts/lubuntu-1404-for-cubieboard-2-nand-dd-installation-fast-easy/</guid><description>Cubieboard2 (CPU A20)
+I bought a Cubieboard2 and I made a Lubuntu 14.04 image! Now, it's really fast and easy to deploy that image in a cubieboard2 with a NAND = 4GB.
 Download the Lubuntu 14.04 image for CubieBoard2 here.
 LUBUNTU 14.04 INSTALL STEPS:
 Boot with a Live distro, by example, with Cubian into a microSD (&amp;gt;8GB) with these steps.
-Copy this Lubuntu image downloaded into the root of the microSD.</description>
-    </item>
-    
-    <item>
-      <title>Install OwnCloud in your Cubieboard with Ubuntu</title>
-      <link>https://costales.github.io/posts/install-owncloud-in-your-cubieboard/</link>
-      <pubDate>Fri, 29 Nov 2013 18:29:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/install-owncloud-in-your-cubieboard/</guid>
-      <description>Do you have your Ubuntu installed into your CubieBoard?
-Run this command in a Terminal (it&#39;ll be as for your mySQL password):
+Copy this Lubuntu image downloaded into the root of the microSD.</description></item><item><title>Install OwnCloud in your Cubieboard with Ubuntu</title><link>https://costales.github.io/posts/install-owncloud-in-your-cubieboard/</link><pubDate>Fri, 29 Nov 2013 18:29:00 +0100</pubDate><guid>https://costales.github.io/posts/install-owncloud-in-your-cubieboard/</guid><description>Do you have your Ubuntu installed into your CubieBoard?
+Run this command in a Terminal (it'll be as for your mySQL password):
 sudo apt-get install owncloud davfs2 mysql-server
 Create a database in mySQL:
 https://your-domain/phpmyadmin
@@ -78,31 +23,9 @@ a2ensite default-ssl
 sudo a2ensite default-ssl
 Visit your domain as:
 https://your-domain/owncloud
-or (better with https)</description>
-    </item>
-    
-    <item>
-      <title>How install Ubuntu into a CubieBoard and expand the NAND partition to 4GB</title>
-      <link>https://costales.github.io/posts/how-install-ubuntu-into-cubieboard-and/</link>
-      <pubDate>Thu, 28 Nov 2013 20:09:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/how-install-ubuntu-into-cubieboard-and/</guid>
-      <description>I have a CubieBoard 1 with a A10 CPU.
-Install Ubuntu into the NAND You can install a distro into a microSD card or into the internal NAND memory. For the best performance install Ubuntu into the NAND, you&#39;ll have 4GB and you can attach an external hard disk or the integrated microSD too.
-You can install an Ubuntu image into the NAND with the LiveSuit app. I installed Lubuntu Server with LiveSuit app for Windows (My Cubie didn&#39;t enter in the FEL Mode with LiveSuit for Linux).</description>
-    </item>
-    
-    <item>
-      <title>Migrating home server from Raspberry PI to CubieBoard with Ubuntu</title>
-      <link>https://costales.github.io/posts/migrating-home-server-from-raspberry-pi/</link>
-      <pubDate>Fri, 22 Nov 2013 20:57:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/migrating-home-server-from-raspberry-pi/</guid>
-      <description>I have 2 Raspberry PI, they are great, but I missed Ubuntu on them. Now I get a CubieBoard.
+or (better with https)</description></item><item><title>How install Ubuntu into a CubieBoard and expand the NAND partition to 4GB</title><link>https://costales.github.io/posts/how-install-ubuntu-into-cubieboard-and/</link><pubDate>Thu, 28 Nov 2013 20:09:00 +0100</pubDate><guid>https://costales.github.io/posts/how-install-ubuntu-into-cubieboard-and/</guid><description>I have a CubieBoard 1 with a A10 CPU.
+Install Ubuntu into the NAND You can install a distro into a microSD card or into the internal NAND memory. For the best performance install Ubuntu into the NAND, you'll have 4GB and you can attach an external hard disk or the integrated microSD too.
+You can install an Ubuntu image into the NAND with the LiveSuit app. I installed Lubuntu Server with LiveSuit app for Windows (My Cubie didn't enter in the FEL Mode with LiveSuit for Linux).</description></item><item><title>Migrating home server from Raspberry PI to CubieBoard with Ubuntu</title><link>https://costales.github.io/posts/migrating-home-server-from-raspberry-pi/</link><pubDate>Fri, 22 Nov 2013 20:57:00 +0100</pubDate><guid>https://costales.github.io/posts/migrating-home-server-from-raspberry-pi/</guid><description>I have 2 Raspberry PI, they are great, but I missed Ubuntu on them. Now I get a CubieBoard.
 CubieBoard CONS:
- Price (Cubie ~49$ vs Raspberry ~25$) Less community/hacking  CubieBoard PROS:
- Faster CPU (300Mhz more) Double RAM (1GB DDR3) Integrated port for a SATA hard disk (With a SATA disk use charger like Nexus 7. Without SATA disk, you can power it with a normal miniUSB by example from your router.</description>
-    </item>
-    
-  </channel>
-</rss>
+Price (Cubie ~49$ vs Raspberry ~25$) Less community/hacking CubieBoard PROS:
+Faster CPU (300Mhz more) Double RAM (1GB DDR3) Integrated port for a SATA hard disk (With a SATA disk use charger like Nexus 7. Without SATA disk, you can power it with a normal miniUSB by example from your router.</description></item></channel></rss>

@@ -1,153 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>development on Marcos Costales</title>
-    <link>https://costales.github.io/tags/development/</link>
-    <description>Recent content in development on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 15 May 2018 21:14:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Crear máquina virtual con QEMU</title>
-      <link>https://costales.github.io/posts/crear-maquina-virtual-con-qemu/</link>
-      <pubDate>Tue, 15 May 2018 21:14:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/crear-maquina-virtual-con-qemu/</guid>
-      <description>Creamos la máquina con 20GB de disco duro:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>development on Marcos Costales</title><link>https://costales.github.io/tags/development/</link><description>Recent content in development on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 15 May 2018 21:14:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Crear máquina virtual con QEMU</title><link>https://costales.github.io/posts/crear-maquina-virtual-con-qemu/</link><pubDate>Tue, 15 May 2018 21:14:00 +0200</pubDate><guid>https://costales.github.io/posts/crear-maquina-virtual-con-qemu/</guid><description>Creamos la máquina con 20GB de disco duro:
 qemu-img create ubuntu.img 20G Arrancamos el liveUSB con 640MB de RAM:
 qemu-system-i386 -hda ubuntu.img -boot d -cdrom /home/reactos.iso -m 640 Tras la instalación, cada vez que queramos usarla:
-qemu-system-i386 -hda ubuntu.img -m 640 </description>
-    </item>
-    
-    <item>
-      <title>Developing in QML &#43; python for Ubuntu Touch</title>
-      <link>https://costales.github.io/posts/developing-in-qml-python-for-ubuntu/</link>
-      <pubDate>Mon, 16 Jan 2017 22:09:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/developing-in-qml-python-for-ubuntu/</guid>
-      <description>Yes, I like Python so much!
-And I was thinking it would complicate/impossible to create an application for Ubuntu Phone using Python, but not, it&#39;s easy :)
-Dan Chapman helped me adapting Python for uNav (Thanks mate!). You have to know how to create a QML + javascript application first. After that you can use Python in your application. Let&#39;s see it!
+qemu-system-i386 -hda ubuntu.img -m 640</description></item><item><title>Developing in QML + python for Ubuntu Touch</title><link>https://costales.github.io/posts/developing-in-qml-python-for-ubuntu/</link><pubDate>Mon, 16 Jan 2017 22:09:00 +0100</pubDate><guid>https://costales.github.io/posts/developing-in-qml-python-for-ubuntu/</guid><description>Yes, I like Python so much!
+And I was thinking it would complicate/impossible to create an application for Ubuntu Phone using Python, but not, it's easy :)
+Dan Chapman helped me adapting Python for uNav (Thanks mate!). You have to know how to create a QML + javascript application first. After that you can use Python in your application. Let's see it!
 A so basic example is here.
-Download it and from the shell (maybe you&#39;ll need system depedences as pyotherside package) in Ubuntu 16.</description>
-    </item>
-    
-    <item>
-      <title>Aprende a crear una aplicación para Ubuntu Phone</title>
-      <link>https://costales.github.io/posts/aprende-crear-una-aplicacion-para/</link>
-      <pubDate>Thu, 15 Sep 2016 21:27:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/aprende-crear-una-aplicacion-para/</guid>
-      <description>Enlazo a un excelente tutorial (Licencia CC-BY-NC-SA 4) de Miguel Menéndez, que explica en español paso a paso cómo crear una aplicación para Ubuntu Phone de una manera amena y entretenida. Incluyendo ejemplos, ejercicios, apoyo en IRC y grupo de Telegram&amp;hellip;
+Download it and from the shell (maybe you'll need system depedences as pyotherside package) in Ubuntu 16.</description></item><item><title>Aprende a crear una aplicación para Ubuntu Phone</title><link>https://costales.github.io/posts/aprende-crear-una-aplicacion-para/</link><pubDate>Thu, 15 Sep 2016 21:27:00 +0200</pubDate><guid>https://costales.github.io/posts/aprende-crear-una-aplicacion-para/</guid><description>Enlazo a un excelente tutorial (Licencia CC-BY-NC-SA 4) de Miguel Menéndez, que explica en español paso a paso cómo crear una aplicación para Ubuntu Phone de una manera amena y entretenida. Incluyendo ejemplos, ejercicios, apoyo en IRC y grupo de Telegram&amp;hellip;
 Importante indicar que es el curso aún está en desarrollo, con una entrega semanal, por lo que en las próximas semanas se irá completando.
-
 Curso UT
-Para acceder, simplemente descarga la aplicación en tu Ubuntu Phone:</description>
-    </item>
-    
-    <item>
-      <title>Apps for Human Beings (pyGTK with Glade)</title>
-      <link>https://costales.github.io/posts/apps-for-human-beings-pygtk-with-glade/</link>
-      <pubDate>Wed, 14 May 2014 18:53:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/apps-for-human-beings-pygtk-with-glade/</guid>
-      <description>I really believe in the Ubuntu Promise,
- &amp;ldquo;Ubuntu is [&amp;hellip;] accessible to all&amp;quot;.
- I think this is one of the awesome things in this OS and community. A few years ago, I received a bug in Gufw:
+Para acceder, simplemente descarga la aplicación en tu Ubuntu Phone:</description></item><item><title>Apps for Human Beings (pyGTK with Glade)</title><link>https://costales.github.io/posts/apps-for-human-beings-pygtk-with-glade/</link><pubDate>Wed, 14 May 2014 18:53:00 +0200</pubDate><guid>https://costales.github.io/posts/apps-for-human-beings-pygtk-with-glade/</guid><description>I really believe in the Ubuntu Promise,
+&amp;ldquo;Ubuntu is [&amp;hellip;] accessible to all&amp;quot;.
+I think this is one of the awesome things in this OS and community. A few years ago, I received a bug in Gufw:
 THE PROBLEM
 By example, I have 2 comboboxes:
-
 &amp;ldquo;Deny&amp;rdquo; for &amp;ldquo;Incoming&amp;rdquo;
 You can see if the &amp;ldquo;Deny&amp;rdquo; value is for &amp;ldquo;Incoming&amp;rdquo; or for &amp;ldquo;Outgoing&amp;rdquo;.
-But a visual impairment user will focus on &amp;ldquo;Deny&amp;rdquo; and ORCA will speech these options: &amp;ldquo;Allow, Deny, Reject&amp;rdquo;:</description>
-    </item>
-    
-    <item>
-      <title>Telegram in Ubuntu with a webapp</title>
-      <link>https://costales.github.io/posts/telegram-in-ubuntu-with-webapp/</link>
-      <pubDate>Fri, 25 Apr 2014 22:01:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/telegram-in-ubuntu-with-webapp/</guid>
-      <description>Until now you could to use Telegram in Ubuntu from a web, Chrome app or shell.
+But a visual impairment user will focus on &amp;ldquo;Deny&amp;rdquo; and ORCA will speech these options: &amp;ldquo;Allow, Deny, Reject&amp;rdquo;:</description></item><item><title>Telegram in Ubuntu with a webapp</title><link>https://costales.github.io/posts/telegram-in-ubuntu-with-webapp/</link><pubDate>Fri, 25 Apr 2014 22:01:00 +0200</pubDate><guid>https://costales.github.io/posts/telegram-in-ubuntu-with-webapp/</guid><description>Until now you could to use Telegram in Ubuntu from a web, Chrome app or shell.
 Now, you can enjoy Telegram integrated with Unity too!
-
 Telegram in the Ubuntu Dash Board
-
 Launcher icon count for unread conversations
-
 Messaging menu with unread conversations
-
 Alt+Tab integration
 Features
- Dashboard integration Unity Launcher Counts for total unread conversations Messaging menu  How to install Just run these commands in the Terminal and search Telegram in the Dash:</description>
-    </item>
-    
-    <item>
-      <title>Crear un .deb y un PPA fácilmente</title>
-      <link>https://costales.github.io/posts/crear-un-deb-y-un-ppa-facilmente/</link>
-      <pubDate>Sun, 20 Apr 2014 11:13:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/crear-un-deb-y-un-ppa-facilmente/</guid>
-      <description>Crear fichero .deb:
+Dashboard integration Unity Launcher Counts for total unread conversations Messaging menu How to install Just run these commands in the Terminal and search Telegram in the Dash:</description></item><item><title>Crear un .deb y un PPA fácilmente</title><link>https://costales.github.io/posts/crear-un-deb-y-un-ppa-facilmente/</link><pubDate>Sun, 20 Apr 2014 11:13:00 +0200</pubDate><guid>https://costales.github.io/posts/crear-un-deb-y-un-ppa-facilmente/</guid><description>Crear fichero .deb:
 Pues lo más sencillo&amp;hellip; crear tus ficheros y directorios y mediante el directorio debian (más concretamente su fichero install) decir dónde va cada fichero. Accedemos al directorio y ejecutamos:
 dpkg-buildpackage
 Crear PPA:
 Un poco más díficil. Hay que subir una clave GPG al servidor de Ubuntu. Tras crear el .deb anterior y en el directorio padre, generamos el fichero source.changes con:
-dpkg-buildpackage # Este para crear el .</description>
-    </item>
-    
-    <item>
-      <title> Crear repositorio git privado - Configurando Raspberry PI 7</title>
-      <link>https://costales.github.io/posts/crear-repositorio-git-privado/</link>
-      <pubDate>Mon, 21 Oct 2013 20:05:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/crear-repositorio-git-privado/</guid>
-      <description>Vamos a crear nuestro propio repositorio git:
+dpkg-buildpackage # Este para crear el .</description></item><item><title> Crear repositorio git privado - Configurando Raspberry PI 7</title><link>https://costales.github.io/posts/crear-repositorio-git-privado/</link><pubDate>Mon, 21 Oct 2013 20:05:00 +0200</pubDate><guid>https://costales.github.io/posts/crear-repositorio-git-privado/</guid><description>Vamos a crear nuestro propio repositorio git:
 sudo groupadd developers mkdir -p /tu_path/git/proyecto
 cd /tu\_path/git sudo chgrp -R developers .
 cd /tu\_path/git/proyecto git init &amp;ndash;bare &amp;ndash;shared=group
-sudo ln -s /tu\_path/git/proyecto /home/tu\_home ``` Y ahora para clonar: ``` git clone tu\_usuario\_ssh@tu\_host:/home/tu\_home/git/proyecto ```Y para subir el código, desde la carpeta proyecto: ``` git add . ; git commit -m &amp;quot;w&amp;quot; ; git push origin master ``` </description>
-    </item>
-    
-    <item>
-      <title>Dark theme for Geany editor</title>
-      <link>https://costales.github.io/posts/dark-theme-for-geany-editor/</link>
-      <pubDate>Thu, 06 Dec 2012 11:40:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/dark-theme-for-geany-editor/</guid>
-      <description>Just view this awesome dark theme for a sublime color or all of this themes :)</description>
-    </item>
-    
-    <item>
-      <title>Configurar Django con Ubuntu</title>
-      <link>https://costales.github.io/posts/configurar-django-con-ubuntu/</link>
-      <pubDate>Sun, 11 Dec 2011 10:57:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/configurar-django-con-ubuntu/</guid>
-      <description>Para instalar en productivo una aplicación hecha con Django en Ubuntu hay que instalar apache y su módulo mod_python:
+sudo ln -s /tu\_path/git/proyecto /home/tu\_home ``` Y ahora para clonar: ``` git clone tu\_usuario\_ssh@tu\_host:/home/tu\_home/git/proyecto ```Y para subir el código, desde la carpeta proyecto: ``` git add . ; git commit -m &amp;quot;w&amp;quot; ; git push origin master ```</description></item><item><title>Dark theme for Geany editor</title><link>https://costales.github.io/posts/dark-theme-for-geany-editor/</link><pubDate>Thu, 06 Dec 2012 11:40:00 +0100</pubDate><guid>https://costales.github.io/posts/dark-theme-for-geany-editor/</guid><description>Just view this awesome dark theme for a sublime color or all of this themes :)</description></item><item><title>Configurar Django con Ubuntu</title><link>https://costales.github.io/posts/configurar-django-con-ubuntu/</link><pubDate>Sun, 11 Dec 2011 10:57:00 +0100</pubDate><guid>https://costales.github.io/posts/configurar-django-con-ubuntu/</guid><description>Para instalar en productivo una aplicación hecha con Django en Ubuntu hay que instalar apache y su módulo mod_python:
 sudo apt-get install python-django libapache2-mod-python apache2
 Sólo queda configurar apache para que gestione correctamente las peticiones contra django y las peticiones estáticas, para ello modificamos 2 ficheros:
 /etc/apache2/sites-available/mi_app
-&amp;lt;Location &amp;quot;/&amp;quot;&amp;gt; SetHandler python-program PythonHandler django.core.handlers.modpython SetEnv DJANGO_SETTINGS_MODULE mi_app.settings PythonDebug On PythonPath &amp;quot;[&#39;/home/mi_usuario/directorio_padre_de_mi_app/&#39;] + sys.path&amp;quot; &amp;lt;/Location&amp;gt; &amp;lt;Location &amp;quot;/media&amp;quot;&amp;gt; SetHandler None &amp;lt;/Location&amp;gt;
+&amp;lt;Location &amp;quot;/&amp;quot;&amp;gt; SetHandler python-program PythonHandler django.core.handlers.modpython SetEnv DJANGO_SETTINGS_MODULE mi_app.settings PythonDebug On PythonPath &amp;quot;['/home/mi_usuario/directorio_padre_de_mi_app/'] + sys.path&amp;quot; &amp;lt;/Location&amp;gt; &amp;lt;Location &amp;quot;/media&amp;quot;&amp;gt; SetHandler None &amp;lt;/Location&amp;gt;
 /etc/apache2/apache2.conf
-Alias /media /home/marcos/Directorio_padre_de_mi_app/mi_app/media</description>
-    </item>
-    
-    <item>
-      <title>¿Elimina Google las etiquetas HTML de cierre en los InfoWindow de Google Maps?</title>
-      <link>https://costales.github.io/posts/elimina-google-las-etiquetas-html-de/</link>
-      <pubDate>Wed, 26 Oct 2011 19:37:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/elimina-google-las-etiquetas-html-de/</guid>
-      <description>Simplemente prueba un ejemplo oficial y cambia la línea 19 por esto otro.
+Alias /media /home/marcos/Directorio_padre_de_mi_app/mi_app/media</description></item><item><title>¿Elimina Google las etiquetas HTML de cierre en los InfoWindow de Google Maps?</title><link>https://costales.github.io/posts/elimina-google-las-etiquetas-html-de/</link><pubDate>Wed, 26 Oct 2011 19:37:00 +0200</pubDate><guid>https://costales.github.io/posts/elimina-google-las-etiquetas-html-de/</guid><description>Simplemente prueba un ejemplo oficial y cambia la línea 19 por esto otro.
 Como ves, el alert muestra que establecimos bien el content del InfoWindow con setContent, pero al abrir el fichero HTML en el navegador falta la etiqueta &amp;lt;/img&amp;gt;
 ¿El problema? Que ese código no valida.
-Sin palabras ¬¬</description>
-    </item>
-    
-  </channel>
-</rss>
+Sin palabras ¬¬</description></item></channel></rss>

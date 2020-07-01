@@ -1,29 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ppa on Marcos Costales</title>
-    <link>https://costales.github.io/tags/ppa/</link>
-    <description>Recent content in ppa on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 20 Apr 2014 11:13:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/ppa/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Crear un .deb y un PPA fácilmente</title>
-      <link>https://costales.github.io/posts/crear-un-deb-y-un-ppa-facilmente/</link>
-      <pubDate>Sun, 20 Apr 2014 11:13:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/crear-un-deb-y-un-ppa-facilmente/</guid>
-      <description>Crear fichero .deb:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ppa on Marcos Costales</title><link>https://costales.github.io/tags/ppa/</link><description>Recent content in ppa on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 20 Apr 2014 11:13:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/ppa/index.xml" rel="self" type="application/rss+xml"/><item><title>Crear un .deb y un PPA fácilmente</title><link>https://costales.github.io/posts/crear-un-deb-y-un-ppa-facilmente/</link><pubDate>Sun, 20 Apr 2014 11:13:00 +0200</pubDate><guid>https://costales.github.io/posts/crear-un-deb-y-un-ppa-facilmente/</guid><description>Crear fichero .deb:
 Pues lo más sencillo&amp;hellip; crear tus ficheros y directorios y mediante el directorio debian (más concretamente su fichero install) decir dónde va cada fichero. Accedemos al directorio y ejecutamos:
 dpkg-buildpackage
 Crear PPA:
 Un poco más díficil. Hay que subir una clave GPG al servidor de Ubuntu. Tras crear el .deb anterior y en el directorio padre, generamos el fichero source.changes con:
-dpkg-buildpackage # Este para crear el .</description>
-    </item>
-    
-  </channel>
-</rss>
+dpkg-buildpackage # Este para crear el .</description></item></channel></rss>

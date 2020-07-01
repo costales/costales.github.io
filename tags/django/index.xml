@@ -1,30 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>django on Marcos Costales</title>
-    <link>https://costales.github.io/tags/django/</link>
-    <description>Recent content in django on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 11 Dec 2011 10:57:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Configurar Django con Ubuntu</title>
-      <link>https://costales.github.io/posts/configurar-django-con-ubuntu/</link>
-      <pubDate>Sun, 11 Dec 2011 10:57:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/configurar-django-con-ubuntu/</guid>
-      <description>Para instalar en productivo una aplicación hecha con Django en Ubuntu hay que instalar apache y su módulo mod_python:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>django on Marcos Costales</title><link>https://costales.github.io/tags/django/</link><description>Recent content in django on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2011 10:57:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/django/index.xml" rel="self" type="application/rss+xml"/><item><title>Configurar Django con Ubuntu</title><link>https://costales.github.io/posts/configurar-django-con-ubuntu/</link><pubDate>Sun, 11 Dec 2011 10:57:00 +0100</pubDate><guid>https://costales.github.io/posts/configurar-django-con-ubuntu/</guid><description>Para instalar en productivo una aplicación hecha con Django en Ubuntu hay que instalar apache y su módulo mod_python:
 sudo apt-get install python-django libapache2-mod-python apache2
 Sólo queda configurar apache para que gestione correctamente las peticiones contra django y las peticiones estáticas, para ello modificamos 2 ficheros:
 /etc/apache2/sites-available/mi_app
-&amp;lt;Location &amp;quot;/&amp;quot;&amp;gt; SetHandler python-program PythonHandler django.core.handlers.modpython SetEnv DJANGO_SETTINGS_MODULE mi_app.settings PythonDebug On PythonPath &amp;quot;[&#39;/home/mi_usuario/directorio_padre_de_mi_app/&#39;] + sys.path&amp;quot; &amp;lt;/Location&amp;gt; &amp;lt;Location &amp;quot;/media&amp;quot;&amp;gt; SetHandler None &amp;lt;/Location&amp;gt;
+&amp;lt;Location &amp;quot;/&amp;quot;&amp;gt; SetHandler python-program PythonHandler django.core.handlers.modpython SetEnv DJANGO_SETTINGS_MODULE mi_app.settings PythonDebug On PythonPath &amp;quot;['/home/mi_usuario/directorio_padre_de_mi_app/'] + sys.path&amp;quot; &amp;lt;/Location&amp;gt; &amp;lt;Location &amp;quot;/media&amp;quot;&amp;gt; SetHandler None &amp;lt;/Location&amp;gt;
 /etc/apache2/apache2.conf
-Alias /media /home/marcos/Directorio_padre_de_mi_app/mi_app/media</description>
-    </item>
-    
-  </channel>
-</rss>
+Alias /media /home/marcos/Directorio_padre_de_mi_app/mi_app/media</description></item></channel></rss>

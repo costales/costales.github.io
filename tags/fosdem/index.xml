@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>fosdem on Marcos Costales</title>
-    <link>https://costales.github.io/tags/fosdem/</link>
-    <description>Recent content in fosdem on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 05 Feb 2017 11:17:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/fosdem/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>FOSDEM 2017</title>
-      <link>https://costales.github.io/posts/fosdem-2017/</link>
-      <pubDate>Sun, 05 Feb 2017 11:17:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/fosdem-2017/</guid>
-      <description>Viajar a algunas Ubucons me ha permitido conocer a personas excepcionales de la comunidad. Y en esta ocasión, me animé a asistir al FOSDEM en Bruselas, uno de los eventos más importantes de Europa en cuanto a software libre.
-VIERNES 3 DE FEBRERO - BEER EVENT Llegué el primero al evento cervecero del viernes, al que pronto se unieron Marius, Ilonka, Diogo, Tiago, Laura, Rudy y Quest. El famoso Delirium Cafe estaba muy petado y eso que sólo podían entrar asistentes a FOSDEM.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fosdem on Marcos Costales</title><link>https://costales.github.io/tags/fosdem/</link><description>Recent content in fosdem on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Feb 2017 11:17:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/fosdem/index.xml" rel="self" type="application/rss+xml"/><item><title>FOSDEM 2017</title><link>https://costales.github.io/posts/fosdem-2017/</link><pubDate>Sun, 05 Feb 2017 11:17:00 +0100</pubDate><guid>https://costales.github.io/posts/fosdem-2017/</guid><description>Viajar a algunas Ubucons me ha permitido conocer a personas excepcionales de la comunidad. Y en esta ocasión, me animé a asistir al FOSDEM en Bruselas, uno de los eventos más importantes de Europa en cuanto a software libre.
+VIERNES 3 DE FEBRERO - BEER EVENT Llegué el primero al evento cervecero del viernes, al que pronto se unieron Marius, Ilonka, Diogo, Tiago, Laura, Rudy y Quest. El famoso Delirium Cafe estaba muy petado y eso que sólo podían entrar asistentes a FOSDEM.</description></item></channel></rss>

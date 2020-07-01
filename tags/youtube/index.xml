@@ -1,40 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>youtube on Marcos Costales</title>
-    <link>https://costales.github.io/tags/youtube/</link>
-    <description>Recent content in youtube on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 10 Jul 2014 19:59:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Descargar canción de Youtube en mp3 fácilmente con Ubuntu</title>
-      <link>https://costales.github.io/posts/descargar-cancion-de-youtube-en-mp3/</link>
-      <pubDate>Thu, 10 Jul 2014 19:59:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/descargar-cancion-de-youtube-en-mp3/</guid>
-      <description>Hoy en día es muy fácil descargar películas o series, pero actualmente me cuesta encontrar un sistema para descargar rápida y fácilmente la canción que me apetezca en ese momento&amp;hellip; y cada vez conozco más gente que escucha música en Youtube&amp;hellip; ¿pero por qué no descargarla de Youtube? ;)
-Con Ubuntu es muy fácil descargar la música en formato MP3 de un vídeo de Youtube. Para ello necesitamos tener instalado youtube-dl.</description>
-    </item>
-    
-    <item>
-      <title>Convertir vídeo de Youtube a .avi con buena calidad</title>
-      <link>https://costales.github.io/posts/convertir-video-de-youtube-avi-con/</link>
-      <pubDate>Tue, 28 Feb 2012 20:30:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/convertir-video-de-youtube-avi-con/</guid>
-      <description>Desde la Terminal de Ubuntu necesitamos instalar 2 programas:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>youtube on Marcos Costales</title><link>https://costales.github.io/tags/youtube/</link><description>Recent content in youtube on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2014 19:59:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml"/><item><title>Descargar canción de Youtube en mp3 fácilmente con Ubuntu</title><link>https://costales.github.io/posts/descargar-cancion-de-youtube-en-mp3/</link><pubDate>Thu, 10 Jul 2014 19:59:00 +0200</pubDate><guid>https://costales.github.io/posts/descargar-cancion-de-youtube-en-mp3/</guid><description>Hoy en día es muy fácil descargar películas o series, pero actualmente me cuesta encontrar un sistema para descargar rápida y fácilmente la canción que me apetezca en ese momento&amp;hellip; y cada vez conozco más gente que escucha música en Youtube&amp;hellip; ¿pero por qué no descargarla de Youtube? ;)
+Con Ubuntu es muy fácil descargar la música en formato MP3 de un vídeo de Youtube. Para ello necesitamos tener instalado youtube-dl.</description></item><item><title>Convertir vídeo de Youtube a .avi con buena calidad</title><link>https://costales.github.io/posts/convertir-video-de-youtube-avi-con/</link><pubDate>Tue, 28 Feb 2012 20:30:00 +0100</pubDate><guid>https://costales.github.io/posts/convertir-video-de-youtube-avi-con/</guid><description>Desde la Terminal de Ubuntu necesitamos instalar 2 programas:
 sudo apt-get install youtube-dl mencoder
 Ahora para descargar un video de Youtube:
 youtube-dl dirección_web_del_video_incluyendo_http
 Para convertir el vídeo descargado a .avi con buena calidad:
 mencoder video.flv -ovc lavc -oac mp3lame -o video.avi
-Vía Ubuntu Forums.</description>
-    </item>
-    
-  </channel>
-</rss>
+Vía Ubuntu Forums.</description></item></channel></rss>

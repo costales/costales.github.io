@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>astur on Marcos Costales</title>
-    <link>https://costales.github.io/tags/astur/</link>
-    <description>Recent content in astur on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 13 Feb 2019 19:01:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/astur/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>¿Por qué el PSOE votó en contra de &#34;Dinero Público, Código público&#34; en Asturias?</title>
-      <link>https://costales.github.io/posts/por-que-el-psoe-voto-en-contra-de/</link>
-      <pubDate>Wed, 13 Feb 2019 19:01:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/por-que-el-psoe-voto-en-contra-de/</guid>
-      <description>Todo comienza con la campaña de la Free Software Foundation promulgando que cualquier proyecto de código, financiado con dinero público, sea código público, es decir, código libre, léase software libre.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>astur on Marcos Costales</title><link>https://costales.github.io/tags/astur/</link><description>Recent content in astur on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 13 Feb 2019 19:01:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/astur/index.xml" rel="self" type="application/rss+xml"/><item><title>¿Por qué el PSOE votó en contra de "Dinero Público, Código público" en Asturias?</title><link>https://costales.github.io/posts/por-que-el-psoe-voto-en-contra-de/</link><pubDate>Wed, 13 Feb 2019 19:01:00 +0100</pubDate><guid>https://costales.github.io/posts/por-que-el-psoe-voto-en-contra-de/</guid><description>Todo comienza con la campaña de la Free Software Foundation promulgando que cualquier proyecto de código, financiado con dinero público, sea código público, es decir, código libre, léase software libre.
 Sus ventajas son claras:
- Ahorro de impuestos: Aplicaciones similares no tienen que ser programadas desde cero una y otra vez. Colaboración: Los esfuerzos en grandes proyectos se pueden compartir, con lo que se gana experiencia y se reducen costos. Accesible a todos: Las aplicaciones pagadas por los ciudadanos deben estar disponibles para todos.</description>
-    </item>
-    
-  </channel>
-</rss>
+Ahorro de impuestos: Aplicaciones similares no tienen que ser programadas desde cero una y otra vez. Colaboración: Los esfuerzos en grandes proyectos se pueden compartir, con lo que se gana experiencia y se reducen costos. Accesible a todos: Las aplicaciones pagadas por los ciudadanos deben estar disponibles para todos.</description></item></channel></rss>

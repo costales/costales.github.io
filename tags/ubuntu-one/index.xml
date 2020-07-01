@@ -1,39 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ubuntu-one on Marcos Costales</title>
-    <link>https://costales.github.io/tags/ubuntu-one/</link>
-    <description>Recent content in ubuntu-one on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 05 Apr 2014 10:02:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/ubuntu-one/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>How do I completely remove One Ubuntu?</title>
-      <link>https://costales.github.io/posts/how-do-i-completely-remove-one-ubuntu/</link>
-      <pubDate>Sat, 05 Apr 2014 10:02:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/how-do-i-completely-remove-one-ubuntu/</guid>
-      <description>I&#39;ll miss Ubuntu One. It was my unique cloud client. But it&#39;s time to move forward and if you have the Ubuntu One client installed you can remove with these commands (source):
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ubuntu-one on Marcos Costales</title><link>https://costales.github.io/tags/ubuntu-one/</link><description>Recent content in ubuntu-one on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Apr 2014 10:02:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/ubuntu-one/index.xml" rel="self" type="application/rss+xml"/><item><title>How do I completely remove One Ubuntu?</title><link>https://costales.github.io/posts/how-do-i-completely-remove-one-ubuntu/</link><pubDate>Sat, 05 Apr 2014 10:02:00 +0200</pubDate><guid>https://costales.github.io/posts/how-do-i-completely-remove-one-ubuntu/</guid><description>I'll miss Ubuntu One. It was my unique cloud client. But it's time to move forward and if you have the Ubuntu One client installed you can remove with these commands (source):
 sudo killall ubuntuone-login ubuntuone-preferences ubuntuone-syncdaemon mv ~/Ubuntu\ One/ ~/UbuntuOld rm -rf ~/.local/share/ubuntuone/ rm -rf ~/.cache/ubuntuone/ rm -rf ~/.config/ubuntu/ rm -rf ~/.config/ubuntuone/ sudo apt-get purge ubuntuone-* python-ubuntuone-storage* -y
-RIP u1! FYI some alternatives with Ubuntu clients: Dropbox, Copy, Wuala, Bitcasa, Hubic or your Owncloud.</description>
-    </item>
-    
-    <item>
-      <title>Vitamine Ubuntu One!</title>
-      <link>https://costales.github.io/posts/vitamine-ubuntu-one/</link>
-      <pubDate>Fri, 04 May 2012 16:47:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/vitamine-ubuntu-one/</guid>
-      <description>I really like this project, but Ubuntu One never worked fine for me :( With Ubuntu 12.04 I did a fresh install&amp;hellip; but Ubuntu One didn&#39;t upload my music (~130MB) in 15 hours! Something is wrong :(
+RIP u1! FYI some alternatives with Ubuntu clients: Dropbox, Copy, Wuala, Bitcasa, Hubic or your Owncloud.</description></item><item><title>Vitamine Ubuntu One!</title><link>https://costales.github.io/posts/vitamine-ubuntu-one/</link><pubDate>Fri, 04 May 2012 16:47:00 +0200</pubDate><guid>https://costales.github.io/posts/vitamine-ubuntu-one/</guid><description>I really like this project, but Ubuntu One never worked fine for me :( With Ubuntu 12.04 I did a fresh install&amp;hellip; but Ubuntu One didn't upload my music (~130MB) in 15 hours! Something is wrong :(
 I saw that Ubuntu One try to upload 10 files simultaneously and in some moment u1 stopped the uploads:
 u1sdtool --current-transfers
 I changed some configuration values:
-simult_transfers.default = 10 write_limit.default = 2097152 read_limit.default = 2097152</description>
-    </item>
-    
-  </channel>
-</rss>
+simult_transfers.default = 10 write_limit.default = 2097152 read_limit.default = 2097152</description></item></channel></rss>

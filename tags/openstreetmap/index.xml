@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>openstreetmap on Marcos Costales</title>
-    <link>https://costales.github.io/tags/openstreetmap/</link>
-    <description>Recent content in openstreetmap on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jul 2016 17:04:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/openstreetmap/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Your OpenStreetMap server in 120GB</title>
-      <link>https://costales.github.io/posts/your-openstreetmap-server-in-120gb/</link>
-      <pubDate>Fri, 15 Jul 2016 17:04:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/your-openstreetmap-server-in-120gb/</guid>
-      <description>1. Install Ubuntu 14.04 server.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>openstreetmap on Marcos Costales</title><link>https://costales.github.io/tags/openstreetmap/</link><description>Recent content in openstreetmap on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 15 Jul 2016 17:04:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/openstreetmap/index.xml" rel="self" type="application/rss+xml"/><item><title>Your OpenStreetMap server in 120GB</title><link>https://costales.github.io/posts/your-openstreetmap-server-in-120gb/</link><pubDate>Fri, 15 Jul 2016 17:04:00 +0200</pubDate><guid>https://costales.github.io/posts/your-openstreetmap-server-in-120gb/</guid><description>1. Install Ubuntu 14.04 server.
 Remember to enable the firewall:
 costales@maps:~$ sudo ufw allow http
 costales@maps:~$ sudo ufw allow ssh
@@ -32,8 +13,4 @@ LANGUAGE=en_US.UTF-8
 costales@maps:~$
 3. Install the server from a PPA:
 sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:kakrueger/openstreetmap</description>
-    </item>
-    
-  </channel>
-</rss>
+sudo add-apt-repository ppa:kakrueger/openstreetmap</description></item></channel></rss>

@@ -1,24 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>owncloud on Marcos Costales</title>
-    <link>https://costales.github.io/tags/owncloud/</link>
-    <description>Recent content in owncloud on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 29 Nov 2013 18:29:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/owncloud/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Install OwnCloud in your Cubieboard with Ubuntu</title>
-      <link>https://costales.github.io/posts/install-owncloud-in-your-cubieboard/</link>
-      <pubDate>Fri, 29 Nov 2013 18:29:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/install-owncloud-in-your-cubieboard/</guid>
-      <description>Do you have your Ubuntu installed into your CubieBoard?
-Run this command in a Terminal (it&#39;ll be as for your mySQL password):
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>owncloud on Marcos Costales</title><link>https://costales.github.io/tags/owncloud/</link><description>Recent content in owncloud on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 29 Nov 2013 18:29:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/owncloud/index.xml" rel="self" type="application/rss+xml"/><item><title>Install OwnCloud in your Cubieboard with Ubuntu</title><link>https://costales.github.io/posts/install-owncloud-in-your-cubieboard/</link><pubDate>Fri, 29 Nov 2013 18:29:00 +0100</pubDate><guid>https://costales.github.io/posts/install-owncloud-in-your-cubieboard/</guid><description>Do you have your Ubuntu installed into your CubieBoard?
+Run this command in a Terminal (it'll be as for your mySQL password):
 sudo apt-get install owncloud davfs2 mysql-server
 Create a database in mySQL:
 https://your-domain/phpmyadmin
@@ -31,8 +12,4 @@ a2ensite default-ssl
 sudo a2ensite default-ssl
 Visit your domain as:
 https://your-domain/owncloud
-or (better with https)</description>
-    </item>
-    
-  </channel>
-</rss>
+or (better with https)</description></item></channel></rss>

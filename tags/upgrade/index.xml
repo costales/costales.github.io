@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>upgrade on Marcos Costales</title>
-    <link>https://costales.github.io/tags/upgrade/</link>
-    <description>Recent content in upgrade on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 11 Dec 2011 11:35:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Actualizar entre versiones de Ubuntu en 10 minutos</title>
-      <link>https://costales.github.io/posts/actualizar-entre-versiones-de-ubuntu-en/</link>
-      <pubDate>Sun, 11 Dec 2011 11:35:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/actualizar-entre-versiones-de-ubuntu-en/</guid>
-      <description>Para mi las actualizaciones entre versiones de Ubuntu son siempre engorrosas debido a lo mucho que tardan en descargar e instalar, Ubuntu no queda igual de fluido como si fuese una instalación nueva (seguramente por ficheros de configuración obsoletos de las aplicaciones), debes instalar entre versión y versión no pudiendo saltar por ejemplo de la 10.10 a la 11.10&amp;hellip;
-Mi pequeño truco para actualizar Ubuntu en 10&amp;rsquo; y disponer una instalación limpia sin perder mis documentos es el siguiente:</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>upgrade on Marcos Costales</title><link>https://costales.github.io/tags/upgrade/</link><description>Recent content in upgrade on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2011 11:35:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/upgrade/index.xml" rel="self" type="application/rss+xml"/><item><title>Actualizar entre versiones de Ubuntu en 10 minutos</title><link>https://costales.github.io/posts/actualizar-entre-versiones-de-ubuntu-en/</link><pubDate>Sun, 11 Dec 2011 11:35:00 +0100</pubDate><guid>https://costales.github.io/posts/actualizar-entre-versiones-de-ubuntu-en/</guid><description>Para mi las actualizaciones entre versiones de Ubuntu son siempre engorrosas debido a lo mucho que tardan en descargar e instalar, Ubuntu no queda igual de fluido como si fuese una instalación nueva (seguramente por ficheros de configuración obsoletos de las aplicaciones), debes instalar entre versión y versión no pudiendo saltar por ejemplo de la 10.10 a la 11.10&amp;hellip;
+Mi pequeño truco para actualizar Ubuntu en 10&amp;rsquo; y disponer una instalación limpia sin perder mis documentos es el siguiente:</description></item></channel></rss>

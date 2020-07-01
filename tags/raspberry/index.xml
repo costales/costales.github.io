@@ -1,117 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>raspberry on Marcos Costales</title>
-    <link>https://costales.github.io/tags/raspberry/</link>
-    <description>Recent content in raspberry on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 04 Feb 2020 20:28:40 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/raspberry/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Mount SD Raspberry partition in your PC</title>
-      <link>https://costales.github.io/posts/mount-dd-raspberry-partition/</link>
-      <pubDate>Tue, 04 Feb 2020 20:28:40 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/mount-dd-raspberry-partition/</guid>
-      <description>You create a copy of your Raspberry SD card with a command like this:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>raspberry on Marcos Costales</title><link>https://costales.github.io/tags/raspberry/</link><description>Recent content in raspberry on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 04 Feb 2020 20:28:40 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/raspberry/index.xml" rel="self" type="application/rss+xml"/><item><title>Mount SD Raspberry partition in your PC</title><link>https://costales.github.io/posts/mount-dd-raspberry-partition/</link><pubDate>Tue, 04 Feb 2020 20:28:40 +0100</pubDate><guid>https://costales.github.io/posts/mount-dd-raspberry-partition/</guid><description>You create a copy of your Raspberry SD card with a command like this:
 sudo dd if=/dev/mmcblk0 of=raspbian.dd bs=4M status=progress; sync
-Then, if you want to mount that file raspbian.dd in your PC, you can do. First you need to know where it&#39;s the offset of the desire partition, it with this commands:
-# fdisk -l raspbian.dd Disk raspbian9.dd: 14.9 GiB, 15931539456 bytes, 31116288 sectors Units: sectors of 1 * 512 = 512 bytes Sector size (logical/physical): 512 bytes / 512 bytes I/O size (minimum/optimal): 512 bytes / 512 bytes Disklabel type: dos Disk identifier: 0xf80de80b Device Boot Start End Sectors Size Id Type raspbian9.</description>
-    </item>
-    
-    <item>
-      <title>Raspberry PI: Backup SD card with dd command under Linux</title>
-      <link>https://costales.github.io/posts/raspberry-pi-backup-sd-card-with-dd/</link>
-      <pubDate>Sat, 07 Jun 2014 08:40:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/raspberry-pi-backup-sd-card-with-dd/</guid>
-      <description>First, know your partitions:
+Then, if you want to mount that file raspbian.dd in your PC, you can do. First you need to know where it's the offset of the desire partition, it with this commands:
+# fdisk -l raspbian.dd Disk raspbian9.dd: 14.9 GiB, 15931539456 bytes, 31116288 sectors Units: sectors of 1 * 512 = 512 bytes Sector size (logical/physical): 512 bytes / 512 bytes I/O size (minimum/optimal): 512 bytes / 512 bytes Disklabel type: dos Disk identifier: 0xf80de80b Device Boot Start End Sectors Size Id Type raspbian9.</description></item><item><title>Raspberry PI: Backup SD card with dd command under Linux</title><link>https://costales.github.io/posts/raspberry-pi-backup-sd-card-with-dd/</link><pubDate>Sat, 07 Jun 2014 08:40:00 +0200</pubDate><guid>https://costales.github.io/posts/raspberry-pi-backup-sd-card-with-dd/</guid><description>First, know your partitions:
 fdisk -l
 Full backup of the image:
 dd if=/dev/sdx of=/path/to/image ```or for compression (recommended): dd if=/dev/sdx | gzip &amp;gt; /path/to/image.gz
- To restore the backup you reverse the commands:``` dd if=/path/to/image of=/dev/sdx ```or when compressed: gzip -dc /path/to/image.gz | dd of=/dev/sdx
- The info is from [here](https://raspberrypi.stackexchange.com/a/312). </description>
-    </item>
-    
-    <item>
-      <title>Migrating home server from Raspberry PI to CubieBoard with Ubuntu</title>
-      <link>https://costales.github.io/posts/migrating-home-server-from-raspberry-pi/</link>
-      <pubDate>Fri, 22 Nov 2013 20:57:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/migrating-home-server-from-raspberry-pi/</guid>
-      <description>I have 2 Raspberry PI, they are great, but I missed Ubuntu on them. Now I get a CubieBoard.
+To restore the backup you reverse the commands:``` dd if=/path/to/image of=/dev/sdx ```or when compressed: gzip -dc /path/to/image.gz | dd of=/dev/sdx
+The info is from [here](https://raspberrypi.stackexchange.com/a/312).</description></item><item><title>Migrating home server from Raspberry PI to CubieBoard with Ubuntu</title><link>https://costales.github.io/posts/migrating-home-server-from-raspberry-pi/</link><pubDate>Fri, 22 Nov 2013 20:57:00 +0100</pubDate><guid>https://costales.github.io/posts/migrating-home-server-from-raspberry-pi/</guid><description>I have 2 Raspberry PI, they are great, but I missed Ubuntu on them. Now I get a CubieBoard.
 CubieBoard CONS:
- Price (Cubie ~49$ vs Raspberry ~25$) Less community/hacking  CubieBoard PROS:
- Faster CPU (300Mhz more) Double RAM (1GB DDR3) Integrated port for a SATA hard disk (With a SATA disk use charger like Nexus 7. Without SATA disk, you can power it with a normal miniUSB by example from your router.</description>
-    </item>
-    
-    <item>
-      <title>A Teeworlds dedicated server with Ubuntu and autostart on boot</title>
-      <link>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</link>
-      <pubDate>Tue, 12 Nov 2013 18:27:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</guid>
-      <description>I installed it in Xubuntu 12.04 and in a Raspberry PI with Raspbian/Debian.
-You&#39;ll not need to use &amp;lsquo;screen&amp;rsquo; and Teeworlds will be a service in the system.
-Let&#39;s go!
+Price (Cubie ~49$ vs Raspberry ~25$) Less community/hacking CubieBoard PROS:
+Faster CPU (300Mhz more) Double RAM (1GB DDR3) Integrated port for a SATA hard disk (With a SATA disk use charger like Nexus 7. Without SATA disk, you can power it with a normal miniUSB by example from your router.</description></item><item><title>A Teeworlds dedicated server with Ubuntu and autostart on boot</title><link>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</link><pubDate>Tue, 12 Nov 2013 18:27:00 +0100</pubDate><guid>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</guid><description>I installed it in Xubuntu 12.04 and in a Raspberry PI with Raspbian/Debian.
+You'll not need to use &amp;lsquo;screen&amp;rsquo; and Teeworlds will be a service in the system.
+Let's go!
 Install teeworlds:
 sudo apt-get install teeworlds teeworlds-server Create directory and set the firewall:
 sudo mkdir -p /var/games/teeworlds sudo ufw allow 8303 Create the Teeworlds config file:
 sudo vi /var/games/teeworlds/teeworlds\_srv.cfg Paste these lines, by example:
-sv\_name Ubuntu Teeworlds Server sv\_motd Welcome! sv\_gametype ctf sv\_warmup 0 sv\_map ctf1 sv\_max\_clients 12 sv\_scorelimit 1000 sv\_rcon\_password your\_password\_here sv\_timelimit 20 sv\_port 8303 sv\_external\_port 8303 sv\_max\_clients 12 sv\_tournament\_mode 0 sv\_teamdamage 0 sv\_powerups 1 logfile /var/log/teeworlds-server.</description>
-    </item>
-    
-    <item>
-      <title>Instalar unrar-nonfree - Configurando Raspberry 14</title>
-      <link>https://costales.github.io/posts/instalar-unrar-nonfree-configurando/</link>
-      <pubDate>Tue, 05 Nov 2013 21:30:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/instalar-unrar-nonfree-configurando/</guid>
-      <description>En /etc/apt/sources.list añadimos los fuentes:
+sv\_name Ubuntu Teeworlds Server sv\_motd Welcome! sv\_gametype ctf sv\_warmup 0 sv\_map ctf1 sv\_max\_clients 12 sv\_scorelimit 1000 sv\_rcon\_password your\_password\_here sv\_timelimit 20 sv\_port 8303 sv\_external\_port 8303 sv\_max\_clients 12 sv\_tournament\_mode 0 sv\_teamdamage 0 sv\_powerups 1 logfile /var/log/teeworlds-server.</description></item><item><title>Instalar unrar-nonfree - Configurando Raspberry 14</title><link>https://costales.github.io/posts/instalar-unrar-nonfree-configurando/</link><pubDate>Tue, 05 Nov 2013 21:30:00 +0100</pubDate><guid>https://costales.github.io/posts/instalar-unrar-nonfree-configurando/</guid><description>En /etc/apt/sources.list añadimos los fuentes:
 deb https://mirrordirector.raspbian.org/raspbian/ wheezy main contrib non-free rpi deb-src https://mirrordirector.raspbian.org/raspbian/ wheezy main contrib non-free rpi
 Ejecutamos:
-sudo apt-get update `sudo apt-get build-dep unrar-nonfree sudo apt-get source -b unrar-nonfree` 
-Fuente.</description>
-    </item>
-    
-    <item>
-      <title>Autobackups - Configurando Raspberry 13</title>
-      <link>https://costales.github.io/posts/autobackups-configurando-raspberry-13/</link>
-      <pubDate>Tue, 05 Nov 2013 21:00:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/autobackups-configurando-raspberry-13/</guid>
-      <description>Creamos un directorio backup en el que copiaremos de nuestro home a nuestro disco duro externo:
+sudo apt-get update `sudo apt-get build-dep unrar-nonfree sudo apt-get source -b unrar-nonfree`
+Fuente.</description></item><item><title>Autobackups - Configurando Raspberry 13</title><link>https://costales.github.io/posts/autobackups-configurando-raspberry-13/</link><pubDate>Tue, 05 Nov 2013 21:00:00 +0100</pubDate><guid>https://costales.github.io/posts/autobackups-configurando-raspberry-13/</guid><description>Creamos un directorio backup en el que copiaremos de nuestro home a nuestro disco duro externo:
 mkdir /media/path/backup
 y en nuestro home creamos este fichero:
 mkdir ~/scripts cd ~/scripts vi run_backup.sh
 ``&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-
 #!/bin/bash
 fecha has a formated date fecha=date +&amp;quot;%d-%m-%Y&amp;quot;
-Backup and gzip the directory tar zcvf  /media/path/backup/copia-$fecha.tgz /home/path_a_copiar
+Backup and gzip the directory tar zcvf /media/path/backup/copia-$fecha.tgz /home/path_a_copiar
 Rotate the logs, delete older than 7 days find``` /media/path/backup/ `` -mtime +15 -exec rm chmod +x run_backup.sh```
-Y lo añadimos a la contrab para que se ejecute cada sábado a las 6:25 la madrugada:</description>
-    </item>
-    
-    <item>
-      <title>Backup de todo un sistema en USB - Configurando Raspberry 12</title>
-      <link>https://costales.github.io/posts/backup-de-todo-un-sistema-en-usb/</link>
-      <pubDate>Sat, 26 Oct 2013 16:04:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/backup-de-todo-un-sistema-en-usb/</guid>
-      <description>Si tenemos la Raspberry ya configurada, es muy interesante poder guardar su estado actual. Hay herramientas en Ubuntu como BackInTime o Déjà Dup. Incluso con Win32DiskImager o el comando dd podríamos hacer una copia de la partición en formato .img. Pero a veces tenemos que restaurarlas en una partición exactamente igual de grande. Así que vamos a hacerlo a la brava, copiar a un fichero todo el raíz de Raspbian desde nuestro Ubuntu.</description>
-    </item>
-    
-    <item>
-      <title>Instalar pyload - Configurando Raspberry 11</title>
-      <link>https://costales.github.io/posts/instalar-pyload-configurando-raspberry/</link>
-      <pubDate>Wed, 23 Oct 2013 19:12:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/instalar-pyload-configurando-raspberry/</guid>
-      <description>Añadimos librerías necesarias:
+Y lo añadimos a la contrab para que se ejecute cada sábado a las 6:25 la madrugada:</description></item><item><title>Backup de todo un sistema en USB - Configurando Raspberry 12</title><link>https://costales.github.io/posts/backup-de-todo-un-sistema-en-usb/</link><pubDate>Sat, 26 Oct 2013 16:04:00 +0200</pubDate><guid>https://costales.github.io/posts/backup-de-todo-un-sistema-en-usb/</guid><description>Si tenemos la Raspberry ya configurada, es muy interesante poder guardar su estado actual. Hay herramientas en Ubuntu como BackInTime o Déjà Dup. Incluso con Win32DiskImager o el comando dd podríamos hacer una copia de la partición en formato .img. Pero a veces tenemos que restaurarlas en una partición exactamente igual de grande. Así que vamos a hacerlo a la brava, copiar a un fichero todo el raíz de Raspbian desde nuestro Ubuntu.</description></item><item><title>Instalar pyload - Configurando Raspberry 11</title><link>https://costales.github.io/posts/instalar-pyload-configurando-raspberry/</link><pubDate>Wed, 23 Oct 2013 19:12:00 +0200</pubDate><guid>https://costales.github.io/posts/instalar-pyload-configurando-raspberry/</guid><description>Añadimos librerías necesarias:
 sudo apt-get install liblept3 python python-crypto python-pycurl python-imaging tesseract-ocr spidermonkey-bin zip unzip python-openssl 
 Descargamos la última versión (la &amp;ldquo;cli&amp;rdquo;) para Debian:
 https://pyload.org/download
@@ -121,16 +39,7 @@ Vamos a ejecutar el asistente de instalación:
 cd /usr/share/pyload ./pyLoadCore.py
 Nos advertirá que falta esta librería. Como no queremos la versión gráfica, sólamente queremos la versión web, no la instalamos:
 PyQt4: missing
-Arrancamos el demonio:</description>
-    </item>
-    
-    <item>
-      <title>Optimar Raspberry PI - Configurando Raspberry 10</title>
-      <link>https://costales.github.io/posts/optimar-raspberry-pi-configurando/</link>
-      <pubDate>Tue, 22 Oct 2013 21:17:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/optimar-raspberry-pi-configurando/</guid>
-      <description>Desactivamos las shells extra Para ello (para ubuntu seguir estos pasos):
+Arrancamos el demonio:</description></item><item><title>Optimar Raspberry PI - Configurando Raspberry 10</title><link>https://costales.github.io/posts/optimar-raspberry-pi-configurando/</link><pubDate>Tue, 22 Oct 2013 21:17:00 +0200</pubDate><guid>https://costales.github.io/posts/optimar-raspberry-pi-configurando/</guid><description>Desactivamos las shells extra Para ello (para ubuntu seguir estos pasos):
 sudo vi /etc/inittab
 Comentando de la 2 a la 6:
 1:2345:respawn:/sbin/getty --noclear 38400 tty1 #2:23:respawn:/sbin/getty 38400 tty2 #3:23:respawn:/sbin/getty 38400 tty3 #4:23:respawn:/sbin/getty 38400 tty4 #5:23:respawn:/sbin/getty 38400 tty5 #6:23:respawn:/sbin/getty 38400 tty6
@@ -139,16 +48,7 @@ sudo apt-get install ufw sudo ufw allow ssh sudo ufw allow http
 sudo ufw allow 51413
 sudo ufw allow 9091
 sudo ufw enable
-Desactivar acceso root por ssh, establenciendo:</description>
-    </item>
-    
-    <item>
-      <title>Servidor impresión. Configurando Raspberry PI 9</title>
-      <link>https://costales.github.io/posts/servidor-impresion-configurando/</link>
-      <pubDate>Tue, 22 Oct 2013 21:17:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/servidor-impresion-configurando/</guid>
-      <description>Instalamos servidor:
+Desactivar acceso root por ssh, establenciendo:</description></item><item><title>Servidor impresión. Configurando Raspberry PI 9</title><link>https://costales.github.io/posts/servidor-impresion-configurando/</link><pubDate>Tue, 22 Oct 2013 21:17:00 +0200</pubDate><guid>https://costales.github.io/posts/servidor-impresion-configurando/</guid><description>Instalamos servidor:
 sudo apt-get install cups
 Damos permisos para usar cups:
 sudo usermod -a -G lpadmin tu_usuario
@@ -167,8 +67,4 @@ Restrict access to configuration files&amp;hellip; &amp;lt;location /admin/conf&
 AuthType Default
 Require user @SYSTEM
 Allow 192.168.1.*
-Order allow,deny</description>
-    </item>
-    
-  </channel>
-</rss>
+Order allow,deny</description></item></channel></rss>

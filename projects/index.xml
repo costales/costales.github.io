@@ -1,74 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on Marcos Costales</title>
-    <link>https://costales.github.io/projects/</link>
-    <description>Recent content in Projects on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://costales.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>aNoise</title>
-      <link>https://costales.github.io/projects/anoise/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://costales.github.io/projects/anoise/</guid>
-      <description>A minimal noises player It allows you to focus on your productivity! Create your ambient in an easy way!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Marcos Costales</title><link>https://costales.github.io/projects/</link><description>Recent content in Projects on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://costales.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>aNoise</title><link>https://costales.github.io/projects/anoise/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://costales.github.io/projects/anoise/</guid><description>A minimal noises player It allows you to focus on your productivity! Create your ambient in an easy way!
 Just open the Ubuntu sound indicator and choose your noise:
 Coffee Shop | Fire | Forest | Night | Rain | Sea | Storm | Wind
 And more! With all these by default:
- Community Noises Dynamic noise folders Offline Sleep timer Autostart Lightweigh (RAM usage = ~132KiB)!  How to install Anoise Run these commands into the Terminal:</description>
-    </item>
-    
-    <item>
-      <title>Folder Color</title>
-      <link>https://costales.github.io/projects/folder-color/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://costales.github.io/projects/folder-color/</guid>
-      <description>Choose the color or emblem of a folder! Useful, easy &amp;amp; beautiful Stay focused on work and change the color of a folder with just a right click!
+Community Noises Dynamic noise folders Offline Sleep timer Autostart Lightweigh (RAM usage = ~132KiB)! How to install Anoise Run these commands into the Terminal:</description></item><item><title>Folder Color</title><link>https://costales.github.io/projects/folder-color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://costales.github.io/projects/folder-color/</guid><description>Choose the color or emblem of a folder! Useful, easy &amp;amp; beautiful Stay focused on work and change the color of a folder with just a right click!
 Custom Themes Use your favorite theme, the icons will change with the theme!
-Supported themes         Numix      Papirus      Vibrancy Colors      Vivacious Colors       Are you an art creator?</description>
-    </item>
-    
-    <item>
-      <title>Gufw Firewall</title>
-      <link>https://costales.github.io/projects/gufw/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://costales.github.io/projects/gufw/</guid>
-      <description>One of the easiest firewalls in the world! Usability &amp;amp; Design Because a extremely powerful and complex tool like a firewall need not be at odds with the design.
+Supported themes Numix Papirus Vibrancy Colors Vivacious Colors Are you an art creator?</description></item><item><title>Gufw Firewall</title><link>https://costales.github.io/projects/gufw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://costales.github.io/projects/gufw/</guid><description>One of the easiest firewalls in the world! Usability &amp;amp; Design Because a extremely powerful and complex tool like a firewall need not be at odds with the design.
 Simple Or Advanced? Your Choice. Gufw is created with the goal of being an intuitive and a simple user-friend application!
- Installer | Code | Translations | Issues
- Support Gufw took a lot of work and dedication from my spare time over the years.</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://costales.github.io/projects/all/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://costales.github.io/projects/all/</guid>
-      <description>These are my main projects:
-             Gufw Firewall Folder Color       uNav GPS Navigator aNoise Player    I developed a few other projects too:
-         uWriter An offline word processor for Ubuntu Touch   PYLang An application for practicing languages by random sentences   Déjà Dup for Caja A backup menu for Caja file browser, preinstalled in Ubuntu MATE   Simple News A PHP CodeIgniter library for news page   Simple Login A PHP CodeIgniter library for login page    All of my projects are under GPL license.</description>
-    </item>
-    
-    <item>
-      <title>uNav</title>
-      <link>https://costales.github.io/projects/unav/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://costales.github.io/projects/unav/</guid>
-      <description>A GPS navigator for Ubuntu Touch Freedom 100% libre and 100% based in libre projects. Powered by OpenStreetMap &amp;amp; Mapzen, works in any country.
-Privacy uNav doesn&#39;t track you, uNav respects you.
+Installer | Code | Translations | Issues
+Support Gufw took a lot of work and dedication from my spare time over the years.</description></item><item><title>Projects</title><link>https://costales.github.io/projects/all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://costales.github.io/projects/all/</guid><description>These are my main projects:
+Gufw Firewall Folder Color uNav GPS Navigator aNoise Player I developed a few other projects too:
+uWriter An offline word processor for Ubuntu Touch PYLang An application for practicing languages by random sentences Déjà Dup for Caja A backup menu for Caja file browser, preinstalled in Ubuntu MATE Simple News A PHP CodeIgniter library for news page Simple Login A PHP CodeIgniter library for login page All of my projects are under GPL license.</description></item><item><title>uNav</title><link>https://costales.github.io/projects/unav/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://costales.github.io/projects/unav/</guid><description>A GPS navigator for Ubuntu Touch Freedom 100% libre and 100% based in libre projects. Powered by OpenStreetMap &amp;amp; Mapzen, works in any country.
+Privacy uNav doesn't track you, uNav respects you.
 Easy Focused in simplicity, everything will be intuitive and in the esiest way.
 Useful Enjoy your travels thanks to the Nearby feature. Search POIs nearest to your position or in destination.
-Social Share places by Dekko, Telegram, SMS, Twitter, Facebook&amp;hellip; even to people who don&#39;t have an Ubuntu Device.</description>
-    </item>
-    
-  </channel>
-</rss>
+Social Share places by Dekko, Telegram, SMS, Twitter, Facebook&amp;hellip; even to people who don't have an Ubuntu Device.</description></item></channel></rss>

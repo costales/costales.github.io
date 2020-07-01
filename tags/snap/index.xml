@@ -1,55 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>snap on Marcos Costales</title>
-    <link>https://costales.github.io/tags/snap/</link>
-    <description>Recent content in snap on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 14 Sep 2017 19:17:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/snap/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Píldora snap: Crea una aplicación snap en 5 minutos</title>
-      <link>https://costales.github.io/posts/pildora-snap-crea-una-aplicacion-snap/</link>
-      <pubDate>Thu, 14 Sep 2017 19:17:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/pildora-snap-crea-una-aplicacion-snap/</guid>
-      <description>En sólo 5 minutos vas a empaquetar tu primera aplicación snap. ¡Más fácil, imposible!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>snap on Marcos Costales</title><link>https://costales.github.io/tags/snap/</link><description>Recent content in snap on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 14 Sep 2017 19:17:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/snap/index.xml" rel="self" type="application/rss+xml"/><item><title>Píldora snap: Crea una aplicación snap en 5 minutos</title><link>https://costales.github.io/posts/pildora-snap-crea-una-aplicacion-snap/</link><pubDate>Thu, 14 Sep 2017 19:17:00 +0200</pubDate><guid>https://costales.github.io/posts/pildora-snap-crea-una-aplicacion-snap/</guid><description>En sólo 5 minutos vas a empaquetar tu primera aplicación snap. ¡Más fácil, imposible!
 ¿Aceptas el reto? ;) ¡Adelante!
-
 vídeo tutorial
 Basado en la conferencia de Alan Pope y Martin Wimpress de la 2ª Ubucon Europea:
-
-snap! snap! snap!</description>
-    </item>
-    
-    <item>
-      <title>How config a wekan snap</title>
-      <link>https://costales.github.io/posts/how-config-wekan-snap/</link>
-      <pubDate>Wed, 24 May 2017 19:30:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/how-config-wekan-snap/</guid>
-      <description>If you install the snap version of Wekan, probably you&#39;ll need to setup it for your IP and port. Just follow these steps:
+snap! snap! snap!</description></item><item><title>How config a wekan snap</title><link>https://costales.github.io/posts/how-config-wekan-snap/</link><pubDate>Wed, 24 May 2017 19:30:00 +0200</pubDate><guid>https://costales.github.io/posts/how-config-wekan-snap/</guid><description>If you install the snap version of Wekan, probably you'll need to setup it for your IP and port. Just follow these steps:
 costales@ubuntu:~$ sudo snap set wekan-ondra root-url=&amp;rdquo;https://&amp;lt;your_ip&amp;gt;:&amp;lt;your_port&amp;gt;&amp;rdquo;
 costales@ubuntu:~$ sudo snap set wekan-ondra port=&amp;rdquo;&amp;lt;your_port&amp;gt;&amp;rdquo;
 costales@ubuntu:~$ sudo systemctl restart snap.wekan-ondra.wekan
-If it&#39;s not working, probably you&#39;ll use the mongodb port for another app, then, change it too:
+If it's not working, probably you'll use the mongodb port for another app, then, change it too:
 costales@ubuntu:~$ sudosnap set wekan-ondra mongodb-port=27019
-costales@ubuntu:~$ sudo snap disable wekan-ondra &amp;amp;&amp;amp; snap enable wekan-ondra</description>
-    </item>
-    
-    <item>
-      <title>How to revert to a previous version of a snap package? wekan in this case</title>
-      <link>https://costales.github.io/posts/how-to-revert-to-previous-version-of/</link>
-      <pubDate>Wed, 08 Mar 2017 20:19:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/how-to-revert-to-previous-version-of/</guid>
-      <description>The snap packages are awesome for me:
- Simple. Isolated. So easy installation of complex software, like Wekan. Libraries included. Autoupdates: Install &amp;amp; forget it.  If a future update crashs, it will revert that update even! But this morning Wekan didn&#39;t work because of a bug. The update didn&#39;t crash because wekan really works, but you can&#39;t open a card, then I need to revert it. What could I do?</description>
-    </item>
-    
-  </channel>
-</rss>
+costales@ubuntu:~$ sudo snap disable wekan-ondra &amp;amp;&amp;amp; snap enable wekan-ondra</description></item><item><title>How to revert to a previous version of a snap package? wekan in this case</title><link>https://costales.github.io/posts/how-to-revert-to-previous-version-of/</link><pubDate>Wed, 08 Mar 2017 20:19:00 +0100</pubDate><guid>https://costales.github.io/posts/how-to-revert-to-previous-version-of/</guid><description>The snap packages are awesome for me:
+Simple. Isolated. So easy installation of complex software, like Wekan. Libraries included. Autoupdates: Install &amp;amp; forget it. If a future update crashs, it will revert that update even! But this morning Wekan didn't work because of a bug. The update didn't crash because wekan really works, but you can't open a card, then I need to revert it. What could I do?</description></item></channel></rss>

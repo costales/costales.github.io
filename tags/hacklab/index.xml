@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>hacklab on Marcos Costales</title>
-    <link>https://costales.github.io/tags/hacklab/</link>
-    <description>Recent content in hacklab on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 16 Dec 2015 22:58:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/hacklab/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>II HackLab Almería en El Ejido &#43; Ubuntu &amp; Beer en Granada por OSL - UGR</title>
-      <link>https://costales.github.io/posts/ii-hacklab-almeria-en-el-ejido-ubuntu/</link>
-      <pubDate>Wed, 16 Dec 2015 22:58:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/ii-hacklab-almeria-en-el-ejido-ubuntu/</guid>
-      <description>Esta semana he disfrutado intensamente de un par de eventos sobre software y cultura libre en Andalucía.
-Del 11 al 13 de este mes, en El Ejido, se celebró el II HackLab Almería. Ahí pude hacer amistad con compañeros extraordinarios como JJ, Rubén, Miguel, Gonzalo [un abrazo muy fuerte por las 6 horas en coche que te zampaste ;)] José María, Ismael, Adolfo y otros tantos muchos con los que aprendí de Arduino, de técnicas de programación, de criptografía, de escaneo e impresión 3D&amp;hellip; y un largo etcétera, entre las cuales estaba un taller de aplicaciones para Ubuntu Phone |o/</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hacklab on Marcos Costales</title><link>https://costales.github.io/tags/hacklab/</link><description>Recent content in hacklab on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 16 Dec 2015 22:58:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/hacklab/index.xml" rel="self" type="application/rss+xml"/><item><title>II HackLab Almería en El Ejido + Ubuntu &amp; Beer en Granada por OSL - UGR</title><link>https://costales.github.io/posts/ii-hacklab-almeria-en-el-ejido-ubuntu/</link><pubDate>Wed, 16 Dec 2015 22:58:00 +0100</pubDate><guid>https://costales.github.io/posts/ii-hacklab-almeria-en-el-ejido-ubuntu/</guid><description>Esta semana he disfrutado intensamente de un par de eventos sobre software y cultura libre en Andalucía.
+Del 11 al 13 de este mes, en El Ejido, se celebró el II HackLab Almería. Ahí pude hacer amistad con compañeros extraordinarios como JJ, Rubén, Miguel, Gonzalo [un abrazo muy fuerte por las 6 horas en coche que te zampaste ;)] José María, Ismael, Adolfo y otros tantos muchos con los que aprendí de Arduino, de técnicas de programación, de criptografía, de escaneo e impresión 3D&amp;hellip; y un largo etcétera, entre las cuales estaba un taller de aplicaciones para Ubuntu Phone |o/</description></item></channel></rss>

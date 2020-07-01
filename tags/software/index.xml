@@ -1,118 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>software on Marcos Costales</title>
-    <link>https://costales.github.io/tags/software/</link>
-    <description>Recent content in software on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 08 Mar 2017 20:19:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>How to revert to a previous version of a snap package? wekan in this case</title>
-      <link>https://costales.github.io/posts/how-to-revert-to-previous-version-of/</link>
-      <pubDate>Wed, 08 Mar 2017 20:19:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/how-to-revert-to-previous-version-of/</guid>
-      <description>The snap packages are awesome for me:
- Simple. Isolated. So easy installation of complex software, like Wekan. Libraries included. Autoupdates: Install &amp;amp; forget it.  If a future update crashs, it will revert that update even! But this morning Wekan didn&#39;t work because of a bug. The update didn&#39;t crash because wekan really works, but you can&#39;t open a card, then I need to revert it. What could I do?</description>
-    </item>
-    
-    <item>
-      <title>Instalar fichero .click en Ubuntu Phone</title>
-      <link>https://costales.github.io/posts/instalar-fichero-click-en-ubuntu-phone/</link>
-      <pubDate>Tue, 02 Jun 2015 19:24:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/instalar-fichero-click-en-ubuntu-phone/</guid>
-      <description>Ejecuta en la Terminal del móvil:
-pkcon install-local --allow-untrusted fichero.click</description>
-    </item>
-    
-    <item>
-      <title>Mozilla Firefox en Ubuntu en tu idioma</title>
-      <link>https://costales.github.io/posts/instalar-la-version-oficial-de-mozilla/</link>
-      <pubDate>Sat, 02 Aug 2014 10:25:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/instalar-la-version-oficial-de-mozilla/</guid>
-      <description>Por ejemplo, en Ubuntu 14.04, Firefox no está en asturiano, quejándose de que esa lengua no está disponible para esa versión. Pero yo sé que está ;)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>software on Marcos Costales</title><link>https://costales.github.io/tags/software/</link><description>Recent content in software on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 08 Mar 2017 20:19:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/software/index.xml" rel="self" type="application/rss+xml"/><item><title>How to revert to a previous version of a snap package? wekan in this case</title><link>https://costales.github.io/posts/how-to-revert-to-previous-version-of/</link><pubDate>Wed, 08 Mar 2017 20:19:00 +0100</pubDate><guid>https://costales.github.io/posts/how-to-revert-to-previous-version-of/</guid><description>The snap packages are awesome for me:
+Simple. Isolated. So easy installation of complex software, like Wekan. Libraries included. Autoupdates: Install &amp;amp; forget it. If a future update crashs, it will revert that update even! But this morning Wekan didn't work because of a bug. The update didn't crash because wekan really works, but you can't open a card, then I need to revert it. What could I do?</description></item><item><title>Instalar fichero .click en Ubuntu Phone</title><link>https://costales.github.io/posts/instalar-fichero-click-en-ubuntu-phone/</link><pubDate>Tue, 02 Jun 2015 19:24:00 +0200</pubDate><guid>https://costales.github.io/posts/instalar-fichero-click-en-ubuntu-phone/</guid><description>Ejecuta en la Terminal del móvil:
+pkcon install-local --allow-untrusted fichero.click</description></item><item><title>Mozilla Firefox en Ubuntu en tu idioma</title><link>https://costales.github.io/posts/instalar-la-version-oficial-de-mozilla/</link><pubDate>Sat, 02 Aug 2014 10:25:00 +0200</pubDate><guid>https://costales.github.io/posts/instalar-la-version-oficial-de-mozilla/</guid><description>Por ejemplo, en Ubuntu 14.04, Firefox no está en asturiano, quejándose de que esa lengua no está disponible para esa versión. Pero yo sé que está ;)
 Instalando el paquete de idioma desde el repositorio oficial de Mozilla aparecerá en lengua asturiana. ¿Cómo lo hacemos? Ejecutando este comando en la Terminal:
-sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install firefox-locale-ast -y Hay que cambiar &amp;ldquo;-ast&amp;rdquo; por tu código de lengua ISO ;)</description>
-    </item>
-    
-    <item>
-      <title>How to connect with Cisco Anyconnect on SSL VPN on Ubuntu 14.04</title>
-      <link>https://costales.github.io/posts/conectar-en-ubuntu-por-cisco-ssl-vpn/</link>
-      <pubDate>Tue, 10 Jun 2014 20:58:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/conectar-en-ubuntu-por-cisco-ssl-vpn/</guid>
-      <description>wget https://copy.com/XiKTjtsJTXIq -O anyconnect.gz
-tar -xvzf  `anyconnect.gz` 
+sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install firefox-locale-ast -y Hay que cambiar &amp;ldquo;-ast&amp;rdquo; por tu código de lengua ISO ;)</description></item><item><title>How to connect with Cisco Anyconnect on SSL VPN on Ubuntu 14.04</title><link>https://costales.github.io/posts/conectar-en-ubuntu-por-cisco-ssl-vpn/</link><pubDate>Tue, 10 Jun 2014 20:58:00 +0200</pubDate><guid>https://costales.github.io/posts/conectar-en-ubuntu-por-cisco-ssl-vpn/</guid><description>wget https://copy.com/XiKTjtsJTXIq -O anyconnect.gz
+tar -xvzf `anyconnect.gz` 
 cd anyconnect-3.1.03103/vpn sudo ./vpn_install.sh
-Search a new menu Cisco in the Internet section (FYI: Maybe the first run it&#39;ll not connect. It connected in the second try).
-It&#39;s better try openconnect :)
-sudo apt-get install network-manager-openconnect openconnect</description>
-    </item>
-    
-    <item>
-      <title>How install SIPE (Office Communicator) with Pidgin Portable in Windows</title>
-      <link>https://costales.github.io/posts/how-install-sipe-office-communicator/</link>
-      <pubDate>Fri, 16 May 2014 18:00:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/how-install-sipe-office-communicator/</guid>
-      <description>You&#39;ll need a portable folder of Pidgin 2.10+. By example: E:\PidginPortable.
+Search a new menu Cisco in the Internet section (FYI: Maybe the first run it'll not connect. It connected in the second try).
+It's better try openconnect :)
+sudo apt-get install network-manager-openconnect openconnect</description></item><item><title>How install SIPE (Office Communicator) with Pidgin Portable in Windows</title><link>https://costales.github.io/posts/how-install-sipe-office-communicator/</link><pubDate>Fri, 16 May 2014 18:00:00 +0200</pubDate><guid>https://costales.github.io/posts/how-install-sipe-office-communicator/</guid><description>You'll need a portable folder of Pidgin 2.10+. By example: E:\PidginPortable.
 Copy all this files to that folder: E:\PidginPortable\App\Pidgin
-Manage your accounts, you&#39;ll see the new Communicator Protocol :)
-
+Manage your accounts, you'll see the new Communicator Protocol :)
 Pidgin Portable with Office Communicator in Windows
-If you are using Ubuntu, just install the pidgin-sipe package from the Ubuntu Software Center :)</description>
-    </item>
-    
-    <item>
-      <title>Install Shrew VPN client in Ubuntu 14.04 LTS</title>
-      <link>https://costales.github.io/posts/install-shrew-vpn-client-in-ubuntu-1404/</link>
-      <pubDate>Mon, 10 Feb 2014 20:08:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/install-shrew-vpn-client-in-ubuntu-1404/</guid>
-      <description>Just download this packages from their links:
+If you are using Ubuntu, just install the pidgin-sipe package from the Ubuntu Software Center :)</description></item><item><title>Install Shrew VPN client in Ubuntu 14.04 LTS</title><link>https://costales.github.io/posts/install-shrew-vpn-client-in-ubuntu-1404/</link><pubDate>Mon, 10 Feb 2014 20:08:00 +0100</pubDate><guid>https://costales.github.io/posts/install-shrew-vpn-client-in-ubuntu-1404/</guid><description>Just download this packages from their links:
 libssl0.9.8_0.9.8o-7ubuntu1_&amp;lt;your_architecture&amp;gt;.deb
 ike-qtgui_2.2.1+dfsg-2_&amp;lt;your_architecture&amp;gt;.deb
 ike_2.2.1+dfsg-2_&amp;lt;your_architecture&amp;gt;.deb
 and install with:
-sudo dpkg -i *.deb</description>
-    </item>
-    
-    <item>
-      <title>Instalar software de los repositorios de una versión antigua de Ubuntu</title>
-      <link>https://costales.github.io/posts/instalar-software-de-los-repositorios/</link>
-      <pubDate>Fri, 26 Jul 2013 16:49:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/instalar-software-de-los-repositorios/</guid>
-      <description>Si instalas una versión antigua de Ubuntu te darás cuenta que los repositorios ya no existen, con lo cual no puedes instalar.
+sudo dpkg -i *.deb</description></item><item><title>Instalar software de los repositorios de una versión antigua de Ubuntu</title><link>https://costales.github.io/posts/instalar-software-de-los-repositorios/</link><pubDate>Fri, 26 Jul 2013 16:49:00 +0200</pubDate><guid>https://costales.github.io/posts/instalar-software-de-los-repositorios/</guid><description>Si instalas una versión antigua de Ubuntu te darás cuenta que los repositorios ya no existen, con lo cual no puedes instalar.
 El truco es añadir estas líneas en el fichero /etc/apt/sources.list
 deb https://old-releases.ubuntu.com/ubuntu/ CODENAME main restricted universe multiverse deb https://old-releases.ubuntu.com/ubuntu/ CODENAME-updates main restricted universe multiverse deb https://old-releases.ubuntu.com/ubuntu/ CODENAME-security main restricted universe multiverse Donde CODENAME es tu versión (por ejemplo, natty).
-Fuente.</description>
-    </item>
-    
-    <item>
-      <title>Free VirtualBox Images</title>
-      <link>https://costales.github.io/posts/free-virtualbox-images/</link>
-      <pubDate>Sat, 01 Sep 2012 15:25:00 +0200</pubDate>
-      
-      <guid>https://costales.github.io/posts/free-virtualbox-images/</guid>
-      <description>Great repository for free VirtualBox images :)
-https://virtualboxes.org/images</description>
-    </item>
-    
-    <item>
-      <title>Install SAP GUI on Ubuntu 11.10</title>
-      <link>https://costales.github.io/posts/install-sap-gui-on-ubuntu-1110/</link>
-      <pubDate>Wed, 08 Feb 2012 19:30:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/install-sap-gui-on-ubuntu-1110/</guid>
-      <description>1. Download SAPGUI for java here.
+Fuente.</description></item><item><title>Free VirtualBox Images</title><link>https://costales.github.io/posts/free-virtualbox-images/</link><pubDate>Sat, 01 Sep 2012 15:25:00 +0200</pubDate><guid>https://costales.github.io/posts/free-virtualbox-images/</guid><description>Great repository for free VirtualBox images :)
+https://virtualboxes.org/images</description></item><item><title>Install SAP GUI on Ubuntu 11.10</title><link>https://costales.github.io/posts/install-sap-gui-on-ubuntu-1110/</link><pubDate>Wed, 08 Feb 2012 19:30:00 +0100</pubDate><guid>https://costales.github.io/posts/install-sap-gui-on-ubuntu-1110/</guid><description>1. Download SAPGUI for java here.
 2. Install Java JRE
 Open a Terminal:
 sudo add-apt-repository ppa:ferramroberto/java sudo apt-get update sudo apt-get install sun-java6-jre sun-java6-plugin sun-java6-fonts
@@ -121,19 +29,5 @@ This will install these packages: gsfonts-x11 java-common odbcinst odbcinst1debi
 java -jar PlatinGUI-Linux-700.jar
 Follow installation steps (in graphic mode).
 You have now an entry in Unity :)
-
 SAP GUI on Ubuntu 11.10
-4. Create a server in the SAP GUI:</description>
-    </item>
-    
-    <item>
-      <title>Instalación real de Ubuntu en un lápiz USB</title>
-      <link>https://costales.github.io/posts/instalacion-real-de-ubuntu-en-un-lapiz/</link>
-      <pubDate>Fri, 13 Jan 2012 20:44:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/instalacion-real-de-ubuntu-en-un-lapiz/</guid>
-      <description>Quemamos un USB o CD Live. Desconectamos el disco duro para evitar que la instalación sobreescriba el GRUB actual. Lo arrancamos con el USB final que queremos que tenga la instalación de Ubuntu. Instalamos en el USB como disco duro. Ejecutamos este comando para crear el GRUB en el USB: sudo grub-install &amp;ndash;root-directory=/media/path_usb /dev/sdb Hay que cambiar los path_usb y sdb por el que corresponda. Reiniciamos y todo debería de funcionar correctamente.</description>
-    </item>
-    
-  </channel>
-</rss>
+4. Create a server in the SAP GUI:</description></item><item><title>Instalación real de Ubuntu en un lápiz USB</title><link>https://costales.github.io/posts/instalacion-real-de-ubuntu-en-un-lapiz/</link><pubDate>Fri, 13 Jan 2012 20:44:00 +0100</pubDate><guid>https://costales.github.io/posts/instalacion-real-de-ubuntu-en-un-lapiz/</guid><description>Quemamos un USB o CD Live. Desconectamos el disco duro para evitar que la instalación sobreescriba el GRUB actual. Lo arrancamos con el USB final que queremos que tenga la instalación de Ubuntu. Instalamos en el USB como disco duro. Ejecutamos este comando para crear el GRUB en el USB: sudo grub-install &amp;ndash;root-directory=/media/path_usb /dev/sdb Hay que cambiar los path_usb y sdb por el que corresponda. Reiniciamos y todo debería de funcionar correctamente.</description></item></channel></rss>

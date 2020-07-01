@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>broadcom on Marcos Costales</title>
-    <link>https://costales.github.io/tags/broadcom/</link>
-    <description>Recent content in broadcom on Marcos Costales</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 25 Nov 2011 23:23:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://costales.github.io/tags/broadcom/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>WIFI no funciona en Ubuntu 11.10 con tarjeta broadcom [solucionado]</title>
-      <link>https://costales.github.io/posts/wifi-no-funciona-en-ubuntu-1110-con/</link>
-      <pubDate>Fri, 25 Nov 2011 23:23:00 +0100</pubDate>
-      
-      <guid>https://costales.github.io/posts/wifi-no-funciona-en-ubuntu-1110-con/</guid>
-      <description>Mi portátil HP nx7300 tiene una tarjeta con driver privativo. En la versión 11.10 no funciona la WIFI. La solución es la siguiente: Abrimos la Terminal y ejecutamos:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>broadcom on Marcos Costales</title><link>https://costales.github.io/tags/broadcom/</link><description>Recent content in broadcom on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 25 Nov 2011 23:23:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/broadcom/index.xml" rel="self" type="application/rss+xml"/><item><title>WIFI no funciona en Ubuntu 11.10 con tarjeta broadcom [solucionado]</title><link>https://costales.github.io/posts/wifi-no-funciona-en-ubuntu-1110-con/</link><pubDate>Fri, 25 Nov 2011 23:23:00 +0100</pubDate><guid>https://costales.github.io/posts/wifi-no-funciona-en-ubuntu-1110-con/</guid><description>Mi portátil HP nx7300 tiene una tarjeta con driver privativo. En la versión 11.10 no funciona la WIFI. La solución es la siguiente: Abrimos la Terminal y ejecutamos:
 sudo apt-get purge broadcom-sta-common broadcom-sta-source bcmwl-kernel-source ; sudo apt-get install b43-fwcutter firmware-b43-installer
 Tras reiniciar ya funcionará todo correctamente :)
-Vía: nfolamp blog.</description>
-    </item>
-    
-  </channel>
-</rss>
+Vía: nfolamp blog.</description></item></channel></rss>
