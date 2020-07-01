@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wifi on Marcos Costales</title><link>https://costales.github.io/tags/wifi/</link><description>Recent content in wifi on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Jun 2014 21:00:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/wifi/index.xml" rel="self" type="application/rss+xml"/><item><title>Where is the WIFI in Lubuntu 14.04?</title><link>https://costales.github.io/posts/where-is-wifi-in-lubuntu-1404/</link><pubDate>Mon, 02 Jun 2014 21:00:00 +0200</pubDate><guid>https://costales.github.io/posts/where-is-wifi-in-lubuntu-1404/</guid><description>Just add this line in &amp;ldquo;autostart&amp;rdquo; apps section of your Preferences System:
-nm-applet</description></item><item><title>WIFI no funciona en Ubuntu 11.10 con tarjeta broadcom [solucionado]</title><link>https://costales.github.io/posts/wifi-no-funciona-en-ubuntu-1110-con/</link><pubDate>Fri, 25 Nov 2011 23:23:00 +0100</pubDate><guid>https://costales.github.io/posts/wifi-no-funciona-en-ubuntu-1110-con/</guid><description>Mi portátil HP nx7300 tiene una tarjeta con driver privativo. En la versión 11.10 no funciona la WIFI. La solución es la siguiente: Abrimos la Terminal y ejecutamos:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wifi on Marcos Costales</title>
+    <link>https://costales.github.io/tags/wifi/</link>
+    <description>Recent content in wifi on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2014 21:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where is the WIFI in Lubuntu 14.04?</title>
+      <link>https://costales.github.io/posts/where-is-wifi-in-lubuntu-1404/</link>
+      <pubDate>Mon, 02 Jun 2014 21:00:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/where-is-wifi-in-lubuntu-1404/</guid>
+      <description>Just add this line in &amp;ldquo;autostart&amp;rdquo; apps section of your Preferences System:
+nm-applet</description>
+    </item>
+    
+    <item>
+      <title>WIFI no funciona en Ubuntu 11.10 con tarjeta broadcom [solucionado]</title>
+      <link>https://costales.github.io/posts/wifi-no-funciona-en-ubuntu-1110-con/</link>
+      <pubDate>Fri, 25 Nov 2011 23:23:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/wifi-no-funciona-en-ubuntu-1110-con/</guid>
+      <description>Mi portátil HP nx7300 tiene una tarjeta con driver privativo. En la versión 11.10 no funciona la WIFI. La solución es la siguiente: Abrimos la Terminal y ejecutamos:
 sudo apt-get purge broadcom-sta-common broadcom-sta-source bcmwl-kernel-source ; sudo apt-get install b43-fwcutter firmware-b43-installer
 Tras reiniciar ya funcionará todo correctamente :)
-Vía: nfolamp blog.</description></item></channel></rss>
+Vía: nfolamp blog.</description>
+    </item>
+    
+  </channel>
+</rss>

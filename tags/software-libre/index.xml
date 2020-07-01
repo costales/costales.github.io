@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>software libre on Marcos Costales</title><link>https://costales.github.io/tags/software-libre/</link><description>Recent content in software libre on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 15 Mar 2020 17:14:34 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/software-libre/index.xml" rel="self" type="application/rss+xml"/><item><title>Teletrabajo con Software Libre</title><link>https://costales.github.io/posts/teletrabajo-con-software-libre/</link><pubDate>Sun, 15 Mar 2020 17:14:34 +0100</pubDate><guid>https://costales.github.io/posts/teletrabajo-con-software-libre/</guid><description>El coronavirus ha marcado un antes y un después, llegando al punto de que hasta los gobiernos piden que se teletrabaje.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software libre on Marcos Costales</title>
+    <link>https://costales.github.io/tags/software-libre/</link>
+    <description>Recent content in software libre on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Mar 2020 17:14:34 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/software-libre/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teletrabajo con Software Libre</title>
+      <link>https://costales.github.io/posts/teletrabajo-con-software-libre/</link>
+      <pubDate>Sun, 15 Mar 2020 17:14:34 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/teletrabajo-con-software-libre/</guid>
+      <description>El coronavirus ha marcado un antes y un después, llegando al punto de que hasta los gobiernos piden que se teletrabaje.
 Aparecen muchas guías estos días sobre qué herramientas usar para teletrabajar, pero ¿y si quieres teletrabajar fomentando el software libre?
 Voy a repasar qué software libre y estable disponemos para trabajar desde nuestra casa como si estuviéramos en la empresa.
-VPN con una Raspberry PI Lo primero y más normal, es que tengamos toda la infraestructura ya montada y funcionando, por ejemplo, un servidor con documentos compartidos.</description></item></channel></rss>
+VPN con una Raspberry PI Lo primero y más normal, es que tengamos toda la infraestructura ya montada y funcionando, por ejemplo, un servidor con documentos compartidos.</description>
+    </item>
+    
+  </channel>
+</rss>

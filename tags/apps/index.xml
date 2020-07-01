@@ -1,34 +1,146 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>apps on Marcos Costales</title><link>https://costales.github.io/tags/apps/</link><description>Recent content in apps on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 22 Apr 2020 19:45:19 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/apps/index.xml" rel="self" type="application/rss+xml"/><item><title>Yaru &amp; Folder Color in Ubuntu 20.04</title><link>https://costales.github.io/posts/yaru-and-folder-color-ubuntu-20.04/</link><pubDate>Wed, 22 Apr 2020 19:45:19 +0200</pubDate><guid>https://costales.github.io/posts/yaru-and-folder-color-ubuntu-20.04/</guid><description>The new Yaru in Ubuntu 20.04 is awesome! I love it!
-But there isn&amp;rsquo;t an icon theme working fine with Folder Color &amp;amp; Yaru&amp;hellip; until now. Just in time!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apps on Marcos Costales</title>
+    <link>https://costales.github.io/tags/apps/</link>
+    <description>Recent content in apps on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2020 19:45:19 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yaru &amp; Folder Color in Ubuntu 20.04</title>
+      <link>https://costales.github.io/posts/yaru-and-folder-color-ubuntu-20.04/</link>
+      <pubDate>Wed, 22 Apr 2020 19:45:19 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/yaru-and-folder-color-ubuntu-20.04/</guid>
+      <description>The new Yaru in Ubuntu 20.04 is awesome! I love it!
+But there isn&#39;t an icon theme working fine with Folder Color &amp;amp; Yaru&amp;hellip; until now. Just in time!
 Thanks to Jan Schröder with the Yaru-Colors project you can enjoy it now!
 How to install it In Ubuntu 20.04 run these commands from a Terminal (from code is available here):
-sudo apt install folder-color sudo add-apt-repository ppa:costales/yaru-colors-folder-color sudo apt install yaru-colors-folder-color nautilus -q Thanks All credits are going to Jan Schröder.</description></item><item><title>Install Netflix on Kodi</title><link>https://costales.github.io/posts/install-netflix-kodi-osmc/</link><pubDate>Sun, 02 Feb 2020 15:57:39 +0100</pubDate><guid>https://costales.github.io/posts/install-netflix-kodi-osmc/</guid><description>I installed Kodi into Raspbian, from the official repository. But here, the Netflix plugin didn&amp;rsquo;t work.
+sudo apt install folder-color sudo add-apt-repository ppa:costales/yaru-colors-folder-color sudo apt install yaru-colors-folder-color nautilus -q Thanks All credits are going to Jan Schröder.</description>
+    </item>
+    
+    <item>
+      <title>Install Netflix on Kodi</title>
+      <link>https://costales.github.io/posts/install-netflix-kodi-osmc/</link>
+      <pubDate>Sun, 02 Feb 2020 15:57:39 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/install-netflix-kodi-osmc/</guid>
+      <description>I installed Kodi into Raspbian, from the official repository. But here, the Netflix plugin didn&#39;t work.
 You need to do these steps:
-Install the current OSMC release [Now it&amp;rsquo;s OSMC_TGT_rbp2_20191118.img]. sudo apt-get update sudo apt-get upgrade sudo apt-get install python-pip python-crypto build-essential -y sudo apt-get install python-all-dev python-setuptools python-wheel -y sudo apt-get install python-crypto-dbg python-crypto-doc python-pip-whl -y pip install pycryptodomex sudo ln -s /usr/lib/python2.7/dist-packages/Crypto /usr/lib/python2.7/dist-packages/Cryptodome Connect to your OSMC by SSH (Username and password is osmc) Download with wget &amp;lt;URL&amp;gt; the last release from here.</description></item><item><title>uNav 0.75: A libre GPS navigator for your libre pocket device!</title><link>https://costales.github.io/posts/unav-075-libre-gps-for-your-libre/</link><pubDate>Mon, 19 Mar 2018 21:02:00 +0100</pubDate><guid>https://costales.github.io/posts/unav-075-libre-gps-for-your-libre/</guid><description>A new release for your Ubuntu Phone powered by UBports!
+ Install the current OSMC release [Now it&#39;s OSMC_TGT_rbp2_20191118.img]. sudo apt-get update sudo apt-get upgrade sudo apt-get install python-pip python-crypto build-essential -y sudo apt-get install python-all-dev python-setuptools python-wheel -y sudo apt-get install python-crypto-dbg python-crypto-doc python-pip-whl -y pip install pycryptodomex sudo ln -s /usr/lib/python2.7/dist-packages/Crypto /usr/lib/python2.7/dist-packages/Cryptodome Connect to your OSMC by SSH (Username and password is osmc) Download with wget &amp;lt;URL&amp;gt; the last release from here.</description>
+    </item>
+    
+    <item>
+      <title>uNav 0.75: A libre GPS navigator for your libre pocket device!</title>
+      <link>https://costales.github.io/posts/unav-075-libre-gps-for-your-libre/</link>
+      <pubDate>Mon, 19 Mar 2018 21:02:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/unav-075-libre-gps-for-your-libre/</guid>
+      <description>A new release for your Ubuntu Phone powered by UBports!
 Why? Because we have a dream \o/
+
 uNav 0.75
 Changelog:
-Migrated to Openrouteservice. Car | Walk | Bicycle routes. New default map by default powered by Carto. Fixed unit in review the route steps. Install/update it from the Open Store.</description></item><item><title>Píldora snap: Crea una aplicación snap en 5 minutos</title><link>https://costales.github.io/posts/pildora-snap-crea-una-aplicacion-snap/</link><pubDate>Thu, 14 Sep 2017 19:17:00 +0200</pubDate><guid>https://costales.github.io/posts/pildora-snap-crea-una-aplicacion-snap/</guid><description>En sólo 5 minutos vas a empaquetar tu primera aplicación snap. ¡Más fácil, imposible!
+ Migrated to Openrouteservice. Car | Walk | Bicycle routes. New default map by default powered by Carto. Fixed unit in review the route steps.  Install/update it from the Open Store.</description>
+    </item>
+    
+    <item>
+      <title>Píldora snap: Crea una aplicación snap en 5 minutos</title>
+      <link>https://costales.github.io/posts/pildora-snap-crea-una-aplicacion-snap/</link>
+      <pubDate>Thu, 14 Sep 2017 19:17:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/pildora-snap-crea-una-aplicacion-snap/</guid>
+      <description>En sólo 5 minutos vas a empaquetar tu primera aplicación snap. ¡Más fácil, imposible!
 ¿Aceptas el reto? ;) ¡Adelante!
+
 vídeo tutorial
 Basado en la conferencia de Alan Pope y Martin Wimpress de la 2ª Ubucon Europea:
-snap! snap! snap!</description></item><item><title>Folder Color now has emblem file support</title><link>https://costales.github.io/posts/folder-color-now-has-emblem-file-support/</link><pubDate>Mon, 14 Aug 2017 11:18:00 +0200</pubDate><guid>https://costales.github.io/posts/folder-color-now-has-emblem-file-support/</guid><description>New release 0.0.85 of folder color! Now you can select a file and set an emblem! Enjoy it! :)
+
+snap! snap! snap!</description>
+    </item>
+    
+    <item>
+      <title>Folder Color now has emblem file support</title>
+      <link>https://costales.github.io/posts/folder-color-now-has-emblem-file-support/</link>
+      <pubDate>Mon, 14 Aug 2017 11:18:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/folder-color-now-has-emblem-file-support/</guid>
+      <description>New release 0.0.85 of folder color! Now you can select a file and set an emblem! Enjoy it! :)
+
 File emblem
-How to install?</description></item><item><title>New Folder Color release!</title><link>https://costales.github.io/posts/new-folder-color-release/</link><pubDate>Sun, 02 Jul 2017 18:40:00 +0200</pubDate><guid>https://costales.github.io/posts/new-folder-color-release/</guid><description>This new version will work with more themes and colors by default!
+How to install?</description>
+    </item>
+    
+    <item>
+      <title>New Folder Color release!</title>
+      <link>https://costales.github.io/posts/new-folder-color-release/</link>
+      <pubDate>Sun, 02 Jul 2017 18:40:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/new-folder-color-release/</guid>
+      <description>This new version will work with more themes and colors by default!
+
 An easy way make what you’re looking for easier to spot
 Any theme with folders like &amp;ldquo;folder-blue&amp;rdquo; will work, even in SVG or PNG, for example: Paper, La Capitaine, etc.
+
 Folder Color in action!
-Enjoy it from the PPA of Ubuntu 16.04+!</description></item><item><title>uNav powered by Mapzen! Raising from the darkness thanks to UBPorts!</title><link>https://costales.github.io/posts/unav-powered-by-mapzen-raising-from/</link><pubDate>Mon, 29 May 2017 18:49:00 +0200</pubDate><guid>https://costales.github.io/posts/unav-powered-by-mapzen-raising-from/</guid><description>Mapzen is moving to a paid API after June 1. This was a big issue to uNav, the map viewer and GPS navigator for Ubuntu Phone.
-I had to migrate to the free OSRM router then, but its test server is down several times (it&amp;rsquo;s not a production server) and it has only car navigation mode.
-Never fall down! Don&amp;rsquo;t back now!
-But, the UBPorts community is surprising me every time!</description></item><item><title>How config a wekan snap</title><link>https://costales.github.io/posts/how-config-wekan-snap/</link><pubDate>Wed, 24 May 2017 19:30:00 +0200</pubDate><guid>https://costales.github.io/posts/how-config-wekan-snap/</guid><description>If you install the snap version of Wekan, probably you&amp;rsquo;ll need to setup it for your IP and port. Just follow these steps:
+Enjoy it from the PPA of Ubuntu 16.04+!</description>
+    </item>
+    
+    <item>
+      <title>uNav powered by Mapzen! Raising from the darkness thanks to UBPorts!</title>
+      <link>https://costales.github.io/posts/unav-powered-by-mapzen-raising-from/</link>
+      <pubDate>Mon, 29 May 2017 18:49:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/unav-powered-by-mapzen-raising-from/</guid>
+      <description>Mapzen is moving to a paid API after June 1. This was a big issue to uNav, the map viewer and GPS navigator for Ubuntu Phone.
+I had to migrate to the free OSRM router then, but its test server is down several times (it&#39;s not a production server) and it has only car navigation mode.
+
+Never fall down! Don&#39;t back now!
+But, the UBPorts community is surprising me every time!</description>
+    </item>
+    
+    <item>
+      <title>How config a wekan snap</title>
+      <link>https://costales.github.io/posts/how-config-wekan-snap/</link>
+      <pubDate>Wed, 24 May 2017 19:30:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/how-config-wekan-snap/</guid>
+      <description>If you install the snap version of Wekan, probably you&#39;ll need to setup it for your IP and port. Just follow these steps:
 costales@ubuntu:~$ sudo snap set wekan-ondra root-url=&amp;rdquo;https://&amp;lt;your_ip&amp;gt;:&amp;lt;your_port&amp;gt;&amp;rdquo;
 costales@ubuntu:~$ sudo snap set wekan-ondra port=&amp;rdquo;&amp;lt;your_port&amp;gt;&amp;rdquo;
 costales@ubuntu:~$ sudo systemctl restart snap.wekan-ondra.wekan
-If it&amp;rsquo;s not working, probably you&amp;rsquo;ll use the mongodb port for another app, then, change it too:
+If it&#39;s not working, probably you&#39;ll use the mongodb port for another app, then, change it too:
 costales@ubuntu:~$ sudosnap set wekan-ondra mongodb-port=27019
-costales@ubuntu:~$ sudo snap disable wekan-ondra &amp;amp;&amp;amp; snap enable wekan-ondra</description></item><item><title>A new hope for Ubuntu Phone: The community</title><link>https://costales.github.io/posts/a-new-hope-for-ubuntu-phone-community/</link><pubDate>Sat, 06 May 2017 17:52:00 +0200</pubDate><guid>https://costales.github.io/posts/a-new-hope-for-ubuntu-phone-community/</guid><description>Well, I have to say that Ubuntu Phone was dead for me after the Mark&amp;rsquo;s announcement a few weeks ago. I even posted the end of uNav and I switched to Android. But my post was a trigger for myself: because the community will not allow uNav to die so easily and of course, the Ubuntu Phone :) You opened my eyes mates!
-Do you have an Ubuntu Phone/Tablet? Please, follow after Canonical closes the current (~June 2017).</description></item><item><title>New uNav for Ubuntu Phone</title><link>https://costales.github.io/posts/new-unav-for-ubuntu-phone/</link><pubDate>Tue, 28 Mar 2017 19:48:00 +0200</pubDate><guid>https://costales.github.io/posts/new-unav-for-ubuntu-phone/</guid><description>After a few improvements in uNav I&amp;rsquo;m so proud of the current version, specially with the last useful feature.
-But an image will explain it better. You&amp;rsquo;ll choose your transport mode and the orange line is the public transport :))
+costales@ubuntu:~$ sudo snap disable wekan-ondra &amp;amp;&amp;amp; snap enable wekan-ondra</description>
+    </item>
+    
+    <item>
+      <title>A new hope for Ubuntu Phone: The community</title>
+      <link>https://costales.github.io/posts/a-new-hope-for-ubuntu-phone-community/</link>
+      <pubDate>Sat, 06 May 2017 17:52:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/a-new-hope-for-ubuntu-phone-community/</guid>
+      <description>Well, I have to say that Ubuntu Phone was dead for me after the Mark&#39;s announcement a few weeks ago. I even posted the end of uNav and I switched to Android. But my post was a trigger for myself: because the community will not allow uNav to die so easily and of course, the Ubuntu Phone :) You opened my eyes mates!
+Do you have an Ubuntu Phone/Tablet? Please, follow after Canonical closes the current (~June 2017).</description>
+    </item>
+    
+    <item>
+      <title>New uNav for Ubuntu Phone</title>
+      <link>https://costales.github.io/posts/new-unav-for-ubuntu-phone/</link>
+      <pubDate>Tue, 28 Mar 2017 19:48:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/new-unav-for-ubuntu-phone/</guid>
+      <description>After a few improvements in uNav I&#39;m so proud of the current version, specially with the last useful feature.
+But an image will explain it better. You&#39;ll choose your transport mode and the orange line is the public transport :))
+
 New uNav 0.67
-Enjoy the freedom in your Ubuntu Phone or tablet!</description></item></channel></rss>
+Enjoy the freedom in your Ubuntu Phone or tablet!</description>
+    </item>
+    
+  </channel>
+</rss>

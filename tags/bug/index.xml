@@ -1,5 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bug on Marcos Costales</title><link>https://costales.github.io/tags/bug/</link><description>Recent content in bug on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 08 Dec 2013 18:10:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/bug/index.xml" rel="self" type="application/rss+xml"/><item><title>How can I send a bug for Ubuntu 14.04?</title><link>https://costales.github.io/posts/how-can-i-send-bug-for-ubuntu-1404/</link><pubDate>Sun, 08 Dec 2013 18:10:00 +0100</pubDate><guid>https://costales.github.io/posts/how-can-i-send-bug-for-ubuntu-1404/</guid><description>#!/usr/bin/env python
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bug on Marcos Costales</title>
+    <link>https://costales.github.io/tags/bug/</link>
+    <description>Recent content in bug on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Dec 2013 18:10:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How can I send a bug for Ubuntu 14.04?</title>
+      <link>https://costales.github.io/posts/how-can-i-send-bug-for-ubuntu-1404/</link>
+      <pubDate>Sun, 08 Dec 2013 18:10:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/how-can-i-send-bug-for-ubuntu-1404/</guid>
+      <description>#!/usr/bin/env python
 from datetime import date
 def todo(what): print(what)
-while True: # Yes, infinite feeling todo('Don\'t search in [LP](https://launchpad.net/+search?field.text=bugs+14.04&amp;amp;field.actions.search=Search). Search in Google by [_Ubuntu Trusty bugs_](https://launchpad.net/ubuntu/trusty/+bugs) and not by [_Ubuntu 14.04 bugs_](https://launchpad.net/ubuntu/+milestone/ubuntu-14.04)') todo('Just click in [_Report a bug_](https://launchpad.net/ubuntu/trusty/+bugs)') todo('Read an [awesome page](https://help.ubuntu.com/community/ReportingBugs) over 4.000 words about how to fill bugs') if date.today() == date([2014, 04, 17](https://wiki.ubuntu.com/TrustyTahr/ReleaseSchedule)): # It was not really infinite :) todo('``Do something else!') break
-I&amp;rsquo;m sorry, but it is frustrating not being able to help by an infinite loop :)</description></item></channel></rss>
+while True: # Yes, infinite feeling todo(&#39;Don\&#39;t search in [LP](https://launchpad.net/+search?field.text=bugs+14.04&amp;amp;field.actions.search=Search). Search in Google by [_Ubuntu Trusty bugs_](https://launchpad.net/ubuntu/trusty/+bugs) and not by [_Ubuntu 14.04 bugs_](https://launchpad.net/ubuntu/+milestone/ubuntu-14.04)&#39;) todo(&#39;Just click in [_Report a bug_](https://launchpad.net/ubuntu/trusty/+bugs)&#39;) todo(&#39;Read an [awesome page](https://help.ubuntu.com/community/ReportingBugs) over 4.000 words about how to fill bugs&#39;) if date.today() == date([2014, 04, 17](https://wiki.ubuntu.com/TrustyTahr/ReleaseSchedule)): # It was not really infinite :) todo(&#39;``Do something else!&#39;) break
+I&#39;m sorry, but it is frustrating not being able to help by an infinite loop :)</description>
+    </item>
+    
+  </channel>
+</rss>

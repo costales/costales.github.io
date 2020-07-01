@@ -1,37 +1,147 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>phone on Marcos Costales</title><link>https://costales.github.io/tags/phone/</link><description>Recent content in phone on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 12 Apr 2017 09:47:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/phone/index.xml" rel="self" type="application/rss+xml"/><item><title>Flash MX4 Ubuntu Edition with Flyme</title><link>https://costales.github.io/posts/flash-mx4-ubuntu-edition-with-flyme-51/</link><pubDate>Wed, 12 Apr 2017 09:47:00 +0200</pubDate><guid>https://costales.github.io/posts/flash-mx4-ubuntu-edition-with-flyme-51/</guid><description>Warning: You&amp;rsquo;ll lost all your current data and you could brik your phone! I created this tutorial for myself.
-You&amp;rsquo;ll need Ubuntu 16.04 and these tools installed:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>phone on Marcos Costales</title>
+    <link>https://costales.github.io/tags/phone/</link>
+    <description>Recent content in phone on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Apr 2017 09:47:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/phone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flash MX4 Ubuntu Edition with Flyme</title>
+      <link>https://costales.github.io/posts/flash-mx4-ubuntu-edition-with-flyme-51/</link>
+      <pubDate>Wed, 12 Apr 2017 09:47:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/flash-mx4-ubuntu-edition-with-flyme-51/</guid>
+      <description>Warning: You&#39;ll lost all your current data and you could brik your phone! I created this tutorial for myself.
+You&#39;ll need Ubuntu 16.04 and these tools installed:
 sudo add-apt-repository ppa:ubuntu-sdk-team/ppa
 sudo apt-get update
 sudo apt-get install ubuntu-device-flash
 sudo apt-get install phablet-tools
 Use magic-device-tool for installing CyanogenMod 13.
 This proccess will install you:
-TWRP as boot loader manager, this is the key for next steps. CyanogenMod 13. Now, download Flyme (the international version is &amp;lsquo;g&amp;rsquo;, not &amp;lsquo;a&amp;rsquo;), I liked the last version of Flyme 5.</description></item><item><title>El fin de Unity, el móvil y la convergencia. Intentando ver el bosque y no el árbol</title><link>https://costales.github.io/posts/el-fin-de-unity-el-movil-y-la/</link><pubDate>Wed, 05 Apr 2017 23:38:00 +0200</pubDate><guid>https://costales.github.io/posts/el-fin-de-unity-el-movil-y-la/</guid><description>Mark Shuttleworth publicaba la noticia del año:
-&amp;quot;&amp;hellip; we will end our investment in Unity8, the phone and convergence shell. We will shift our default Ubuntu desktop back to GNOME for Ubuntu 18.04 LTS&amp;rdquo;.
-WOW. Defenestrar a Unity no es tarea fácil. Es la piedra angular que gobierna el escritorio, móvil y tablet, su estandarte, su diferenciación y la meta de titánicos esfuerzos de desarrollo durante 7 años&amp;hellip; Ahí queda eso.</description></item><item><title>2 Años con Ubuntu Phone: Pasado, presente, futuro</title><link>https://costales.github.io/posts/dos-anos-con-ubuntu-phone-pasado-presente/</link><pubDate>Mon, 06 Feb 2017 20:37:00 +0100</pubDate><guid>https://costales.github.io/posts/dos-anos-con-ubuntu-phone-pasado-presente/</guid><description>Hace exactamente 2 años, el 6 de Febrero del 2015, Canonical me hacía entrega como insider del bq E4.5, un par de meses antes de su venta al público.
+ TWRP as boot loader manager, this is the key for next steps. CyanogenMod 13.  Now, download Flyme (the international version is &amp;lsquo;g&amp;rsquo;, not &amp;lsquo;a&amp;rsquo;), I liked the last version of Flyme 5.</description>
+    </item>
+    
+    <item>
+      <title>El fin de Unity, el móvil y la convergencia. Intentando ver el bosque y no el árbol</title>
+      <link>https://costales.github.io/posts/el-fin-de-unity-el-movil-y-la/</link>
+      <pubDate>Wed, 05 Apr 2017 23:38:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/el-fin-de-unity-el-movil-y-la/</guid>
+      <description>Mark Shuttleworth publicaba la noticia del año:
+ &amp;quot;&amp;hellip; we will end our investment in Unity8, the phone and convergence shell. We will shift our default Ubuntu desktop back to GNOME for Ubuntu 18.04 LTS&amp;rdquo;.
+ WOW. Defenestrar a Unity no es tarea fácil. Es la piedra angular que gobierna el escritorio, móvil y tablet, su estandarte, su diferenciación y la meta de titánicos esfuerzos de desarrollo durante 7 años&amp;hellip; Ahí queda eso.</description>
+    </item>
+    
+    <item>
+      <title>2 Años con Ubuntu Phone: Pasado, presente, futuro</title>
+      <link>https://costales.github.io/posts/dos-anos-con-ubuntu-phone-pasado-presente/</link>
+      <pubDate>Mon, 06 Feb 2017 20:37:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/dos-anos-con-ubuntu-phone-pasado-presente/</guid>
+      <description>Hace exactamente 2 años, el 6 de Febrero del 2015, Canonical me hacía entrega como insider del bq E4.5, un par de meses antes de su venta al público.
+
 Presentación Ubuntu Phone en Londres
 Y sí, usé Ubuntu Phone durante 2 años en exclusiva (excepto unos pocos días que jugué con Firefox OS y Android).
+
 E4.5
-Pasado Yo estaba muy feliz con mi bq E4.5 cuando ¡Oh sorpresa! Canonical nos entregaba un Meizu MX4.</description></item><item><title>FreedomPop en Ubuntu Phone</title><link>https://costales.github.io/posts/freedompop-en-ubuntu-phone/</link><pubDate>Thu, 02 Feb 2017 23:09:00 +0100</pubDate><guid>https://costales.github.io/posts/freedompop-en-ubuntu-phone/</guid><description>Solicité una SIM de FreedomPop España para usarla en mi Ubuntu Phone (principalmente para los viajes, pues ofrece roadming gratis en 25 países y no hace falta recargar saldo cada cierto tiempo). Además tiene promociones de SIM por 1€ de vez en cuando.
-Sabía que las llamadas y SMS no iban a funcionar sin Android o iOS. Pero tenía dudas respecto a los datos. Y ahora os puedo confirmar que sí, la conexión de datos funciona bien.</description></item><item><title>Fairphone 2 &amp; Ubuntu</title><link>https://costales.github.io/posts/fairphone-2-ubuntu/</link><pubDate>Fri, 02 Dec 2016 18:03:00 +0100</pubDate><guid>https://costales.github.io/posts/fairphone-2-ubuntu/</guid><description>En la Ubucon Europe pude conocer de primera mano los avances de Ubuntu Touch en el Fairphone 2.
+Pasado Yo estaba muy feliz con mi bq E4.5 cuando ¡Oh sorpresa! Canonical nos entregaba un Meizu MX4.</description>
+    </item>
+    
+    <item>
+      <title>FreedomPop en Ubuntu Phone</title>
+      <link>https://costales.github.io/posts/freedompop-en-ubuntu-phone/</link>
+      <pubDate>Thu, 02 Feb 2017 23:09:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/freedompop-en-ubuntu-phone/</guid>
+      <description>Solicité una SIM de FreedomPop España para usarla en mi Ubuntu Phone (principalmente para los viajes, pues ofrece roadming gratis en 25 países y no hace falta recargar saldo cada cierto tiempo). Además tiene promociones de SIM por 1€ de vez en cuando.
+Sabía que las llamadas y SMS no iban a funcionar sin Android o iOS. Pero tenía dudas respecto a los datos. Y ahora os puedo confirmar que sí, la conexión de datos funciona bien.</description>
+    </item>
+    
+    <item>
+      <title>Fairphone 2 &amp; Ubuntu</title>
+      <link>https://costales.github.io/posts/fairphone-2-ubuntu/</link>
+      <pubDate>Fri, 02 Dec 2016 18:03:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/fairphone-2-ubuntu/</guid>
+      <description>En la Ubucon Europe pude conocer de primera mano los avances de Ubuntu Touch en el Fairphone 2.
+
 Ubuntu Touch &amp;amp; Fairphone 2
-El Fairphone 2 es un móvil único. Como su propio nombre indica, es un móvil ético con el mundo. No usa mano de obra infantil, construido con minerales por los que no corrió la sangre y que incluso se preocupa por los residuos que genera.</description></item><item><title>Aprende a crear una aplicación para Ubuntu Phone</title><link>https://costales.github.io/posts/aprende-crear-una-aplicacion-para/</link><pubDate>Thu, 15 Sep 2016 21:27:00 +0200</pubDate><guid>https://costales.github.io/posts/aprende-crear-una-aplicacion-para/</guid><description>Enlazo a un excelente tutorial (Licencia CC-BY-NC-SA 4) de Miguel Menéndez, que explica en español paso a paso cómo crear una aplicación para Ubuntu Phone de una manera amena y entretenida. Incluyendo ejemplos, ejercicios, apoyo en IRC y grupo de Telegram&amp;hellip;
+El Fairphone 2 es un móvil único. Como su propio nombre indica, es un móvil ético con el mundo. No usa mano de obra infantil, construido con minerales por los que no corrió la sangre y que incluso se preocupa por los residuos que genera.</description>
+    </item>
+    
+    <item>
+      <title>Aprende a crear una aplicación para Ubuntu Phone</title>
+      <link>https://costales.github.io/posts/aprende-crear-una-aplicacion-para/</link>
+      <pubDate>Thu, 15 Sep 2016 21:27:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/aprende-crear-una-aplicacion-para/</guid>
+      <description>Enlazo a un excelente tutorial (Licencia CC-BY-NC-SA 4) de Miguel Menéndez, que explica en español paso a paso cómo crear una aplicación para Ubuntu Phone de una manera amena y entretenida. Incluyendo ejemplos, ejercicios, apoyo en IRC y grupo de Telegram&amp;hellip;
 Importante indicar que es el curso aún está en desarrollo, con una entrega semanal, por lo que en las próximas semanas se irá completando.
+
 Curso UT
-Para acceder, simplemente descarga la aplicación en tu Ubuntu Phone:</description></item><item><title>How to install an older OTA release in your Ubuntu Phone</title><link>https://costales.github.io/posts/how-to-install-older-ota-release-in/</link><pubDate>Sat, 04 Jun 2016 20:42:00 +0200</pubDate><guid>https://costales.github.io/posts/how-to-install-older-ota-release-in/</guid><description>We saw how to change the channel of our Ubuntu Phone from stable to RC proposed, or whatever you want.
+Para acceder, simplemente descarga la aplicación en tu Ubuntu Phone:</description>
+    </item>
+    
+    <item>
+      <title>How to install an older OTA release in your Ubuntu Phone</title>
+      <link>https://costales.github.io/posts/how-to-install-older-ota-release-in/</link>
+      <pubDate>Sat, 04 Jun 2016 20:42:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/how-to-install-older-ota-release-in/</guid>
+      <description>We saw how to change the channel of our Ubuntu Phone from stable to RC proposed, or whatever you want.
 But, how could we downgrade the phone to a previous OTA? Setting the revision we want in the ubuntu-device-flash command :)
 You need to know which revision is for what OTA and which device you have:
-1. Know your device codename (Connect phone by USB and enable Developer Mode in Settings):</description></item><item><title>How to flash Meizu MX4, bq E4.5 and Nexus 4 with Ubuntu Phone</title><link>https://costales.github.io/posts/how-to-flash-meizu-mx4-bq-e45-and-nexus/</link><pubDate>Fri, 20 May 2016 16:40:00 +0200</pubDate><guid>https://costales.github.io/posts/how-to-flash-meizu-mx4-bq-e45-and-nexus/</guid><description>My tutos about how to flash bq E4.5, Meizu MX4 and Nexus 4.
+1. Know your device codename (Connect phone by USB and enable Developer Mode in Settings):</description>
+    </item>
+    
+    <item>
+      <title>How to flash Meizu MX4, bq E4.5 and Nexus 4 with Ubuntu Phone</title>
+      <link>https://costales.github.io/posts/how-to-flash-meizu-mx4-bq-e45-and-nexus/</link>
+      <pubDate>Fri, 20 May 2016 16:40:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/how-to-flash-meizu-mx4-bq-e45-and-nexus/</guid>
+      <description>My tutos about how to flash bq E4.5, Meizu MX4 and Nexus 4.
 Why? You can change to stable or RC proposed images. Replace any &amp;lsquo;stable&amp;rsquo; by &amp;lsquo;rc-proposed&amp;rsquo; in this tuto if you want to try the proposed images.
-You&amp;rsquo;ll erase any data in your phones.
+You&#39;ll erase any data in your phones.
 What will you need in your Ubuntu Desktop? These packages:
 sudo add-apt-repository ppa:ubuntu-sdk-team/ppa
 sudo apt-get update
 sudo apt-get install ubuntu-device-flash
-sudo apt-get install phablet-tools</description></item><item><title>Review tablet bq M10 Ubuntu Edition</title><link>https://costales.github.io/posts/review-tablet-bq-m10-ubuntu-edition/</link><pubDate>Mon, 02 May 2016 11:29:00 +0200</pubDate><guid>https://costales.github.io/posts/review-tablet-bq-m10-ubuntu-edition/</guid><description>Mi primer post desde una tablet con Ubuntu, la bq M10.
+sudo apt-get install phablet-tools</description>
+    </item>
+    
+    <item>
+      <title>Review tablet bq M10 Ubuntu Edition</title>
+      <link>https://costales.github.io/posts/review-tablet-bq-m10-ubuntu-edition/</link>
+      <pubDate>Mon, 02 May 2016 11:29:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/review-tablet-bq-m10-ubuntu-edition/</guid>
+      <description>Mi primer post desde una tablet con Ubuntu, la bq M10.
+
 M10
 Podría hablar de su hardware o de sus especificaciones, podría decir su precio, podría contar cuantas versiones hay de la tablet, podría especificar la versión de cada aplicación, podría contar qué es la convergencia&amp;hellip;
-Pero toda esa información está disponible en Internet desde que salió al mercado. Por lo que mejor os cuento la experiencia de usar una tablet con Ubuntu durante un par de semanas ;)</description></item><item><title>"Ubuntu Love"! [Phone + Apps = Freedom]</title><link>https://costales.github.io/posts/ubuntu-love-phone-apps-freedom/</link><pubDate>Tue, 01 Mar 2016 22:06:00 +0100</pubDate><guid>https://costales.github.io/posts/ubuntu-love-phone-apps-freedom/</guid><description>Yeah! (Probably) Ubuntu Phone will cover any of your needs :)
-There aren&amp;rsquo;t so many apps as in Android or iOS (Probably will not be ever so many apps), but damn it! The current apps are so awesome! And I like them a lot! As I like my phone!
+Pero toda esa información está disponible en Internet desde que salió al mercado. Por lo que mejor os cuento la experiencia de usar una tablet con Ubuntu durante un par de semanas ;)</description>
+    </item>
+    
+    <item>
+      <title>&#34;Ubuntu Love&#34;! [Phone &#43; Apps = Freedom]</title>
+      <link>https://costales.github.io/posts/ubuntu-love-phone-apps-freedom/</link>
+      <pubDate>Tue, 01 Mar 2016 22:06:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubuntu-love-phone-apps-freedom/</guid>
+      <description>Yeah! (Probably) Ubuntu Phone will cover any of your needs :)
+There aren&#39;t so many apps as in Android or iOS (Probably will not be ever so many apps), but damn it! The current apps are so awesome! And I like them a lot! As I like my phone!
+
 Lovely panda!
-Do you want a free (as in freedom) phone? Do you want a free (as in freedom) killer apps?</description></item></channel></rss>
+Do you want a free (as in freedom) phone? Do you want a free (as in freedom) killer apps?</description>
+    </item>
+    
+  </channel>
+</rss>

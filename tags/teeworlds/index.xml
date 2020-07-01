@@ -1,11 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>teeworlds on Marcos Costales</title><link>https://costales.github.io/tags/teeworlds/</link><description>Recent content in teeworlds on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 12 Nov 2013 18:27:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/teeworlds/index.xml" rel="self" type="application/rss+xml"/><item><title>A Teeworlds dedicated server with Ubuntu and autostart on boot</title><link>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</link><pubDate>Tue, 12 Nov 2013 18:27:00 +0100</pubDate><guid>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</guid><description>I installed it in Xubuntu 12.04 and in a Raspberry PI with Raspbian/Debian.
-You&amp;rsquo;ll not need to use &amp;lsquo;screen&amp;rsquo; and Teeworlds will be a service in the system.
-Let&amp;rsquo;s go!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teeworlds on Marcos Costales</title>
+    <link>https://costales.github.io/tags/teeworlds/</link>
+    <description>Recent content in teeworlds on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Nov 2013 18:27:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/teeworlds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Teeworlds dedicated server with Ubuntu and autostart on boot</title>
+      <link>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</link>
+      <pubDate>Tue, 12 Nov 2013 18:27:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/a-dedicated-teeworlds-server-with/</guid>
+      <description>I installed it in Xubuntu 12.04 and in a Raspberry PI with Raspbian/Debian.
+You&#39;ll not need to use &amp;lsquo;screen&amp;rsquo; and Teeworlds will be a service in the system.
+Let&#39;s go!
 Install teeworlds:
 sudo apt-get install teeworlds teeworlds-server Create directory and set the firewall:
 sudo mkdir -p /var/games/teeworlds sudo ufw allow 8303 Create the Teeworlds config file:
 sudo vi /var/games/teeworlds/teeworlds\_srv.cfg Paste these lines, by example:
-sv\_name Ubuntu Teeworlds Server sv\_motd Welcome! sv\_gametype ctf sv\_warmup 0 sv\_map ctf1 sv\_max\_clients 12 sv\_scorelimit 1000 sv\_rcon\_password your\_password\_here sv\_timelimit 20 sv\_port 8303 sv\_external\_port 8303 sv\_max\_clients 12 sv\_tournament\_mode 0 sv\_teamdamage 0 sv\_powerups 1 logfile /var/log/teeworlds-server.</description></item><item><title>Teeworlds oficial servers</title><link>https://costales.github.io/posts/teeworlds-oficial-servers/</link><pubDate>Sat, 09 Nov 2013 20:44:00 +0100</pubDate><guid>https://costales.github.io/posts/teeworlds-oficial-servers/</guid><description>master1.teeworlds.com 67.215.65.132:8300
+sv\_name Ubuntu Teeworlds Server sv\_motd Welcome! sv\_gametype ctf sv\_warmup 0 sv\_map ctf1 sv\_max\_clients 12 sv\_scorelimit 1000 sv\_rcon\_password your\_password\_here sv\_timelimit 20 sv\_port 8303 sv\_external\_port 8303 sv\_max\_clients 12 sv\_tournament\_mode 0 sv\_teamdamage 0 sv\_powerups 1 logfile /var/log/teeworlds-server.</description>
+    </item>
+    
+    <item>
+      <title>Teeworlds oficial servers</title>
+      <link>https://costales.github.io/posts/teeworlds-oficial-servers/</link>
+      <pubDate>Sat, 09 Nov 2013 20:44:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/teeworlds-oficial-servers/</guid>
+      <description>master1.teeworlds.com 67.215.65.132:8300
 master2.teeworlds.com 171.25.159.24:8300
 master3.teeworlds.com 178.63.226.59:8300
-master4.teeworlds.com 195.22.75.123:8300</description></item></channel></rss>
+master4.teeworlds.com 195.22.75.123:8300</description>
+    </item>
+    
+  </channel>
+</rss>

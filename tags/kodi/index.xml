@@ -1,3 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kodi on Marcos Costales</title><link>https://costales.github.io/tags/kodi/</link><description>Recent content in kodi on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 12 Jan 2012 20:00:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/kodi/index.xml" rel="self" type="application/rss+xml"/><item><title>Instalar KODI en Ubuntu y usar un móvil con Android como mando a distancia</title><link>https://costales.github.io/posts/instalar-xbmc-en-ubuntu-y-usar-un-movil/</link><pubDate>Thu, 12 Jan 2012 20:00:00 +0100</pubDate><guid>https://costales.github.io/posts/instalar-xbmc-en-ubuntu-y-usar-un-movil/</guid><description>Para instalar este sensacional media center en Ubuntu 11.10, abrimos la terminal y ejecutamos:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kodi on Marcos Costales</title>
+    <link>https://costales.github.io/tags/kodi/</link>
+    <description>Recent content in kodi on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jan 2012 20:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/kodi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instalar KODI en Ubuntu y usar un móvil con Android como mando a distancia</title>
+      <link>https://costales.github.io/posts/instalar-xbmc-en-ubuntu-y-usar-un-movil/</link>
+      <pubDate>Thu, 12 Jan 2012 20:00:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/instalar-xbmc-en-ubuntu-y-usar-un-movil/</guid>
+      <description>Para instalar este sensacional media center en Ubuntu 11.10, abrimos la terminal y ejecutamos:
 sudo apt install kodi
-Para controlarlo desde Android la aplicación que mejor me funcionó es Yatse.</description></item></channel></rss>
+Para controlarlo desde Android la aplicación que mejor me funcionó es Yatse.</description>
+    </item>
+    
+  </channel>
+</rss>

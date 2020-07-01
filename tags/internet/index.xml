@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>internet on Marcos Costales</title><link>https://costales.github.io/tags/internet/</link><description>Recent content in internet on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2011 16:13:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml"/><item><title>Los móviles cambian de IP muy rápidamente</title><link>https://costales.github.io/posts/los-moviles-cambian-de-ip-muy/</link><pubDate>Sun, 23 Oct 2011 16:13:00 +0200</pubDate><guid>https://costales.github.io/posts/los-moviles-cambian-de-ip-muy/</guid><description>¿Sabías que con conexión 3G si cierras el navegador del móvil es probable que al volver a abrirlo tengas asignada otra IP distinta? Se debe al roaming.
-Y sí, tira abajo la mayoría de webs con voto anónimo.</description></item><item><title>Formato campo para IP</title><link>https://costales.github.io/posts/formato-campo-para-ip/</link><pubDate>Sun, 02 Oct 2011 10:23:00 +0200</pubDate><guid>https://costales.github.io/posts/formato-campo-para-ip/</guid><description>Para almacenar la IP en mySQL el formato del campo es: INT(11) signed tras aplicar la función ip2long de PHP:
-&amp;lt;?php if (!empty($_SERVER['HTTP_CLIENT_IP'])) //check ip from share internet { $ip=$_SERVER['HTTP_CLIENT_IP']; } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) //to check ip is pass from proxy { $ip=$_SERVER['HTTP_X_FORWARDED_FOR']; } else { $ip=$_SERVER['REMOTE_ADDR']; } echo $ip.&amp;quot;&amp;lt;br&amp;gt;&amp;quot;; $ip = ip2long($ip); echo $ip; ?&amp;gt;
-Esto viene a cuento de que hay IPs que tras aplicarles la función ip2long el número es negativo, y por ahí se recomienda usar un INT(10) unsigned.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>internet on Marcos Costales</title>
+    <link>https://costales.github.io/tags/internet/</link>
+    <description>Recent content in internet on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Oct 2011 16:13:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Los móviles cambian de IP muy rápidamente</title>
+      <link>https://costales.github.io/posts/los-moviles-cambian-de-ip-muy/</link>
+      <pubDate>Sun, 23 Oct 2011 16:13:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/los-moviles-cambian-de-ip-muy/</guid>
+      <description>¿Sabías que con conexión 3G si cierras el navegador del móvil es probable que al volver a abrirlo tengas asignada otra IP distinta? Se debe al roaming.
+Y sí, tira abajo la mayoría de webs con voto anónimo.</description>
+    </item>
+    
+    <item>
+      <title>Formato campo para IP</title>
+      <link>https://costales.github.io/posts/formato-campo-para-ip/</link>
+      <pubDate>Sun, 02 Oct 2011 10:23:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/formato-campo-para-ip/</guid>
+      <description>Para almacenar la IP en mySQL el formato del campo es: INT(11) signed tras aplicar la función ip2long de PHP:
+&amp;lt;?php if (!empty($_SERVER[&#39;HTTP_CLIENT_IP&#39;])) //check ip from share internet { $ip=$_SERVER[&#39;HTTP_CLIENT_IP&#39;]; } elseif (!empty($_SERVER[&#39;HTTP_X_FORWARDED_FOR&#39;])) //to check ip is pass from proxy { $ip=$_SERVER[&#39;HTTP_X_FORWARDED_FOR&#39;]; } else { $ip=$_SERVER[&#39;REMOTE_ADDR&#39;]; } echo $ip.&amp;quot;&amp;lt;br&amp;gt;&amp;quot;; $ip = ip2long($ip); echo $ip; ?&amp;gt;
+Esto viene a cuento de que hay IPs que tras aplicarles la función ip2long el número es negativo, y por ahí se recomienda usar un INT(10) unsigned.</description>
+    </item>
+    
+  </channel>
+</rss>

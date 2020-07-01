@@ -1,31 +1,145 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ubucon on Marcos Costales</title><link>https://costales.github.io/tags/ubucon/</link><description>Recent content in ubucon on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 15 Oct 2019 19:00:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/ubucon/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubucon Europe 2019 | Sintra edition</title><link>https://costales.github.io/posts/ubucon-europe-2019-sintra-edition/</link><pubDate>Tue, 15 Oct 2019 19:00:00 +0200</pubDate><guid>https://costales.github.io/posts/ubucon-europe-2019-sintra-edition/</guid><description>¡Y comienza una nueva Ubucon Europea! En esta ocasión en Sintra, Portugal.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubucon on Marcos Costales</title>
+    <link>https://costales.github.io/tags/ubucon/</link>
+    <description>Recent content in ubucon on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Oct 2019 19:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/ubucon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubucon Europe 2019 | Sintra edition</title>
+      <link>https://costales.github.io/posts/ubucon-europe-2019-sintra-edition/</link>
+      <pubDate>Tue, 15 Oct 2019 19:00:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubucon-europe-2019-sintra-edition/</guid>
+      <description>¡Y comienza una nueva Ubucon Europea! En esta ocasión en Sintra, Portugal.
+
 ¡Bienvenidos!
 Llegué el día anterior justo a tiempo para una cena de bienvenida organizada en un vivero de empresas extravagante: Chalet 12. Allí unas 25 personas compartimos momentos entrañables con una cena cocinada por la propia organización.
+
 Marco | Costales | Tiago | Olive
-Lo cierto es que la organización Ubuntu-PT estuvo realizando actividades y visitas toda la semana para los miembros de la comunidad que iban llegando con antelación, todo un detallazo.</description></item><item><title>UbuCon Europe 2018: Analysing a dream</title><link>https://costales.github.io/posts/ubucon-europe-2018-analysing-dream/</link><pubDate>Sun, 20 May 2018 12:52:00 +0200</pubDate><guid>https://costales.github.io/posts/ubucon-europe-2018-analysing-dream/</guid><description>UbuCon Europe 2018: Analysing a dream (English)
-The idea of organising the Ubucon in Xixon, Asturies was set two years ago, while participating in the European Ubucon in Essen (Germany). The Paris Ubucon took place and in those days we uderstood that there was a group enough of people with the capacities and the will to hold an European Congress for Ubuntu lovers. We had learnt a lot from German and French colleagues thanks to their respective amazing organizations and, at the same time, our handicap was the lack of s consolidated group in Spain.</description></item><item><title>UbuCon Europe 2018 | 1 Week to go!!</title><link>https://costales.github.io/posts/ubucon-europe-2018-1-week-to-go/</link><pubDate>Fri, 20 Apr 2018 16:00:00 +0200</pubDate><guid>https://costales.github.io/posts/ubucon-europe-2018-1-week-to-go/</guid><description>Yes! Everything is ready for the incoming UbuCon Europe 2018 in Xixón! 😃
-We&amp;rsquo;ll have an awesome weekend of conferences (with 4 parallel talks), podcasts, stands, social events&amp;hellip; Most of them are in English, but there will be in Spanish &amp;amp; Asturian too.
+Lo cierto es que la organización Ubuntu-PT estuvo realizando actividades y visitas toda la semana para los miembros de la comunidad que iban llegando con antelación, todo un detallazo.</description>
+    </item>
+    
+    <item>
+      <title>UbuCon Europe 2018: Analysing a dream</title>
+      <link>https://costales.github.io/posts/ubucon-europe-2018-analysing-dream/</link>
+      <pubDate>Sun, 20 May 2018 12:52:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubucon-europe-2018-analysing-dream/</guid>
+      <description>UbuCon Europe 2018: Analysing a dream (English)
+The idea of organising the Ubucon in Xixon, Asturies was set two years ago, while participating in the European Ubucon in Essen (Germany). The Paris Ubucon took place and in those days we uderstood that there was a group enough of people with the capacities and the will to hold an European Congress for Ubuntu lovers. We had learnt a lot from German and French colleagues thanks to their respective amazing organizations and, at the same time, our handicap was the lack of s consolidated group in Spain.</description>
+    </item>
+    
+    <item>
+      <title>UbuCon Europe 2018 | 1 Week to go!!</title>
+      <link>https://costales.github.io/posts/ubucon-europe-2018-1-week-to-go/</link>
+      <pubDate>Fri, 20 Apr 2018 16:00:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubucon-europe-2018-1-week-to-go/</guid>
+      <description>Yes! Everything is ready for the incoming UbuCon Europe 2018 in Xixón! 😃
+We&#39;ll have an awesome weekend of conferences (with 4 parallel talks), podcasts, stands, social events&amp;hellip; Most of them are in English, but there will be in Spanish &amp;amp; Asturian too.
+
 \o/
 The speakers are coming from all these countries:
+
 \o/
 Are you ready for an incredible UbuCon? :)
+
 Testing the Main Room #noedits
-Remember that you have transport discounts and a main social event: the espicha.</description></item><item><title>Ubucon Europe 2018: Last call for papers &amp; current status event</title><link>https://costales.github.io/posts/ubucon-europe-2018-last-call-for/</link><pubDate>Sun, 04 Feb 2018 12:41:00 +0100</pubDate><guid>https://costales.github.io/posts/ubucon-europe-2018-last-call-for/</guid><description>You&amp;rsquo;re on time for submit a conference, workshop, stand or podcast for the next Ubucon!!
+Remember that you have transport discounts and a main social event: the espicha.</description>
+    </item>
+    
+    <item>
+      <title>Ubucon Europe 2018: Last call for papers &amp; current status event</title>
+      <link>https://costales.github.io/posts/ubucon-europe-2018-last-call-for/</link>
+      <pubDate>Sun, 04 Feb 2018 12:41:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubucon-europe-2018-last-call-for/</guid>
+      <description>You&#39;re on time for submit a conference, workshop, stand or podcast for the next Ubucon!!
+
 Main room. With no edits ;) Just checking things in situ for April
-We&amp;rsquo;re working hard for the next Ubucon Europe 2018 and we would like to tell you the current status:
-Official webpage updated.  You have especial discounts for your travel in bus, train and hotel. More info here. The conferences will be for free.</description></item><item><title>Ubucon Europe: 100 Days to go!</title><link>https://costales.github.io/posts/ubucon-europe-100-days-to-go/</link><pubDate>Wed, 17 Jan 2018 20:00:00 +0100</pubDate><guid>https://costales.github.io/posts/ubucon-europe-100-days-to-go/</guid><description>100 days to go!!
-+ info: https://ubucon.eu</description></item><item><title>Ubucon Europe 2018: Call for papers</title><link>https://costales.github.io/posts/ubuntu-europe-2018-call-for-papers/</link><pubDate>Wed, 20 Dec 2017 18:29:00 +0100</pubDate><guid>https://costales.github.io/posts/ubuntu-europe-2018-call-for-papers/</guid><description>Yes! It&amp;rsquo;s the time for submit a conference, workshop, podcast and/or stand for the next Ubucon Europe 2018 |o/
+We&#39;re working hard for the next Ubucon Europe 2018 and we would like to tell you the current status:
+ Official webpage updated.  You have especial discounts for your travel in bus, train and hotel. More info here. The conferences will be for free.</description>
+    </item>
+    
+    <item>
+      <title>Ubucon Europe: 100 Days to go!</title>
+      <link>https://costales.github.io/posts/ubucon-europe-100-days-to-go/</link>
+      <pubDate>Wed, 17 Jan 2018 20:00:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubucon-europe-100-days-to-go/</guid>
+      <description>100 days to go!!
++ info: https://ubucon.eu</description>
+    </item>
+    
+    <item>
+      <title>Ubucon Europe 2018: Call for papers</title>
+      <link>https://costales.github.io/posts/ubuntu-europe-2018-call-for-papers/</link>
+      <pubDate>Wed, 20 Dec 2017 18:29:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubuntu-europe-2018-call-for-papers/</guid>
+      <description>Yes! It&#39;s the time for submit a conference, workshop, podcast and/or stand for the next Ubucon Europe 2018 |o/
+
 Spread your knowledge to hundred of people!
 We would love to hear you!
-+ info.</description></item><item><title>3rd Ubucon Europe 2018</title><link>https://costales.github.io/posts/tercera-ubucon-europe-2018/</link><pubDate>Sat, 09 Dec 2017 14:22:00 +0100</pubDate><guid>https://costales.github.io/posts/tercera-ubucon-europe-2018/</guid><description>Yes! A new edition for ubunteros around the world! :))
++ info.</description>
+    </item>
+    
+    <item>
+      <title>3rd Ubucon Europe 2018</title>
+      <link>https://costales.github.io/posts/tercera-ubucon-europe-2018/</link>
+      <pubDate>Sat, 09 Dec 2017 14:22:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/tercera-ubucon-europe-2018/</guid>
+      <description>Yes! A new edition for ubunteros around the world! :))
+
 Ubucons around the world
-Is Ubucon made for me? This event is just for you! ;) You don&amp;rsquo;t need to be a developer, because you&amp;rsquo;ll enjoy a lot of talks about everything you can to imagine about Ubuntu and share great moments with other users.
-Even the language won&amp;rsquo;t be a problem. there, you&amp;rsquo;ll meet people from everywhere and surely someone will speak in your language :)</description></item><item><title>Crónica de la 2ª Ubucon Europea</title><link>https://costales.github.io/posts/second-ubucon-europea/</link><pubDate>Wed, 13 Sep 2017 19:57:00 +0200</pubDate><guid>https://costales.github.io/posts/second-ubucon-europea/</guid><description>**6 de Septiembre, **Miércoles
+Is Ubucon made for me? This event is just for you! ;) You don&#39;t need to be a developer, because you&#39;ll enjoy a lot of talks about everything you can to imagine about Ubuntu and share great moments with other users.
+Even the language won&#39;t be a problem. there, you&#39;ll meet people from everywhere and surely someone will speak in your language :)</description>
+    </item>
+    
+    <item>
+      <title>Crónica de la 2ª Ubucon Europea</title>
+      <link>https://costales.github.io/posts/second-ubucon-europea/</link>
+      <pubDate>Wed, 13 Sep 2017 19:57:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/second-ubucon-europea/</guid>
+      <description>**6 de Septiembre, **Miércoles
 ¡Por fin! Una nueva Ubucon Europea está a la vuelta de la esquina. Tras la primera de Alemania, toca París. Llegué un par de días antes, pues era más barato el avión en estas fechas tan saturadas de turistas.
-Marius Quabeck, Miguel Menéndez y un par de chicos escandinavos (los cuales hicieron una bolera con Arduinos) nos juntamos de manera improvisada para cenar enfrente del museo donde se haría el evento.</description></item><item><title>Ubucon Europe 2016 - Day 3</title><link>https://costales.github.io/posts/ubucon-europe-2016-day-3/</link><pubDate>Mon, 21 Nov 2016 21:27:00 +0100</pubDate><guid>https://costales.github.io/posts/ubucon-europe-2016-day-3/</guid><description>Me tocó abrir este último día de la Ubucon con una charla sobre uNav. Tras el &amp;ldquo;You have arrived at your presentation&amp;rdquo; espontáneo de Nathan, conté la historia y algunos trucos de esta aplicación tan querida por la comunidad y mostré en exclusiva el vídeo original del spot.
-uNav&amp;rsquo;s talk
+Marius Quabeck, Miguel Menéndez y un par de chicos escandinavos (los cuales hicieron una bolera con Arduinos) nos juntamos de manera improvisada para cenar enfrente del museo donde se haría el evento.</description>
+    </item>
+    
+    <item>
+      <title>Ubucon Europe 2016 - Day 3</title>
+      <link>https://costales.github.io/posts/ubucon-europe-2016-day-3/</link>
+      <pubDate>Mon, 21 Nov 2016 21:27:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubucon-europe-2016-day-3/</guid>
+      <description>Me tocó abrir este último día de la Ubucon con una charla sobre uNav. Tras el &amp;ldquo;You have arrived at your presentation&amp;rdquo; espontáneo de Nathan, conté la historia y algunos trucos de esta aplicación tan querida por la comunidad y mostré en exclusiva el vídeo original del spot.
+
+uNav&#39;s talk
+
 Llenazo :))
 Apenas pude llegar a la charla de Daniel sobre snaps que coincidía con la mía.
-El resto del día lo pasé compartiendo ratos con distintas personas, más que en las charlas.</description></item><item><title>Ubucon Europe 2016 - Day 2</title><link>https://costales.github.io/posts/ubucon-europe-2016-day-2/</link><pubDate>Mon, 21 Nov 2016 15:41:00 +0100</pubDate><guid>https://costales.github.io/posts/ubucon-europe-2016-day-2/</guid><description>Día del comienzo de las charlas.
+El resto del día lo pasé compartiendo ratos con distintas personas, más que en las charlas.</description>
+    </item>
+    
+    <item>
+      <title>Ubucon Europe 2016 - Day 2</title>
+      <link>https://costales.github.io/posts/ubucon-europe-2016-day-2/</link>
+      <pubDate>Mon, 21 Nov 2016 15:41:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubucon-europe-2016-day-2/</guid>
+      <description>Día del comienzo de las charlas.
 La novedad la anunció Marius de UBPorts. Pondrá a la venta un dock para Ubuntu Phone/Tablet con el que se podrá enviar la señal del móvil a un monitor y tener así la ansiada convergencia. Costará unos 60€ y funcionará (a priori) con cualquiera de los móviles actuales con Ubuntu.
-Tras Marius, abrió Jane Silver el día, contándonos ante una atestada sala el ancho ecosistema ubuntero.</description></item></channel></rss>
+Tras Marius, abrió Jane Silver el día, contándonos ante una atestada sala el ancho ecosistema ubuntero.</description>
+    </item>
+    
+  </channel>
+</rss>

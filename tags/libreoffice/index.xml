@@ -1,7 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>libreoffice on Marcos Costales</title><link>https://costales.github.io/tags/libreoffice/</link><description>Recent content in libreoffice on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 06 Sep 2014 15:12:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/libreoffice/index.xml" rel="self" type="application/rss+xml"/><item><title>Tema monocromo para LibreOffice</title><link>https://costales.github.io/posts/tema-monocromo-para-libreoffice/</link><pubDate>Sat, 06 Sep 2014 15:12:00 +0200</pubDate><guid>https://costales.github.io/posts/tema-monocromo-para-libreoffice/</guid><description>Podemos mejorar (para mi gusto) mucho el tema por defecto de LibreOffice que tenemos en Ubuntu.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>libreoffice on Marcos Costales</title>
+    <link>https://costales.github.io/tags/libreoffice/</link>
+    <description>Recent content in libreoffice on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Sep 2014 15:12:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/libreoffice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tema monocromo para LibreOffice</title>
+      <link>https://costales.github.io/posts/tema-monocromo-para-libreoffice/</link>
+      <pubDate>Sat, 06 Sep 2014 15:12:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/tema-monocromo-para-libreoffice/</guid>
+      <description>Podemos mejorar (para mi gusto) mucho el tema por defecto de LibreOffice que tenemos en Ubuntu.
 Simplemente ejecutamos esto en una Terminal:
 sudo apt-get install libreoffice-style-sifr -y
 Y modificamos en LibreOffice: Tools / Options / View / Icon: Sifr
 Cerramos y volvemos a abrir LibreOffice y veremos algo que así :)
+
 Tema monocromo en LibreOffice
-Fuente.</description></item></channel></rss>
+Fuente.</description>
+    </item>
+    
+  </channel>
+</rss>

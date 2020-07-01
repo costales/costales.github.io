@@ -1,20 +1,107 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>customization on Marcos Costales</title><link>https://costales.github.io/tags/customization/</link><description>Recent content in customization on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 22 Apr 2020 19:45:19 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/customization/index.xml" rel="self" type="application/rss+xml"/><item><title>Yaru &amp; Folder Color in Ubuntu 20.04</title><link>https://costales.github.io/posts/yaru-and-folder-color-ubuntu-20.04/</link><pubDate>Wed, 22 Apr 2020 19:45:19 +0200</pubDate><guid>https://costales.github.io/posts/yaru-and-folder-color-ubuntu-20.04/</guid><description>The new Yaru in Ubuntu 20.04 is awesome! I love it!
-But there isn&amp;rsquo;t an icon theme working fine with Folder Color &amp;amp; Yaru&amp;hellip; until now. Just in time!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>customization on Marcos Costales</title>
+    <link>https://costales.github.io/tags/customization/</link>
+    <description>Recent content in customization on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2020 19:45:19 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/customization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yaru &amp; Folder Color in Ubuntu 20.04</title>
+      <link>https://costales.github.io/posts/yaru-and-folder-color-ubuntu-20.04/</link>
+      <pubDate>Wed, 22 Apr 2020 19:45:19 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/yaru-and-folder-color-ubuntu-20.04/</guid>
+      <description>The new Yaru in Ubuntu 20.04 is awesome! I love it!
+But there isn&#39;t an icon theme working fine with Folder Color &amp;amp; Yaru&amp;hellip; until now. Just in time!
 Thanks to Jan Schröder with the Yaru-Colors project you can enjoy it now!
 How to install it In Ubuntu 20.04 run these commands from a Terminal (from code is available here):
-sudo apt install folder-color sudo add-apt-repository ppa:costales/yaru-colors-folder-color sudo apt install yaru-colors-folder-color nautilus -q Thanks All credits are going to Jan Schröder.</description></item><item><title>Vibrancy Colors &amp; Folder Color</title><link>https://costales.github.io/posts/vibrancy-colors-folder-color/</link><pubDate>Wed, 25 Mar 2015 20:13:00 +0100</pubDate><guid>https://costales.github.io/posts/vibrancy-colors-folder-color/</guid><description>Nueva release de los iconos Vibrancy, obra de RAVEfinity. Además de modernizar nuestro escritorio, ofrecen el personalizar los colores de las carpetas mediante Folder Color.
+sudo apt install folder-color sudo add-apt-repository ppa:costales/yaru-colors-folder-color sudo apt install yaru-colors-folder-color nautilus -q Thanks All credits are going to Jan Schröder.</description>
+    </item>
+    
+    <item>
+      <title>Vibrancy Colors &amp; Folder Color</title>
+      <link>https://costales.github.io/posts/vibrancy-colors-folder-color/</link>
+      <pubDate>Wed, 25 Mar 2015 20:13:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/vibrancy-colors-folder-color/</guid>
+      <description>Nueva release de los iconos Vibrancy, obra de RAVEfinity. Además de modernizar nuestro escritorio, ofrecen el personalizar los colores de las carpetas mediante Folder Color.
+
 Vibrancy icons
-Descarga los iconos aquí</description></item><item><title>Cómo cambiar el color marrón de las carpetas en Ubuntu GNOME</title><link>https://costales.github.io/posts/color-marron-carpetas-gnome/</link><pubDate>Fri, 12 Dec 2014 17:05:00 +0100</pubDate><guid>https://costales.github.io/posts/color-marron-carpetas-gnome/</guid><description>Para instalar los colores y Folder Color ejecuta desde una Terminal estos comandos:
+Descarga los iconos aquí</description>
+    </item>
+    
+    <item>
+      <title>Cómo cambiar el color marrón de las carpetas en Ubuntu GNOME</title>
+      <link>https://costales.github.io/posts/color-marron-carpetas-gnome/</link>
+      <pubDate>Fri, 12 Dec 2014 17:05:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/color-marron-carpetas-gnome/</guid>
+      <description>Para instalar los colores y Folder Color ejecuta desde una Terminal estos comandos:
 sudo add-apt-repository ppa:costales/folder-color sudo add-apt-repository ppa:ravefinity-project/ppa
 sudo apt-get update sudo apt-get install humanity-colors folder-color nautilus -q
-Ahora pulsa en _Activities_ y busca _Tweak:_ [![](https://3.bp.blogspot.com/-ORfDULUz6II/VIm1buqpUMI/AAAAAAAADfk/qecpNO12AD4/s1600/gnome2.png)](https://3.bp.blogspot.com/-ORfDULUz6II/VIm1buqpUMI/AAAAAAAADfk/qecpNO12AD4/s1600/gnome2.png) GNOME Tweak Tool Cambia el tema de iconos: [![](https://3.bp.blogspot.com/-ATpZHHyh28U/VIm1bYQDboI/AAAAAAAADfc/o28OIjisByk/s1600/gnome3.png)](https://3.bp.blogspot.com/-ATpZHHyh28U/VIm1bYQDboI/AAAAAAAADfc/o28OIjisByk/s1600/gnome3.png) Tema de iconos a Humanity-Light-\* Ya lo tienes :) [![](https://2.bp.blogspot.com/-9TtEzUZFssY/VIm1b26dEMI/AAAAAAAADfg/QkeMPRo6JLk/s1600/gnome1.png)](https://2.bp.blogspot.com/-9TtEzUZFssY/VIm1b26dEMI/AAAAAAAADfg/QkeMPRo6JLk/s1600/gnome1.png) Funcionando en Ubuntu GNOME</description></item><item><title>Cómo cambiar el color naranja de las carpetas en Ubuntu MATE</title><link>https://costales.github.io/posts/color-naraja-carpetas-mate/</link><pubDate>Fri, 12 Dec 2014 17:05:00 +0100</pubDate><guid>https://costales.github.io/posts/color-naraja-carpetas-mate/</guid><description>Aquí encontrarás cómo cambiar el color naranja de las carpetas de Ubuntu MATE por otro.
+ Ahora pulsa en _Activities_ y busca _Tweak:_ [![](https://3.bp.blogspot.com/-ORfDULUz6II/VIm1buqpUMI/AAAAAAAADfk/qecpNO12AD4/s1600/gnome2.png)](https://3.bp.blogspot.com/-ORfDULUz6II/VIm1buqpUMI/AAAAAAAADfk/qecpNO12AD4/s1600/gnome2.png) GNOME Tweak Tool Cambia el tema de iconos: [![](https://3.bp.blogspot.com/-ATpZHHyh28U/VIm1bYQDboI/AAAAAAAADfc/o28OIjisByk/s1600/gnome3.png)](https://3.bp.blogspot.com/-ATpZHHyh28U/VIm1bYQDboI/AAAAAAAADfc/o28OIjisByk/s1600/gnome3.png) Tema de iconos a Humanity-Light-\* Ya lo tienes :) [![](https://2.bp.blogspot.com/-9TtEzUZFssY/VIm1b26dEMI/AAAAAAAADfg/QkeMPRo6JLk/s1600/gnome1.png)](https://2.bp.blogspot.com/-9TtEzUZFssY/VIm1b26dEMI/AAAAAAAADfg/QkeMPRo6JLk/s1600/gnome1.png) Funcionando en Ubuntu GNOME </description>
+    </item>
+    
+    <item>
+      <title>Cómo cambiar el color naranja de las carpetas en Ubuntu MATE</title>
+      <link>https://costales.github.io/posts/color-naraja-carpetas-mate/</link>
+      <pubDate>Fri, 12 Dec 2014 17:05:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/color-naraja-carpetas-mate/</guid>
+      <description>Aquí encontrarás cómo cambiar el color naranja de las carpetas de Ubuntu MATE por otro.
 Para instalar los colores y Folder Color ejecuta desde una Terminal estos comandos:
 sudo add-apt-repository ppa:costales/folder-color sudo add-apt-repository ppa:ravefinity-project/ppa
-sudo apt-get update sudo apt-get install humanity-colors folder-color-caja ``` ``` caja -q ``` Ahora vete al menú _Sistema / Preferencias / Apariencia_: [![](https://2.bp.blogspot.com/-wgykcJv6e50/VImuKfldgHI/AAAAAAAADe8/ficOxrW8vV4/s1600/with_mate2.png)](https://2.bp.blogspot.com/-wgykcJv6e50/VImuKfldgHI/AAAAAAAADe8/ficOxrW8vV4/s1600/with_mate2.png) Cambiar la apariencia Y Pulsa en _Configurar_ el tema. Vete a la pestaña _Iconos_ y escoge el color que prefieras: [!</description></item><item><title>Cambiar color aplicación activa en panel de Xubuntu</title><link>https://costales.github.io/posts/cambiar-color-aplicacion-activa-en/</link><pubDate>Wed, 05 Dec 2012 19:50:00 +0100</pubDate><guid>https://costales.github.io/posts/cambiar-color-aplicacion-activa-en/</guid><description>Cambiar los valores bg[ACTIVE] = &amp;ldquo;#xxxxxx&amp;rdquo; en
-/usr/share/themes/Ambiance/gtk-2.0/apps/panel.rc</description></item><item><title>Brillo en portátil ACER TM 5735 T4500 Linux Linpux Moblin con Ubuntu 11.04</title><link>https://costales.github.io/posts/brillo-en-portatil-acer-tm-5735-t4500/</link><pubDate>Sat, 10 Dec 2011 16:01:00 +0100</pubDate><guid>https://costales.github.io/posts/brillo-en-portatil-acer-tm-5735-t4500/</guid><description>Este portátil dispone de una tarjeta gráfica Intel GMA 4500M la cual da bastantes problemas con la versión 11.04 de Ubuntu. Si arrancamos con el Live CD la pantalla permanecerá negra, pero realmente está con el brillo al mínimo. Para instalar Ubuntu en este portátil hay que pulsar F6 y marcar la última opción del menu (la de más abajo).
-Tras la instalación debemos establecer un parámetro en el GRUB para que no lo deje con brillo mínimo (que no se ve nada):</description></item><item><title>Eliminar borde azul en imágenes con enlace en Internet Explorer</title><link>https://costales.github.io/posts/eliminar-borde-azul-en-imagenes-con/</link><pubDate>Fri, 25 Nov 2011 16:30:00 +0100</pubDate><guid>https://costales.github.io/posts/eliminar-borde-azul-en-imagenes-con/</guid><description>En Internet Explorer (6, 7, 8) cuando se añade un link a una imagen, aparece un borde azul que además descuadra las posiciones.
+sudo apt-get update sudo apt-get install humanity-colors folder-color-caja ``` ``` caja -q ``` Ahora vete al menú _Sistema / Preferencias / Apariencia_: [![](https://2.bp.blogspot.com/-wgykcJv6e50/VImuKfldgHI/AAAAAAAADe8/ficOxrW8vV4/s1600/with_mate2.png)](https://2.bp.blogspot.com/-wgykcJv6e50/VImuKfldgHI/AAAAAAAADe8/ficOxrW8vV4/s1600/with_mate2.png) Cambiar la apariencia Y Pulsa en _Configurar_ el tema. Vete a la pestaña _Iconos_ y escoge el color que prefieras: [!</description>
+    </item>
+    
+    <item>
+      <title>Cambiar color aplicación activa en panel de Xubuntu</title>
+      <link>https://costales.github.io/posts/cambiar-color-aplicacion-activa-en/</link>
+      <pubDate>Wed, 05 Dec 2012 19:50:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/cambiar-color-aplicacion-activa-en/</guid>
+      <description>Cambiar los valores bg[ACTIVE] = &amp;ldquo;#xxxxxx&amp;rdquo; en
+/usr/share/themes/Ambiance/gtk-2.0/apps/panel.rc</description>
+    </item>
+    
+    <item>
+      <title>Brillo en portátil ACER TM 5735 T4500 Linux Linpux Moblin con Ubuntu 11.04</title>
+      <link>https://costales.github.io/posts/brillo-en-portatil-acer-tm-5735-t4500/</link>
+      <pubDate>Sat, 10 Dec 2011 16:01:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/brillo-en-portatil-acer-tm-5735-t4500/</guid>
+      <description>Este portátil dispone de una tarjeta gráfica Intel GMA 4500M la cual da bastantes problemas con la versión 11.04 de Ubuntu. Si arrancamos con el Live CD la pantalla permanecerá negra, pero realmente está con el brillo al mínimo. Para instalar Ubuntu en este portátil hay que pulsar F6 y marcar la última opción del menu (la de más abajo).
+Tras la instalación debemos establecer un parámetro en el GRUB para que no lo deje con brillo mínimo (que no se ve nada):</description>
+    </item>
+    
+    <item>
+      <title>Eliminar borde azul en imágenes con enlace en Internet Explorer</title>
+      <link>https://costales.github.io/posts/eliminar-borde-azul-en-imagenes-con/</link>
+      <pubDate>Fri, 25 Nov 2011 16:30:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/eliminar-borde-azul-en-imagenes-con/</guid>
+      <description>En Internet Explorer (6, 7, 8) cuando se añade un link a una imagen, aparece un borde azul que además descuadra las posiciones.
 Para evitarlo, jugamos con el CSS:
 img { border: none; }
-PD: Motivos como este es por los que adoro Firefox o Chromium :P</description></item><item><title>El lunes como primer día de la semana en el calendario del panel</title><link>https://costales.github.io/posts/el-lunes-como-primer-dia-de-la-semana/</link><pubDate>Sun, 30 Oct 2011 12:45:00 +0100</pubDate><guid>https://costales.github.io/posts/el-lunes-como-primer-dia-de-la-semana/</guid><description>Me gusta usar Ubuntu en Inglés y tengo el problema de que el calendario del panel me lo visualiza en formato inglés, es decir, el domingo es el primer día de la semana, lo cual es bastante lioso para mirar fechas. ¡Vamos a cambiarlo! ;)
+PD: Motivos como este es por los que adoro Firefox o Chromium :P</description>
+    </item>
+    
+    <item>
+      <title>El lunes como primer día de la semana en el calendario del panel</title>
+      <link>https://costales.github.io/posts/el-lunes-como-primer-dia-de-la-semana/</link>
+      <pubDate>Sun, 30 Oct 2011 12:45:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/el-lunes-como-primer-dia-de-la-semana/</guid>
+      <description>Me gusta usar Ubuntu en Inglés y tengo el problema de que el calendario del panel me lo visualiza en formato inglés, es decir, el domingo es el primer día de la semana, lo cual es bastante lioso para mirar fechas. ¡Vamos a cambiarlo! ;)
 Desde la Terminal vemos qué locale estamos usando:
-user@server:~$ locale LANG=en_US.UTF-8 LANGUAGE=en_US:en LC_CTYPE=en_US.UTF-8 LC_NUMERIC=&amp;quot;en_US.UTF-8&amp;quot; LC_TIME=&amp;quot;en_US.UTF-8&amp;quot; LC_COLLATE=en_US.UTF-8 LC_MONETARY=&amp;quot;en_US.UTF-8&amp;quot; LC_MESSAGES=en_US.UTF-8 LC_PAPER=&amp;quot;en_US.UTF-8&amp;quot; LC_NAME=&amp;quot;en_US.UTF-8&amp;quot; LC_ADDRESS=&amp;quot;en_US.UTF-8&amp;quot; LC_TELEPHONE=&amp;quot;en_US.UTF-8&amp;quot; LC_MEASUREMENT=&amp;quot;en_US.UTF-8&amp;quot; LC_IDENTIFICATION=&amp;quot;en_US.UTF-8&amp;quot; LC_ALL=user@server:~$</description></item></channel></rss>
+user@server:~$ locale LANG=en_US.UTF-8 LANGUAGE=en_US:en LC_CTYPE=en_US.UTF-8 LC_NUMERIC=&amp;quot;en_US.UTF-8&amp;quot; LC_TIME=&amp;quot;en_US.UTF-8&amp;quot; LC_COLLATE=en_US.UTF-8 LC_MONETARY=&amp;quot;en_US.UTF-8&amp;quot; LC_MESSAGES=en_US.UTF-8 LC_PAPER=&amp;quot;en_US.UTF-8&amp;quot; LC_NAME=&amp;quot;en_US.UTF-8&amp;quot; LC_ADDRESS=&amp;quot;en_US.UTF-8&amp;quot; LC_TELEPHONE=&amp;quot;en_US.UTF-8&amp;quot; LC_MEASUREMENT=&amp;quot;en_US.UTF-8&amp;quot; LC_IDENTIFICATION=&amp;quot;en_US.UTF-8&amp;quot; LC_ALL=user@server:~$</description>
+    </item>
+    
+  </channel>
+</rss>

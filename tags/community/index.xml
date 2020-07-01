@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>community on Marcos Costales</title><link>https://costales.github.io/tags/community/</link><description>Recent content in community on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Nov 2017 19:09:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/community/index.xml" rel="self" type="application/rss+xml"/><item><title>Community Appreciation Day: Thanks Diogo Constantino!</title><link>https://costales.github.io/posts/community-appreciation-day-thanks-diogo/</link><pubDate>Mon, 20 Nov 2017 19:09:00 +0100</pubDate><guid>https://costales.github.io/posts/community-appreciation-day-thanks-diogo/</guid><description>I have to say you, one thousand times: THANKS Diogo!
-Because you really believe in free(dom) software and Ubuntu, you are doing a so better Community and you are always available for give me a hand and specially because you are an awesome person |o/</description></item><item><title>Ubuntu Community Appreciation Day: ¡Gracias David!</title><link>https://costales.github.io/posts/ubuntu-community-appreciation-day/</link><pubDate>Fri, 20 Nov 2015 16:02:00 +0100</pubDate><guid>https://costales.github.io/posts/ubuntu-community-appreciation-day/</guid><description>Este (mi primer agradecimiento) tengo muy claro a quien darlo: ¡Gracias Planella! :)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>community on Marcos Costales</title>
+    <link>https://costales.github.io/tags/community/</link>
+    <description>Recent content in community on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Nov 2017 19:09:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Community Appreciation Day: Thanks Diogo Constantino!</title>
+      <link>https://costales.github.io/posts/community-appreciation-day-thanks-diogo/</link>
+      <pubDate>Mon, 20 Nov 2017 19:09:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/community-appreciation-day-thanks-diogo/</guid>
+      <description>I have to say you, one thousand times: THANKS Diogo!
+Because you really believe in free(dom) software and Ubuntu, you are doing a so better Community and you are always available for give me a hand and specially because you are an awesome person |o/</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Community Appreciation Day: ¡Gracias David!</title>
+      <link>https://costales.github.io/posts/ubuntu-community-appreciation-day/</link>
+      <pubDate>Fri, 20 Nov 2015 16:02:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubuntu-community-appreciation-day/</guid>
+      <description>Este (mi primer agradecimiento) tengo muy claro a quien darlo: ¡Gracias Planella! :)
 Por estar siempre ahí dispuesto a escuchar, aconsejar y ayudar en todo momento. Todo un ejemplo del espíritu Ubuntu :)
-Un abrazo compañero.</description></item></channel></rss>
+Un abrazo compañero.</description>
+    </item>
+    
+  </channel>
+</rss>

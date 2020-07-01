@@ -1,30 +1,143 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>podcast on Marcos Costales</title><link>https://costales.github.io/tags/podcast/</link><description>Recent content in podcast on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 02 May 2020 10:41:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/podcast/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu y otras hierbas S04E08: Ubuntu 20.04 y móviles abiertos</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04e08/</link><pubDate>Sat, 02 May 2020 10:41:00 +0200</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04e08/</guid><description>Os contamos nuestra impresión con Ubuntu 20.04, en nuestra opinión, la mejor versión de Ubuntu hasta la fecha.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>podcast on Marcos Costales</title>
+    <link>https://costales.github.io/tags/podcast/</link>
+    <description>Recent content in podcast on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 May 2020 10:41:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu y otras hierbas S04E08: Ubuntu 20.04 y móviles abiertos</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04e08/</link>
+      <pubDate>Sat, 02 May 2020 10:41:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04e08/</guid>
+      <description>Os contamos nuestra impresión con Ubuntu 20.04, en nuestra opinión, la mejor versión de Ubuntu hasta la fecha.
 Además analizamos qué alternativas hay para usar móviles abiertos.
-Escúchanos en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual con el RSS</description></item><item><title>Ubuntu Y Otras Hierbas S04E05: Teletrabajar con Software Libre</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e05/</link><pubDate>Fri, 13 Mar 2020 23:16:42 +0100</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e05/</guid><description>Con motivo del Coronavirus COVID-19 analizamos cómo teletrabajar usando Software Libre. En este episodio hacemos un crossover entre los podcasts NoLegalTech y Ubuntu y otras hierbas, con Bárbara, Jorge, Teruelo y Costales.
+  Escúchanos en:
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual con el RSS  </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Y Otras Hierbas S04E05: Teletrabajar con Software Libre</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e05/</link>
+      <pubDate>Fri, 13 Mar 2020 23:16:42 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e05/</guid>
+      <description>Con motivo del Coronavirus COVID-19 analizamos cómo teletrabajar usando Software Libre. En este episodio hacemos un crossover entre los podcasts NoLegalTech y Ubuntu y otras hierbas, con Bárbara, Jorge, Teruelo y Costales.
+
 Ubuntu y otras hierbas
 Escúchanos en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;) Webs del software del que hablamos:
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)  Webs del software del que hablamos:
 VPN
-VPN con Raspberry PI: https://pivpn.io ProtonVPN: https://protonvpn.com/ Herramientas para Comunicación</description></item><item><title>Ubuntu y otras hierbas S04E04: Cómo grabamos y sistemas de ficheros</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e04/</link><pubDate>Sun, 08 Mar 2020 12:26:56 +0100</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e04/</guid><description>Os explicamos cómo grabamos este podcast, hablaremos sobre los distintos tipos de sistemas de ficheros y disertaremos sobre la decisión de quitar el icono de Amazon en la próxima versión de Ubuntu 20.04:
+ VPN con Raspberry PI: https://pivpn.io ProtonVPN: https://protonvpn.com/  Herramientas para Comunicación</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu y otras hierbas S04E04: Cómo grabamos y sistemas de ficheros</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e04/</link>
+      <pubDate>Sun, 08 Mar 2020 12:26:56 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e04/</guid>
+      <description>Os explicamos cómo grabamos este podcast, hablaremos sobre los distintos tipos de sistemas de ficheros y disertaremos sobre la decisión de quitar el icono de Amazon en la próxima versión de Ubuntu 20.04:
+
 Ubuntu y otras hierbas
 Escúchanos en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)</description></item><item><title>Ubuntu Y Otras Hierbas S04E03: Privacidad Red y traducciones Ubuntu</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e03/</link><pubDate>Sat, 11 Jan 2020 16:56:09 +0100</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e03/</guid><description>Fernando Lanero, Paco Molinero y Marcos Costales analizamos la privacidad en la red de redes: Internet. Además entrevistamos a Paco Molinero como responsable del grupo de traductores de Ubuntu al Español en Launchpad URL de traducción.
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)  </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Y Otras Hierbas S04E03: Privacidad Red y traducciones Ubuntu</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e03/</link>
+      <pubDate>Sat, 11 Jan 2020 16:56:09 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e03/</guid>
+      <description>Fernando Lanero, Paco Molinero y Marcos Costales analizamos la privacidad en la red de redes: Internet. Además entrevistamos a Paco Molinero como responsable del grupo de traductores de Ubuntu al Español en Launchpad URL de traducción.
+
 Escúchanos en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual con el RSS</description></item><item><title>Ubuntu Y Otras Hierbas S04E02: Fin neutralidad Internet y obsolescencia pizarras</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e02/</link><pubDate>Sun, 15 Dec 2019 17:01:02 +0100</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e02/</guid><description>Javier Teruelo, Paco Molinero y Marcos Costales analizamos el fin de la neutralidad de Internet y obsolescencia programada en las pizarras digitales de los colegios.
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual con el RSS  </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Y Otras Hierbas S04E02: Fin neutralidad Internet y obsolescencia pizarras</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e02/</link>
+      <pubDate>Sun, 15 Dec 2019 17:01:02 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04-e02/</guid>
+      <description>Javier Teruelo, Paco Molinero y Marcos Costales analizamos el fin de la neutralidad de Internet y obsolescencia programada en las pizarras digitales de los colegios.
+
 Escúchanos en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)</description></item><item><title>Ubuntu y otras hierbas S04E01: UbuCon Europe 2019 y Ubuntu 19.10</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04e01/</link><pubDate>Sat, 26 Oct 2019 15:41:00 +0200</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04e01/</guid><description>Paco Molinero, Fernando Lanero, Javier Teruelo y Marcos Costales entrevistamos a Joan CiberSheep sobre la Ubucon Europe y analizamos la nueva versión de Ubuntu 19.10.
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)  </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu y otras hierbas S04E01: UbuCon Europe 2019 y Ubuntu 19.10</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04e01/</link>
+      <pubDate>Sat, 26 Oct 2019 15:41:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s04e01/</guid>
+      <description>Paco Molinero, Fernando Lanero, Javier Teruelo y Marcos Costales entrevistamos a Joan CiberSheep sobre la Ubucon Europe y analizamos la nueva versión de Ubuntu 19.10.
+
 Ubuntu y otras hierbas
 Escúchanos en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)</description></item><item><title>Ubuntu y otras hierbas S03E06: Huawei y Android; IoT ¿más intrusión en los hogares?</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e06/</link><pubDate>Sat, 22 Jun 2019 15:58:00 +0200</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e06/</guid><description>Paco Molinero, Fernando Lanero y Marcos Costales debatiremos sobre la polémica de Huawei con el Gobierno de los Estados Unidos. Además hablaremos sobre los problemas de privacidad y seguridad de los dispositivos conectados al Internet de las Cosas.
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)  </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu y otras hierbas S03E06: Huawei y Android; IoT ¿más intrusión en los hogares?</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e06/</link>
+      <pubDate>Sat, 22 Jun 2019 15:58:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e06/</guid>
+      <description>Paco Molinero, Fernando Lanero y Marcos Costales debatiremos sobre la polémica de Huawei con el Gobierno de los Estados Unidos. Además hablaremos sobre los problemas de privacidad y seguridad de los dispositivos conectados al Internet de las Cosas.
+
 Ubuntu y otras hierbas
 Escúchanos en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)</description></item><item><title>Ubuntu y otras hierbas S03E05: Reclamación de licencias y ¿es Android Linux?</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e05/</link><pubDate>Sat, 18 May 2019 19:53:00 +0200</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e05/</guid><description>Paco Molinero, Javier Teruelo y Marcos Costales debatiremos si es posible reclamar una licencia de Windows y si Android es realmente Linux ¿?
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)  </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu y otras hierbas S03E05: Reclamación de licencias y ¿es Android Linux?</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e05/</link>
+      <pubDate>Sat, 18 May 2019 19:53:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e05/</guid>
+      <description>Paco Molinero, Javier Teruelo y Marcos Costales debatiremos si es posible reclamar una licencia de Windows y si Android es realmente Linux ¿?
+
 Ubuntu y otras hierbas
 Escúchanos en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)</description></item><item><title>Ubuntu y otras hierbas S03E04: Ubuntu en Windows 10 y Ley de copyright Europea</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e04/</link><pubDate>Sat, 13 Apr 2019 18:31:00 +0200</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e04/</guid><description>Javier Teruelo y Marcos Costales conversaremos sobre qué implica que se pueda ejecutar el bash de Ubuntu en Windows 10 y sobre la nueva Ley de copyright de la Unión Europea, con sus polémicos artículos.
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)  </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu y otras hierbas S03E04: Ubuntu en Windows 10 y Ley de copyright Europea</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e04/</link>
+      <pubDate>Sat, 13 Apr 2019 18:31:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e04/</guid>
+      <description>Javier Teruelo y Marcos Costales conversaremos sobre qué implica que se pueda ejecutar el bash de Ubuntu en Windows 10 y sobre la nueva Ley de copyright de la Unión Europea, con sus polémicos artículos.
+
 S03E04
 Escúchalo en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)</description></item><item><title>Ubuntu y otras hierbas S03E03: IBM compra RedHat y nuestros sabores de Ubuntu</title><link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e03/</link><pubDate>Sat, 02 Mar 2019 19:32:00 +0100</pubDate><guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e03/</guid><description>El equipo al completo, Francisco Molinero, Javier Teruelo, Fernando Lanero y Marcos Costales conversaremos sobre la noticia del 2018: La compra de RedHat por parte de IBM. También explicaremos y diremos cual es nuestro sabor favorito: Ubuntu, Ubuntu GNOME, Kubuntu, Lubuntu, Ubuntu MATE, Ubuntu Budgie o Xubuntu. Eso nos llevará a una pregunta, ¿Has visto Ubuntu en alguna peli o serie? :)
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)  </description>
+    </item>
+    
+    <item>
+      <title>Ubuntu y otras hierbas S03E03: IBM compra RedHat y nuestros sabores de Ubuntu</title>
+      <link>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e03/</link>
+      <pubDate>Sat, 02 Mar 2019 19:32:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/podcast-ubuntu-y-otras-hierbas-s03e03/</guid>
+      <description>El equipo al completo, Francisco Molinero, Javier Teruelo, Fernando Lanero y Marcos Costales conversaremos sobre la noticia del 2018: La compra de RedHat por parte de IBM. También explicaremos y diremos cual es nuestro sabor favorito: Ubuntu, Ubuntu GNOME, Kubuntu, Lubuntu, Ubuntu MATE, Ubuntu Budgie o Xubuntu. Eso nos llevará a una pregunta, ¿Has visto Ubuntu en alguna peli o serie? :)
+
 Escúchalo en:
-Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)</description></item></channel></rss>
+ Ivoox Telegram Youtube Y en tu cliente de podcast habitual ;)  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>transmission on Marcos Costales</title><link>https://costales.github.io/tags/transmission/</link><description>Recent content in transmission on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2014 18:56:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/transmission/index.xml" rel="self" type="application/rss+xml"/><item><title>Install transmission daemon in Ubuntu Server and avoid write permission problems</title><link>https://costales.github.io/posts/install-transmission-daemon-in-ubuntu/</link><pubDate>Mon, 24 Feb 2014 18:56:00 +0100</pubDate><guid>https://costales.github.io/posts/install-transmission-daemon-in-ubuntu/</guid><description>The tip: Change the user who runs the daemon for your user ;)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>transmission on Marcos Costales</title>
+    <link>https://costales.github.io/tags/transmission/</link>
+    <description>Recent content in transmission on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Feb 2014 18:56:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/transmission/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install transmission daemon in Ubuntu Server and avoid write permission problems</title>
+      <link>https://costales.github.io/posts/install-transmission-daemon-in-ubuntu/</link>
+      <pubDate>Mon, 24 Feb 2014 18:56:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/install-transmission-daemon-in-ubuntu/</guid>
+      <description>The tip: Change the user who runs the daemon for your user ;)
 sudo apt-get install transmission-daemon ``` /etc/init.d/transmission-daemon stopsudo nano /etc/init.d/transmission-daemon # Change USER=your_login_user sudo nano /etc/default/transmission-daemon # Set CONFIG_DIR=&amp;quot;/home/username/.config/transmission-daemon&amp;quot; transmission-daemon -f # Ctrl+C ````` `` /etc/init.d/transmission-daemon stop`` sudo cp /etc/transmission-daemon/settings.json ~/.config/transmission-daemon/settings.json sudo chown your_user:`````your_user` ~/.config/transmission-daemon/settings.json
 nano ~/.config/transmission-daemon/settings.json``
-Here, I&amp;rsquo;ll set my parameters:
+Here, I&#39;ll set my parameters:
 `&amp;quot;download-dir&amp;rdquo;
 &amp;ldquo;download-queue-size&amp;rdquo;: 2,
 &amp;ldquo;incomplete-dir&amp;rdquo;
@@ -11,12 +30,43 @@ Here, I&amp;rsquo;ll set my parameters:
 &amp;ldquo;rpc-whitelist-enabled&amp;rdquo;: true,
 &amp;ldquo;umask&amp;rdquo;: 2,
 /etc/init.d/transmission-daemon start
-sudo update-rc.</description></item><item><title>Transmission desde el móvil - Configurando Raspberry 5</title><link>https://costales.github.io/posts/transmission-desde-el-movil/</link><pubDate>Fri, 18 Oct 2013 17:24:00 +0200</pubDate><guid>https://costales.github.io/posts/transmission-desde-el-movil/</guid><description>Instalamos:
+sudo update-rc.</description>
+    </item>
+    
+    <item>
+      <title>Transmission desde el móvil - Configurando Raspberry 5</title>
+      <link>https://costales.github.io/posts/transmission-desde-el-movil/</link>
+      <pubDate>Fri, 18 Oct 2013 17:24:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/transmission-desde-el-movil/</guid>
+      <description>Instalamos:
 sudo apt-get install transmission-daemon Y configuramos:
 mkdir /tu\_path/progress mkdir /tu\_path/completed sudo usermod -a -G debian-transmission tu\_usuario chgrp debian-transmission /tu\_path/progress chgrp debian-transmission /tu\_path/completed chmod 770 /tu\_path/progress chmod 770 /tu\_path/completed sudo service transmission-daemon stop sudo adduser tu\_usuario debian-transmission sudo nano /etc/init.d/transmission-daemon sudo chown tu\_usuario -R /var/lib/transmission-daemon/info/ sudo chown tu\_usuario -R /tu\_path/progress sudo chown tu\_usuario -R /tu\_path/completed sudo chown tu\_usuario -R /etc/transmission-daemon/settings.json Cambiamos en el fichero estos parámetros:
-sudo nano /etc/transmission-daemon/settings.json &amp;quot;rpc-whitelist&amp;quot;: &amp;quot;127.</description></item><item><title>Buscador web de Torrents para Android</title><link>https://costales.github.io/posts/buscador-web-de-torrents-para-android/</link><pubDate>Mon, 29 Jul 2013 19:00:00 +0200</pubDate><guid>https://costales.github.io/posts/buscador-web-de-torrents-para-android/</guid><description>Uso el excelente Remote Transmission para desde el móvil controlar las descargas, pero con un buscador de torrents, el conjunto es perfecto, ya que desde el móvil puedes buscar, descargar el torrent que automáticamente se carga en el Remote Transmission.
+sudo nano /etc/transmission-daemon/settings.json &amp;quot;rpc-whitelist&amp;quot;: &amp;quot;127.</description>
+    </item>
+    
+    <item>
+      <title>Buscador web de Torrents para Android</title>
+      <link>https://costales.github.io/posts/buscador-web-de-torrents-para-android/</link>
+      <pubDate>Mon, 29 Jul 2013 19:00:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/buscador-web-de-torrents-para-android/</guid>
+      <description>Uso el excelente Remote Transmission para desde el móvil controlar las descargas, pero con un buscador de torrents, el conjunto es perfecto, ya que desde el móvil puedes buscar, descargar el torrent que automáticamente se carga en el Remote Transmission.
 ¿Cual es el problema? Que todos los buscadores de torrent en la Play Store son bastante malos o directamente no funcionan.
-Intenté encontrar un buscador web que tenga vista móvil, pero no encontré ninguno.</description></item><item><title>How can you create a Transmission blocklist rules?</title><link>https://costales.github.io/posts/how-create-transmission-blocklist-rules/</link><pubDate>Sun, 04 Dec 2011 20:01:00 +0100</pubDate><guid>https://costales.github.io/posts/how-create-transmission-blocklist-rules/</guid><description>In Transmission: Edit / Preferences / Privacy / Enable blocklist. Add the URL from below and click Update.
+Intenté encontrar un buscador web que tenga vista móvil, pero no encontré ninguno.</description>
+    </item>
+    
+    <item>
+      <title>How can you create a Transmission blocklist rules?</title>
+      <link>https://costales.github.io/posts/how-create-transmission-blocklist-rules/</link>
+      <pubDate>Sun, 04 Dec 2011 20:01:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/how-create-transmission-blocklist-rules/</guid>
+      <description>In Transmission: Edit / Preferences / Privacy / Enable blocklist. Add the URL from below and click Update.
 https://list.iblocklist.com/?list=bt_level1&amp;amp;fileformat=p2p&amp;amp;archiveformat=gz
 FYI: Why should you set a blocklist? ;)
-Answer by mikewhatever in Ubuntu Forums.</description></item></channel></rss>
+Answer by mikewhatever in Ubuntu Forums.</description>
+    </item>
+    
+  </channel>
+</rss>

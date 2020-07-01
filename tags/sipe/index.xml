@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sipe on Marcos Costales</title><link>https://costales.github.io/tags/sipe/</link><description>Recent content in sipe on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2014 18:00:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/sipe/index.xml" rel="self" type="application/rss+xml"/><item><title>How install SIPE (Office Communicator) with Pidgin Portable in Windows</title><link>https://costales.github.io/posts/how-install-sipe-office-communicator/</link><pubDate>Fri, 16 May 2014 18:00:00 +0200</pubDate><guid>https://costales.github.io/posts/how-install-sipe-office-communicator/</guid><description>You&amp;rsquo;ll need a portable folder of Pidgin 2.10+. By example: E:\PidginPortable.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sipe on Marcos Costales</title>
+    <link>https://costales.github.io/tags/sipe/</link>
+    <description>Recent content in sipe on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 May 2014 18:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/sipe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How install SIPE (Office Communicator) with Pidgin Portable in Windows</title>
+      <link>https://costales.github.io/posts/how-install-sipe-office-communicator/</link>
+      <pubDate>Fri, 16 May 2014 18:00:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/how-install-sipe-office-communicator/</guid>
+      <description>You&#39;ll need a portable folder of Pidgin 2.10+. By example: E:\PidginPortable.
 Copy all this files to that folder: E:\PidginPortable\App\Pidgin
-Manage your accounts, you&amp;rsquo;ll see the new Communicator Protocol :)
+Manage your accounts, you&#39;ll see the new Communicator Protocol :)
+
 Pidgin Portable with Office Communicator in Windows
-If you are using Ubuntu, just install the pidgin-sipe package from the Ubuntu Software Center :)</description></item></channel></rss>
+If you are using Ubuntu, just install the pidgin-sipe package from the Ubuntu Software Center :)</description>
+    </item>
+    
+  </channel>
+</rss>

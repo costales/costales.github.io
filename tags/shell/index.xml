@@ -1,8 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>shell on Marcos Costales</title><link>https://costales.github.io/tags/shell/</link><description>Recent content in shell on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 23 Feb 2020 11:12:25 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml"/><item><title>iptables Simple</title><link>https://costales.github.io/posts/iptables-block-everything-allow-one-port/</link><pubDate>Sun, 23 Feb 2020 11:12:25 +0100</pubDate><guid>https://costales.github.io/posts/iptables-block-everything-allow-one-port/</guid><description>iptables Is more simple as it looks.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shell on Marcos Costales</title>
+    <link>https://costales.github.io/tags/shell/</link>
+    <description>Recent content in shell on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Feb 2020 11:12:25 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iptables Simple</title>
+      <link>https://costales.github.io/posts/iptables-block-everything-allow-one-port/</link>
+      <pubDate>Sun, 23 Feb 2020 11:12:25 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/iptables-block-everything-allow-one-port/</guid>
+      <description>iptables Is more simple as it looks.
 For example, you want:
-Allow all outgoing traffic. Block all incoming traffic. Allow one incoming port or service (In my example 80). Allow SSH incoming too. Just run (as root):
-# Install need packages for keep rules in reboots apt install iptables-persistent # Allow SSH as 1st steep for keep your connection iptables -I INPUT -p tcp --dport 22 -j ACCEPT # Set default chain policies iptables -P INPUT DROP iptables -P OUTPUT ACCEPT # Accept on localhost iptables -A INPUT -i lo -j ACCEPT iptables -A OUTPUT -o lo -j ACCEPT # Allow established sessions to receive traffic iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT # Allow your port here iptables -I INPUT -p tcp --dport 80 -j ACCEPT # Check current rules iptables -S # Keep them on reboots iptables-save &amp;gt; /etc/iptables/rules.</description></item><item><title>Mis colores favoritos para la shell</title><link>https://costales.github.io/posts/mis-colores-favoritos-para-la-shell/</link><pubDate>Tue, 27 May 2014 20:25:00 +0200</pubDate><guid>https://costales.github.io/posts/mis-colores-favoritos-para-la-shell/</guid><description>Ubuntu (y sus sabores) suelen cuidar muy mucho la tipografía y los colores de la shell. Y cuando uso Cygwin o Putty, los configuro igual: La tipografía de Ubuntu (tamaño 12) y estos colores:
+ Allow all outgoing traffic. Block all incoming traffic. Allow one incoming port or service (In my example 80). Allow SSH incoming too.  Just run (as root):
+# Install need packages for keep rules in reboots apt install iptables-persistent # Allow SSH as 1st steep for keep your connection iptables -I INPUT -p tcp --dport 22 -j ACCEPT # Set default chain policies iptables -P INPUT DROP iptables -P OUTPUT ACCEPT # Accept on localhost iptables -A INPUT -i lo -j ACCEPT iptables -A OUTPUT -o lo -j ACCEPT # Allow established sessions to receive traffic iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT # Allow your port here iptables -I INPUT -p tcp --dport 80 -j ACCEPT # Check current rules iptables -S # Keep them on reboots iptables-save &amp;gt; /etc/iptables/rules.</description>
+    </item>
+    
+    <item>
+      <title>Mis colores favoritos para la shell</title>
+      <link>https://costales.github.io/posts/mis-colores-favoritos-para-la-shell/</link>
+      <pubDate>Tue, 27 May 2014 20:25:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/mis-colores-favoritos-para-la-shell/</guid>
+      <description>Ubuntu (y sus sabores) suelen cuidar muy mucho la tipografía y los colores de la shell. Y cuando uso Cygwin o Putty, los configuro igual: La tipografía de Ubuntu (tamaño 12) y estos colores:
 Xubuntu:
-FONDO: Red: 19 | Green: 25 | Blue: 38 LETRA: Red: 240 | Green: `240` | Blue: 240
+FONDO: Red: 19 | Green: 25 | Blue: 38 LETRA: Red: 240 | Green:  `240` | Blue: 240
 Ubuntu:
-FONDO: #300A24 LETRA: Red: `240` | Green: `240` | Blue: 240</description></item></channel></rss>
+FONDO: #300A24 LETRA: Red:  `240` | Green:  `240` | Blue: 240</description>
+    </item>
+    
+  </channel>
+</rss>

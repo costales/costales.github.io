@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>firefox on Marcos Costales</title><link>https://costales.github.io/tags/firefox/</link><description>Recent content in firefox on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 26 Mar 2014 21:00:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/firefox/index.xml" rel="self" type="application/rss+xml"/><item><title>Actualizar Firefox u otras aplicaciones portables en Windows</title><link>https://costales.github.io/posts/actualizar-firefox-u-otras-aplicaciones/</link><pubDate>Wed, 26 Mar 2014 21:00:00 +0100</pubDate><guid>https://costales.github.io/posts/actualizar-firefox-u-otras-aplicaciones/</guid><description>Si estamos usando PortableApps, bajamos la última versión a otra carpeta y sólo sobreescribimos este directorio en el destino:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>firefox on Marcos Costales</title>
+    <link>https://costales.github.io/tags/firefox/</link>
+    <description>Recent content in firefox on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Mar 2014 21:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Actualizar Firefox u otras aplicaciones portables en Windows</title>
+      <link>https://costales.github.io/posts/actualizar-firefox-u-otras-aplicaciones/</link>
+      <pubDate>Wed, 26 Mar 2014 21:00:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/actualizar-firefox-u-otras-aplicaciones/</guid>
+      <description>Si estamos usando PortableApps, bajamos la última versión a otra carpeta y sólo sobreescribimos este directorio en el destino:</description>
+    </item>
+    
+  </channel>
+</rss>

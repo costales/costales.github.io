@@ -1,25 +1,92 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mate on Marcos Costales</title><link>https://costales.github.io/tags/mate/</link><description>Recent content in mate on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 Oct 2015 19:22:00 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/mate/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu MATE 15.10! Back to the future!</title><link>https://costales.github.io/posts/ubuntu-mate-1510-back-to-future/</link><pubDate>Thu, 22 Oct 2015 19:22:00 +0200</pubDate><guid>https://costales.github.io/posts/ubuntu-mate-1510-back-to-future/</guid><description>A new awesome version of Ubuntu MATE is here!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mate on Marcos Costales</title>
+    <link>https://costales.github.io/tags/mate/</link>
+    <description>Recent content in mate on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Oct 2015 19:22:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/mate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu MATE 15.10! Back to the future!</title>
+      <link>https://costales.github.io/posts/ubuntu-mate-1510-back-to-future/</link>
+      <pubDate>Thu, 22 Oct 2015 19:22:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubuntu-mate-1510-back-to-future/</guid>
+      <description>A new awesome version of Ubuntu MATE is here!
+
 Ubuntu MATE 15.10! Back to the future (1 day after :P)
-I could tell you things like it&amp;rsquo;s including MATE 1.10, the amazing Ubuntu MATE Welcome and a &amp;lsquo;few&amp;rsquo; things more&amp;hellip; But it would be better to tell you that I&amp;rsquo;m using Ubuntu MATE every days and I have a fast, stable, easy and useful older PC.
-Oh! And it&amp;rsquo;s working in your Raspberry PI too :))</description></item><item><title>Ubuntu MATE 15.04! Welcome on board MATE!</title><link>https://costales.github.io/posts/ubuntu-mate-1504-welcome-on-board-mate/</link><pubDate>Thu, 23 Apr 2015 19:48:00 +0200</pubDate><guid>https://costales.github.io/posts/ubuntu-mate-1504-welcome-on-board-mate/</guid><description>The first &amp;lsquo;official&amp;rsquo; release of Ubuntu MATE is here! :)
+I could tell you things like it&#39;s including MATE 1.10, the amazing Ubuntu MATE Welcome and a &amp;lsquo;few&amp;rsquo; things more&amp;hellip; But it would be better to tell you that I&#39;m using Ubuntu MATE every days and I have a fast, stable, easy and useful older PC.
+Oh! And it&#39;s working in your Raspberry PI too :))</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu MATE 15.04! Welcome on board MATE!</title>
+      <link>https://costales.github.io/posts/ubuntu-mate-1504-welcome-on-board-mate/</link>
+      <pubDate>Thu, 23 Apr 2015 19:48:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubuntu-mate-1504-welcome-on-board-mate/</guid>
+      <description>The first &amp;lsquo;official&amp;rsquo; release of Ubuntu MATE is here! :)
+
 Ubuntu MATE 15.04
 If you miss the old GNOME 2 or you want a fast, easy and nice desktop, this could be your flavor!
+
 For a retrospective future
+
 Finally!
+
 Caja File Browser and calendar panel
+
 Choose your favorite layout
 Download Ubuntu MATE 15.04 now!
-And&amp;hellip; Ubuntu MATE 15.04 is also available for PowerPC and the Raspberry Pi 2 too!</description></item><item><title>Ubuntu MATE: Fall in love</title><link>https://costales.github.io/posts/ubuntu-mate-fall-in-love/</link><pubDate>Thu, 12 Mar 2015 22:35:00 +0100</pubDate><guid>https://costales.github.io/posts/ubuntu-mate-fall-in-love/</guid><description>Why? (For me) because&amp;hellip;
-It&amp;rsquo;s really elegant!
+
+
+
+
+And&amp;hellip; Ubuntu MATE 15.04 is also available for PowerPC and the Raspberry Pi 2 too!</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu MATE: Fall in love</title>
+      <link>https://costales.github.io/posts/ubuntu-mate-fall-in-love/</link>
+      <pubDate>Thu, 12 Mar 2015 22:35:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubuntu-mate-fall-in-love/</guid>
+      <description>Why? (For me) because&amp;hellip;
+
+It&#39;s really elegant!
+
 &amp;hellip; but returning to the origins too :)
+
 And fast, really fast. Did I tell that It runs in at Raspberry 2 too?! :D
+
 A community growing every day&amp;hellip;
+
 &amp;hellip; And drivers taking care of listening and helping everyone and everywhere |o/
+
 And all the other advantages of Ubuntu! Even you have the LTS!! :D
-You&amp;rsquo;ll like it!</description></item><item><title>Ubuntu MATE &amp; Folder Color</title><link>https://costales.github.io/posts/ubuntu-mate-folder-color/</link><pubDate>Sun, 26 Oct 2014 10:57:00 +0100</pubDate><guid>https://costales.github.io/posts/ubuntu-mate-folder-color/</guid><description>Now you can use Folder Color in Ubuntu MATE 14.10 too!
+You&#39;ll like it!</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu MATE &amp; Folder Color</title>
+      <link>https://costales.github.io/posts/ubuntu-mate-folder-color/</link>
+      <pubDate>Sun, 26 Oct 2014 10:57:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubuntu-mate-folder-color/</guid>
+      <description>Now you can use Folder Color in Ubuntu MATE 14.10 too!
+
 Caja &amp;amp; Folder Color
 Just run these commands into a Terminal:
 sudo add-apt-repository ppa:costales/folder-color sudo apt-get update sudo apt-get install python-caja gir1.2-caja caja libgtk2.0-bin folder-color-caja If your Ubuntu is 32bits:
 sudo cp /usr/lib/i386-linux-gnu/girepository-1.0/Caja-2.0.typelib /usr/lib/girepository-1.0/ If your Ubuntu is 64bits:
 sudo cp /usr/lib/x86\_64-linux-gnu/girepository-1.0/Caja-2.0.typelib /usr/lib/girepository-1.0/ Finally, restart your file browser:
-caja -q PS: If you&amp;rsquo;re using the Nemo file browser (Usually with Cinnamon) see how to install here.</description></item></channel></rss>
+caja -q PS: If you&#39;re using the Nemo file browser (Usually with Cinnamon) see how to install here.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,26 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tips on Marcos Costales</title><link>https://costales.github.io/tags/tips/</link><description>Recent content in tips on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 23 Feb 2020 11:12:25 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml"/><item><title>iptables Simple</title><link>https://costales.github.io/posts/iptables-block-everything-allow-one-port/</link><pubDate>Sun, 23 Feb 2020 11:12:25 +0100</pubDate><guid>https://costales.github.io/posts/iptables-block-everything-allow-one-port/</guid><description>iptables Is more simple as it looks.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on Marcos Costales</title>
+    <link>https://costales.github.io/tags/tips/</link>
+    <description>Recent content in tips on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Feb 2020 11:12:25 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iptables Simple</title>
+      <link>https://costales.github.io/posts/iptables-block-everything-allow-one-port/</link>
+      <pubDate>Sun, 23 Feb 2020 11:12:25 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/iptables-block-everything-allow-one-port/</guid>
+      <description>iptables Is more simple as it looks.
 For example, you want:
-Allow all outgoing traffic. Block all incoming traffic. Allow one incoming port or service (In my example 80). Allow SSH incoming too. Just run (as root):
-# Install need packages for keep rules in reboots apt install iptables-persistent # Allow SSH as 1st steep for keep your connection iptables -I INPUT -p tcp --dport 22 -j ACCEPT # Set default chain policies iptables -P INPUT DROP iptables -P OUTPUT ACCEPT # Accept on localhost iptables -A INPUT -i lo -j ACCEPT iptables -A OUTPUT -o lo -j ACCEPT # Allow established sessions to receive traffic iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT # Allow your port here iptables -I INPUT -p tcp --dport 80 -j ACCEPT # Check current rules iptables -S # Keep them on reboots iptables-save &amp;gt; /etc/iptables/rules.</description></item><item><title>Install Netflix on Kodi</title><link>https://costales.github.io/posts/install-netflix-kodi-osmc/</link><pubDate>Sun, 02 Feb 2020 15:57:39 +0100</pubDate><guid>https://costales.github.io/posts/install-netflix-kodi-osmc/</guid><description>I installed Kodi into Raspbian, from the official repository. But here, the Netflix plugin didn&amp;rsquo;t work.
+ Allow all outgoing traffic. Block all incoming traffic. Allow one incoming port or service (In my example 80). Allow SSH incoming too.  Just run (as root):
+# Install need packages for keep rules in reboots apt install iptables-persistent # Allow SSH as 1st steep for keep your connection iptables -I INPUT -p tcp --dport 22 -j ACCEPT # Set default chain policies iptables -P INPUT DROP iptables -P OUTPUT ACCEPT # Accept on localhost iptables -A INPUT -i lo -j ACCEPT iptables -A OUTPUT -o lo -j ACCEPT # Allow established sessions to receive traffic iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT # Allow your port here iptables -I INPUT -p tcp --dport 80 -j ACCEPT # Check current rules iptables -S # Keep them on reboots iptables-save &amp;gt; /etc/iptables/rules.</description>
+    </item>
+    
+    <item>
+      <title>Install Netflix on Kodi</title>
+      <link>https://costales.github.io/posts/install-netflix-kodi-osmc/</link>
+      <pubDate>Sun, 02 Feb 2020 15:57:39 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/install-netflix-kodi-osmc/</guid>
+      <description>I installed Kodi into Raspbian, from the official repository. But here, the Netflix plugin didn&#39;t work.
 You need to do these steps:
-Install the current OSMC release [Now it&amp;rsquo;s OSMC_TGT_rbp2_20191118.img]. sudo apt-get update sudo apt-get upgrade sudo apt-get install python-pip python-crypto build-essential -y sudo apt-get install python-all-dev python-setuptools python-wheel -y sudo apt-get install python-crypto-dbg python-crypto-doc python-pip-whl -y pip install pycryptodomex sudo ln -s /usr/lib/python2.7/dist-packages/Crypto /usr/lib/python2.7/dist-packages/Cryptodome Connect to your OSMC by SSH (Username and password is osmc) Download with wget &amp;lt;URL&amp;gt; the last release from here.</description></item><item><title>Cómo actualicé el firmware del router ASUS de PepeADSL</title><link>https://costales.github.io/posts/como-actualice-el-firmware-del-router/</link><pubDate>Mon, 19 Nov 2018 21:10:00 +0100</pubDate><guid>https://costales.github.io/posts/como-actualice-el-firmware-del-router/</guid><description>Desde que MásMóvil se hizo con PepeADSL ya no tengo la sensación de que todo vaya igual de bien.
+ Install the current OSMC release [Now it&#39;s OSMC_TGT_rbp2_20191118.img]. sudo apt-get update sudo apt-get upgrade sudo apt-get install python-pip python-crypto build-essential -y sudo apt-get install python-all-dev python-setuptools python-wheel -y sudo apt-get install python-crypto-dbg python-crypto-doc python-pip-whl -y pip install pycryptodomex sudo ln -s /usr/lib/python2.7/dist-packages/Crypto /usr/lib/python2.7/dist-packages/Cryptodome Connect to your OSMC by SSH (Username and password is osmc) Download with wget &amp;lt;URL&amp;gt; the last release from here.</description>
+    </item>
+    
+    <item>
+      <title>Cómo actualicé el firmware del router ASUS de PepeADSL</title>
+      <link>https://costales.github.io/posts/como-actualice-el-firmware-del-router/</link>
+      <pubDate>Mon, 19 Nov 2018 21:10:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/como-actualice-el-firmware-del-router/</guid>
+      <description>Desde que MásMóvil se hizo con PepeADSL ya no tengo la sensación de que todo vaya igual de bien.
 Con el router oficial, el ASUS N14U, cuando le da la gana desaparece la WIFI, es decir, desconecta y no veo mi WIFI en la lista de WIFIs disponibles. Da igual lo que cambie de la configuración que la WIFI no vuelve y mágicamente aparece al día siguiente ¬¬
-Tras llamar al servicio técnico y de indicarme correctamente que cambie el canal, sigue sin solucionarse&amp;hellip;</description></item><item><title>Aplicación Telegram sin acentos</title><link>https://costales.github.io/posts/aplicacion-telegram-sin-acentos/</link><pubDate>Mon, 29 May 2017 20:30:00 +0200</pubDate><guid>https://costales.github.io/posts/aplicacion-telegram-sin-acentos/</guid><description>En algunos sabores de Ubuntu no funcionan los acentos en Telegram. Parece ser porque no incluyen el paquete ibus. ¡Manos a la obra!
+Tras llamar al servicio técnico y de indicarme correctamente que cambie el canal, sigue sin solucionarse&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Aplicación Telegram sin acentos</title>
+      <link>https://costales.github.io/posts/aplicacion-telegram-sin-acentos/</link>
+      <pubDate>Mon, 29 May 2017 20:30:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/aplicacion-telegram-sin-acentos/</guid>
+      <description>En algunos sabores de Ubuntu no funcionan los acentos en Telegram. Parece ser porque no incluyen el paquete ibus. ¡Manos a la obra!
 Para solucionarlo, instalamos ibus:
 sudo apt-get install ibus
 Lo configuramos:
 ibus-setup
 Esto arrancará el demonio, aceptamos.
 Y luego en preferencias, lo dejo tal que:
+
+
+
 Sólo nos queda ir a la aplicación de idioma y configurar como método de entrada IBUS:
-Reiniciamos y Telegram ya debería de funcionar con acentos.</description></item><item><title>Tema monocromo para LibreOffice</title><link>https://costales.github.io/posts/tema-monocromo-para-libreoffice/</link><pubDate>Sat, 06 Sep 2014 15:12:00 +0200</pubDate><guid>https://costales.github.io/posts/tema-monocromo-para-libreoffice/</guid><description>Podemos mejorar (para mi gusto) mucho el tema por defecto de LibreOffice que tenemos en Ubuntu.
+
+Reiniciamos y Telegram ya debería de funcionar con acentos.</description>
+    </item>
+    
+    <item>
+      <title>Tema monocromo para LibreOffice</title>
+      <link>https://costales.github.io/posts/tema-monocromo-para-libreoffice/</link>
+      <pubDate>Sat, 06 Sep 2014 15:12:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/tema-monocromo-para-libreoffice/</guid>
+      <description>Podemos mejorar (para mi gusto) mucho el tema por defecto de LibreOffice que tenemos en Ubuntu.
 Simplemente ejecutamos esto en una Terminal:
 sudo apt-get install libreoffice-style-sifr -y
 Y modificamos en LibreOffice: Tools / Options / View / Icon: Sifr
 Cerramos y volvemos a abrir LibreOffice y veremos algo que así :)
+
 Tema monocromo en LibreOffice
-Fuente.</description></item><item><title>Conectar a .wifisfera_telecable con Ubuntu</title><link>https://costales.github.io/posts/conectar-wifisferatelecable-desde-ubuntu/</link><pubDate>Sat, 06 Sep 2014 11:00:00 +0200</pubDate><guid>https://costales.github.io/posts/conectar-wifisferatelecable-desde-ubuntu/</guid><description>Hace unos días me preguntaba un compañero ubuntero si se podía conectar a su WIFIsfera de Telecable desde Ubuntu. El motivo de que preguntase era porque hay disponible aplicaciones para Windows, Android y Mac OS, pero ninguna para Linux, con lo que pensaba que no sería posible. Y este, señoras y señores, no es más que otro ejemplo de lo fácil que es nuestro sistema operativo :) ¡No hace falta instalar nada!</description></item><item><title>Descargar canción de Youtube en mp3 fácilmente con Ubuntu</title><link>https://costales.github.io/posts/descargar-cancion-de-youtube-en-mp3/</link><pubDate>Thu, 10 Jul 2014 19:59:00 +0200</pubDate><guid>https://costales.github.io/posts/descargar-cancion-de-youtube-en-mp3/</guid><description>Hoy en día es muy fácil descargar películas o series, pero actualmente me cuesta encontrar un sistema para descargar rápida y fácilmente la canción que me apetezca en ese momento&amp;hellip; y cada vez conozco más gente que escucha música en Youtube&amp;hellip; ¿pero por qué no descargarla de Youtube? ;)
-Con Ubuntu es muy fácil descargar la música en formato MP3 de un vídeo de Youtube. Para ello necesitamos tener instalado youtube-dl.</description></item><item><title>Several Ubuntu installations, reinstall your GRUB after an upgrade</title><link>https://costales.github.io/posts/several-ubuntu-installations-reinstall/</link><pubDate>Wed, 14 May 2014 15:54:00 +0200</pubDate><guid>https://costales.github.io/posts/several-ubuntu-installations-reinstall/</guid><description>Maybe your HD is like this:
+Fuente.</description>
+    </item>
+    
+    <item>
+      <title>Conectar a .wifisfera_telecable con Ubuntu</title>
+      <link>https://costales.github.io/posts/conectar-wifisferatelecable-desde-ubuntu/</link>
+      <pubDate>Sat, 06 Sep 2014 11:00:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/conectar-wifisferatelecable-desde-ubuntu/</guid>
+      <description>Hace unos días me preguntaba un compañero ubuntero si se podía conectar a su WIFIsfera de Telecable desde Ubuntu. El motivo de que preguntase era porque hay disponible aplicaciones para Windows, Android y Mac OS, pero ninguna para Linux, con lo que pensaba que no sería posible. Y este, señoras y señores, no es más que otro ejemplo de lo fácil que es nuestro sistema operativo :) ¡No hace falta instalar nada!</description>
+    </item>
+    
+    <item>
+      <title>Descargar canción de Youtube en mp3 fácilmente con Ubuntu</title>
+      <link>https://costales.github.io/posts/descargar-cancion-de-youtube-en-mp3/</link>
+      <pubDate>Thu, 10 Jul 2014 19:59:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/descargar-cancion-de-youtube-en-mp3/</guid>
+      <description>Hoy en día es muy fácil descargar películas o series, pero actualmente me cuesta encontrar un sistema para descargar rápida y fácilmente la canción que me apetezca en ese momento&amp;hellip; y cada vez conozco más gente que escucha música en Youtube&amp;hellip; ¿pero por qué no descargarla de Youtube? ;)
+Con Ubuntu es muy fácil descargar la música en formato MP3 de un vídeo de Youtube. Para ello necesitamos tener instalado youtube-dl.</description>
+    </item>
+    
+    <item>
+      <title>Several Ubuntu installations, reinstall your GRUB after an upgrade</title>
+      <link>https://costales.github.io/posts/several-ubuntu-installations-reinstall/</link>
+      <pubDate>Wed, 14 May 2014 15:54:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/several-ubuntu-installations-reinstall/</guid>
+      <description>Maybe your HD is like this:
 Ubuntu 14.04 on /dev/sda1 Xubuntu 14.04 on /dev/sda5
 If you upgraded one of them, some times the GRUB changes of partition. How to fix? Easy, startup from the desire partition and exec:
 sudo grub-install --root-directory=/boot /dev/sda
@@ -28,8 +115,30 @@ update-grub
 Source
 If you run from a LiveUSB:
 sudo mount /dev/sda1 /mnt 
-sudo grub-install --boot-directory=/mnt/boot /dev/sda</description></item><item><title>Touchpad-indicator: A really useful app</title><link>https://costales.github.io/posts/touchpad-indicator-really-useful-app/</link><pubDate>Sun, 30 Mar 2014 11:12:00 +0200</pubDate><guid>https://costales.github.io/posts/touchpad-indicator-really-useful-app/</guid><description>Disable/enable the touchpad when you plug/unplug a mouse in your laptop:
+sudo grub-install --boot-directory=/mnt/boot /dev/sda</description>
+    </item>
+    
+    <item>
+      <title>Touchpad-indicator: A really useful app</title>
+      <link>https://costales.github.io/posts/touchpad-indicator-really-useful-app/</link>
+      <pubDate>Sun, 30 Mar 2014 11:12:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/touchpad-indicator-really-useful-app/</guid>
+      <description>Disable/enable the touchpad when you plug/unplug a mouse in your laptop:
 sudo add-apt-repository ppa:atareao/atareao
 sudo apt-get update
-sudo apt-get install touchpad-indicator
-An atareao app.</description></item><item><title>Actualizar Firefox u otras aplicaciones portables en Windows</title><link>https://costales.github.io/posts/actualizar-firefox-u-otras-aplicaciones/</link><pubDate>Wed, 26 Mar 2014 21:00:00 +0100</pubDate><guid>https://costales.github.io/posts/actualizar-firefox-u-otras-aplicaciones/</guid><description>Si estamos usando PortableApps, bajamos la última versión a otra carpeta y sólo sobreescribimos este directorio en el destino:</description></item></channel></rss>
+sudo apt-get install touchpad-indicator 
+An atareao app.</description>
+    </item>
+    
+    <item>
+      <title>Actualizar Firefox u otras aplicaciones portables en Windows</title>
+      <link>https://costales.github.io/posts/actualizar-firefox-u-otras-aplicaciones/</link>
+      <pubDate>Wed, 26 Mar 2014 21:00:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/actualizar-firefox-u-otras-aplicaciones/</guid>
+      <description>Si estamos usando PortableApps, bajamos la última versión a otra carpeta y sólo sobreescribimos este directorio en el destino:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>usb on Marcos Costales</title><link>https://costales.github.io/tags/usb/</link><description>Recent content in usb on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 13 Jan 2012 20:44:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/usb/index.xml" rel="self" type="application/rss+xml"/><item><title>Instalación real de Ubuntu en un lápiz USB</title><link>https://costales.github.io/posts/instalacion-real-de-ubuntu-en-un-lapiz/</link><pubDate>Fri, 13 Jan 2012 20:44:00 +0100</pubDate><guid>https://costales.github.io/posts/instalacion-real-de-ubuntu-en-un-lapiz/</guid><description>Quemamos un USB o CD Live. Desconectamos el disco duro para evitar que la instalación sobreescriba el GRUB actual. Lo arrancamos con el USB final que queremos que tenga la instalación de Ubuntu. Instalamos en el USB como disco duro. Ejecutamos este comando para crear el GRUB en el USB: sudo grub-install &amp;ndash;root-directory=/media/path_usb /dev/sdb Hay que cambiar los path_usb y sdb por el que corresponda. Reiniciamos y todo debería de funcionar correctamente.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>usb on Marcos Costales</title>
+    <link>https://costales.github.io/tags/usb/</link>
+    <description>Recent content in usb on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jan 2012 20:44:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instalación real de Ubuntu en un lápiz USB</title>
+      <link>https://costales.github.io/posts/instalacion-real-de-ubuntu-en-un-lapiz/</link>
+      <pubDate>Fri, 13 Jan 2012 20:44:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/instalacion-real-de-ubuntu-en-un-lapiz/</guid>
+      <description>Quemamos un USB o CD Live. Desconectamos el disco duro para evitar que la instalación sobreescriba el GRUB actual. Lo arrancamos con el USB final que queremos que tenga la instalación de Ubuntu. Instalamos en el USB como disco duro. Ejecutamos este comando para crear el GRUB en el USB: sudo grub-install &amp;ndash;root-directory=/media/path_usb /dev/sdb Hay que cambiar los path_usb y sdb por el que corresponda. Reiniciamos y todo debería de funcionar correctamente.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,10 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hardware on Marcos Costales</title><link>https://costales.github.io/tags/hardware/</link><description>Recent content in hardware on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 10:28:47 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml"/><item><title>Ultrabooks con pantalla grande</title><link>https://costales.github.io/posts/ultrabooks-pantalla-grande/</link><pubDate>Sun, 01 Dec 2019 10:28:47 +0100</pubDate><guid>https://costales.github.io/posts/ultrabooks-pantalla-grande/</guid><description>Hay muchos ultrabooks de 13,3&amp;rdquo; o menos, pero hay muy pocos que podamos comprar con 14 pulgadas o más.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardware on Marcos Costales</title>
+    <link>https://costales.github.io/tags/hardware/</link>
+    <description>Recent content in hardware on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2019 10:28:47 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ultrabooks con pantalla grande</title>
+      <link>https://costales.github.io/posts/ultrabooks-pantalla-grande/</link>
+      <pubDate>Sun, 01 Dec 2019 10:28:47 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ultrabooks-pantalla-grande/</guid>
+      <description>Hay muchos ultrabooks de 13,3&amp;rdquo; o menos, pero hay muy pocos que podamos comprar con 14 pulgadas o más.
 Ya que tuve que realizar la elección para este Black Friday, os voy a poner las alternativas, los puntos importantes y por cual me decanto.
 Los requisitos son:
-Peso &amp;lt;= 1Kg CPU &amp;gt;= i5 RAM &amp;gt;= 8GB Pantalla &amp;gt;= 14&amp;rdquo; Las opciones actuales en el mercado son:
-LG Gram Acer swift 5 Slimbook X PRO Lenovo Carbon X1 Pulgadas LG es el único que permite comprar más de 14&amp;rdquo; manteniendo el peso.</description></item><item><title>Apollo ultrabook 13" with Ubuntu [Unity|MATE] 15.04 pre-installed</title><link>https://costales.github.io/posts/apollo-ultrabook-13-with-ubuntu/</link><pubDate>Thu, 23 Apr 2015 20:15:00 +0200</pubDate><guid>https://costales.github.io/posts/apollo-ultrabook-13-with-ubuntu/</guid><description>An amazing Entroware ultrabook for just 499£
+ Peso &amp;lt;= 1Kg CPU &amp;gt;= i5 RAM &amp;gt;= 8GB Pantalla &amp;gt;= 14&amp;rdquo;  Las opciones actuales en el mercado son:
+ LG Gram Acer swift 5 Slimbook X PRO Lenovo Carbon X1  Pulgadas LG es el único que permite comprar más de 14&amp;rdquo; manteniendo el peso.</description>
+    </item>
+    
+    <item>
+      <title>Apollo ultrabook 13&#34; with Ubuntu [Unity|MATE] 15.04 pre-installed</title>
+      <link>https://costales.github.io/posts/apollo-ultrabook-13-with-ubuntu/</link>
+      <pubDate>Thu, 23 Apr 2015 20:15:00 +0200</pubDate>
+      
+      <guid>https://costales.github.io/posts/apollo-ultrabook-13-with-ubuntu/</guid>
+      <description>An amazing Entroware ultrabook for just 499£
+
 Apollo ultrabook
 CPU i3 | 4GB RAM | 500GB HD | 13,3&amp;rdquo; | Ubuntu preinstalled &amp;gt; Buy here.
-Via Martin.</description></item><item><title>Ubuntu MINI Computer Concept Design [Mockup]</title><link>https://costales.github.io/posts/ubuntu-mini-computer-concept-design/</link><pubDate>Tue, 21 Feb 2012 19:31:00 +0100</pubDate><guid>https://costales.github.io/posts/ubuntu-mini-computer-concept-design/</guid><description>Yes, we really want an Ubuntu computer :) (Maybe on the shop?)
+Via Martin.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu MINI Computer Concept Design [Mockup]</title>
+      <link>https://costales.github.io/posts/ubuntu-mini-computer-concept-design/</link>
+      <pubDate>Tue, 21 Feb 2012 19:31:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/ubuntu-mini-computer-concept-design/</guid>
+      <description>Yes, we really want an Ubuntu computer :) (Maybe on the shop?)
+
 Ubuntu MINI computer mockup
-By Lucas Romero Di Benedetto.</description></item></channel></rss>
+By Lucas Romero Di Benedetto.</description>
+    </item>
+    
+  </channel>
+</rss>

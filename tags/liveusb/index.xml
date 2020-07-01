@@ -1,5 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>liveusb on Marcos Costales</title><link>https://costales.github.io/tags/liveusb/</link><description>Recent content in liveusb on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 24 Dec 2013 11:33:00 +0100</lastBuildDate><atom:link href="https://costales.github.io/tags/liveusb/index.xml" rel="self" type="application/rss+xml"/><item><title>Tips for convert a LiveUSB into a 'normal' boot</title><link>https://costales.github.io/posts/tips-for-convert-liveusb-into-normal/</link><pubDate>Tue, 24 Dec 2013 11:33:00 +0100</pubDate><guid>https://costales.github.io/posts/tips-for-convert-liveusb-into-normal/</guid><description>I just want a LiveUSB without the Live mode.
-Let&amp;rsquo;s go!
-Create a LiveUSB with persistence file from the Startup Disk Creator. Skip boot menu: Copy the 5 first lines from /syslinux/txt.cfg to syslinux/syslinux.cfg (in my case with lubuntu 12.04): default live
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>liveusb on Marcos Costales</title>
+    <link>https://costales.github.io/tags/liveusb/</link>
+    <description>Recent content in liveusb on Marcos Costales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Dec 2013 11:33:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://costales.github.io/tags/liveusb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tips for convert a LiveUSB into a &#39;normal&#39; boot</title>
+      <link>https://costales.github.io/posts/tips-for-convert-liveusb-into-normal/</link>
+      <pubDate>Tue, 24 Dec 2013 11:33:00 +0100</pubDate>
+      
+      <guid>https://costales.github.io/posts/tips-for-convert-liveusb-into-normal/</guid>
+      <description>I just want a LiveUSB without the Live mode.
+Let&#39;s go!
+ Create a LiveUSB with persistence file from the Startup Disk Creator. Skip boot menu: Copy the 5 first lines from /syslinux/txt.cfg to syslinux/syslinux.cfg (in my case with lubuntu 12.04):  default live
 label live menu label ^Try Lubuntu without installing kernel /casper/vmlinuz append noprompt cdrom-detect/try-usb=true persistent file=/cdrom/preseed/lubuntu.seed boot=casper initrd=/casper/initrd.lz quiet splash --
-Boot your LiveUSB. Disable autologin in /etc/lightdm/lightdm.</description></item></channel></rss>
+ Boot your LiveUSB. Disable autologin in /etc/lightdm/lightdm.</description>
+    </item>
+    
+  </channel>
+</rss>
