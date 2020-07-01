@@ -228,9 +228,11 @@ jobs:
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: <span style="color:#e6db74">&#39;0.62.0&#39;</span>
 
     - name: Build
-      run: hugo --minify
+      run: hugo
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
