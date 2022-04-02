@@ -4,7 +4,7 @@
 <span>How to install an older UI AWX on CentOS 8
 Needs:
 yum -y install epel-release yum -y install ansible git python3-pip yum -y install yum-utils device-mapper-persistent-data lvm2 Docker:
-yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo yum -y install docker-ce --allowerasing systemctl start docker pip3 install docker pip3 install docker-compose systemctl start docker systemctl enable docker Check Docker:
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo yum -y install docker-ce --allowerasing systemctl start docker pip3 install docker pip3 install docker-compose systemctl restart docker systemctl enable docker Check Docker:
 docker run hello-world AWX:
 git clone -b "9.1.1" https://github.com/ansible/awx.git cd awx/installer/ Change into the inventory file:
 localhost ansible_connection=local ansible_python_interpreter="/usr/bin/env python3" postgres_data_dir=/var/lib/pgdocker awx_official=true project_data_dir=/var/lib/awx/projects awx_alternate_dns_servers="8.</span>
