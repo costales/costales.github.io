@@ -37,15 +37,16 @@ Añadimos nuestra LAN:
 #Listen localhost:631
 Listen *:631
 Listen /var/run/cups/cups.sock
-Restrict access to the server&mldr; Order allow,deny
+Restrict access to the server&mldr;
+Order allow,deny
 Allow 192.168.1.*
-Restrict access to the admin pages&mldr; Order allow,deny
+Restrict access to the admin pages&mldr;
+Order allow,deny
 Allow 192.168.1.*
 Restrict access to configuration files&mldr; &lt;location /admin/conf>
 AuthType Default
 Require user @SYSTEM
-Allow 192.168.1.*
-Order allow,deny</span>
+Allow 192.168.1.*</span>
 ... <a class=read-more-symbol href=/posts/servidor-impresion-configurando/>➦</a></div><div class=post-list__item><span class=item__title--big><a href=/posts/servidor-ftp-configurando-raspberry-pi-8/>Servidor ftp. Configurando Raspberry PI 8</a></span>
 <span class=item__date>Oct 22, 2013</span>
 <span>Instalamos el servidor:
