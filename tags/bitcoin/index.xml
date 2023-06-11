@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bitcoin on Marcos Costales</title><link>https://costales.github.io/tags/bitcoin/</link><description>Recent content in bitcoin on Marcos Costales</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 11 Jun 2023 18:22:45 +0200</lastBuildDate><atom:link href="https://costales.github.io/tags/bitcoin/index.xml" rel="self" type="application/rss+xml"/><item><title>Create a Bitcoin pruned node</title><link>https://costales.github.io/posts/bitcoin-pruned-node/</link><pubDate>Sun, 11 Jun 2023 18:22:45 +0200</pubDate><guid>https://costales.github.io/posts/bitcoin-pruned-node/</guid><description>Which is the main purpose of this?
+Run a Bitcoin node needs over 1/2 TB of hard disk. It's not so much, but if you have a Raspberry PI or any other small computer, the space is a problem.
+A pruned node maintains only the last transactions, then you can run a node with only +550MB for the blockchain database.
+Install it!
+Steps:
+Download Bitcoin Core. Setup initial configuration file.</description></item></channel></rss>
