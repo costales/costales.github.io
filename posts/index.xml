@@ -3,7 +3,7 @@ Run a Bitcoin node needs over 1/2 TB of hard disk. It's not so much, but if you 
 A pruned node maintains only the last transactions, then you can run a node with only +550MB for the blockchain database.
 Install it!
 Steps:
-Download Bitcoin Core. Setup initial configuration file.</description></item><item><title>Clipboard content to file. New app</title><link>https://costales.github.io/posts/clipboard-to-file/</link><pubDate>Sat, 22 Oct 2022 10:29:27 +0200</pubDate><guid>https://costales.github.io/posts/clipboard-to-file/</guid><description>A simple, easy, fast and useful way to paste your clipboard content (text or image) into a file!
+Download Bitcoin Core. Download blockchain snapshot. Create a daemon.</description></item><item><title>Clipboard content to file. New app</title><link>https://costales.github.io/posts/clipboard-to-file/</link><pubDate>Sat, 22 Oct 2022 10:29:27 +0200</pubDate><guid>https://costales.github.io/posts/clipboard-to-file/</guid><description>A simple, easy, fast and useful way to paste your clipboard content (text or image) into a file!
 Previously, you had to open editor, paste your clipboard, save file, close editor. Now, right click and choose the menu &amp;ldquo;Clipboard to file&amp;rdquo;!
 HOW DOES IT WORK? TEXT Copy a text into your clipboard.
 Go to your file browser and do a right click:

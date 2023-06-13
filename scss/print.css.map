@@ -1,11 +1,11 @@
 {
 	"version": 3,
 	"file": "print.css",
-	"sourceRoot": "/mnt/HDBahia/Code/web",
+	"sourceRoot": "/home/costales/Code/web",
 	"sources": [
 		"themes/hyde-hyde/assets/scss/print.scss",
-		"themes/hyde-hyde/assets/scss/hyde-hyde/_variables.scss",
-		"themes/hyde-hyde/assets/scss/hyde-hyde/_print.scss"
+		"../../../../home/costales/Code/web/themes/hyde-hyde/assets/scss/hyde-hyde/_variables.scss",
+		"../../../../home/costales/Code/web/themes/hyde-hyde/assets/scss/hyde-hyde/_print.scss"
 	],
 	"sourcesContent": [
 		"@import \"hyde-hyde/variables\";\n@import 'hyde-hyde/print';\n",
