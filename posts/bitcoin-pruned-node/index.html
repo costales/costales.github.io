@@ -35,4 +35,33 @@ RestartSec=30s
 WantedBy=multi-user.target
 costales@server:~$ 
 </code></pre><p>Reload the system configuration: <code>sudo systemctl daemon-reload</code></p><p><strong>Open ports</strong></p><p>By default, you need to open the port <code>8333</code> in your router.</p><p><strong>Start daemon</strong></p><pre><code>sudo systemctl restart bitcoind
-</code></pre><p><strong>Validate</strong></p><p>Check: <code>tail ~/.bitcoin/debug.log</code></p><p><a href=https://bitnodes.io/>Check your node</a>.</p><p>Enjoy it :)</p></div><div class="navigation navigation-single"><a href=/posts/clipboard-to-file/ class=navigation-prev><i aria-hidden=true class="fa fa-chevron-left"></i><span class=navigation-tittle>Clipboard content to file. New app</span></a></div></article></div><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-156677503-1','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><script defer src=https://use.fontawesome.com/releases/v5.11.2/js/all.js integrity=sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1 crossorigin=anonymous></script><script type=text/javascript>hljs.initHighlightingOnLoad();</script></body></html>
+</code></pre><p><strong>Validate</strong></p><p>You'll the synchronize proccess here: <code>tail ~/.bitcoin/debug.log</code></p><p><a href=https://bitnodes.io/>Check your node</a> with your external IP (remember to open into your router).</p><p>After the synchronization you can check your current connections:</p><pre><code>costales@z85:~$ bitcoin-cli -getinfo
+{
+  &quot;version&quot;: 220000,
+  &quot;blocks&quot;: 794536,
+  &quot;headers&quot;: 794536,
+  &quot;verificationprogress&quot;: 0.9999996589953447,
+  &quot;timeoffset&quot;: 0,
+  &quot;connections&quot;: {
+    &quot;in&quot;: 15,
+    &quot;out&quot;: 10,
+    &quot;total&quot;: 25
+  },
+  &quot;proxy&quot;: &quot;&quot;,
+  &quot;difficulty&quot;: 52350439456487.47,
+  &quot;chain&quot;: &quot;main&quot;,
+  &quot;relayfee&quot;: 0.00001000,
+  &quot;warnings&quot;: &quot;&quot;
+}
+costales@z85:~$ bitcoin-cli -netinfo
+Bitcoin Core v22.0.0 - 70016/Satoshi:22.0.0/
+
+        ipv4    ipv6   onion   total   block
+in        15       0       0      15
+out       10       0       0      10       2
+total     25       0       0      25
+
+Local addresses: n/a
+
+costales@z85:~$
+</code></pre><p>Enjoy it :)</p></div><div class="navigation navigation-single"><a href=/posts/clipboard-to-file/ class=navigation-prev><i aria-hidden=true class="fa fa-chevron-left"></i><span class=navigation-tittle>Clipboard content to file. New app</span></a></div></article></div><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-156677503-1','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><script defer src=https://use.fontawesome.com/releases/v5.11.2/js/all.js integrity=sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1 crossorigin=anonymous></script><script type=text/javascript>hljs.initHighlightingOnLoad();</script></body></html>
